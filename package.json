@@ -1,0 +1,36 @@
+{
+  "name": "gnome-hackers",
+  "version": "1.0.0",
+  "description": "Leaderboard app for GNOME hackers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-sass": "node-sass -w src/static/scss/ -o src/static/css/",
+    "compile-sass": "node-sass src/static/scss/ -o src/static/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravgeetdhillon/gnome-hackers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ravgeetdhillon/gnome-hackers/issues"
+  },
+  "homepage": "https://github.com/ravgeetdhillon/gnome-hackers#readme",
+  "keywords": [
+    "gnome-hackers",
+    "gnome-leaderboard",
+    "gnome",
+    "web-app",
+    "flask",
+    "python"
+  ],
+  "author": "Ravgeet Dhillon",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.13.0",
+    "popper.js": "^1.16.0"
+  }
+}
