@@ -1,9 +1,8 @@
 name: Build and Deploy
 
 on:
-  push:
-    branches:
-      - master
+  schedule:
+  - cron: '0 0 * * *'
 
 jobs:
   buildWebsite:
@@ -91,8 +90,8 @@ jobs:
     
     - name: Commit and Push
       run: |
-        git add artifacts/data
+        git add -f artifacts/data
         git commit -m "gh-actions updated website data"
-        git add artifacts/build
+        git add -f artifacts/build
         git commit -m "gh-actions updated website build"
         git push --force https://${GITHUB_ACTOR}:${{secrets.GITHUB_TOKEN}}@github.com/${GITHUB_REPOSITORY}.git HEAD:${REMOTE_BRANCH}
