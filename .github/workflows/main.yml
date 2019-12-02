@@ -91,6 +91,8 @@ jobs:
     
     - name: Commit and Push
       run: |
-        git add artifacts
-        git commit -m "gh-actions updated website build and data"
+        git add artifacts/data
+        git commit -m "gh-actions updated website data"
+        git add artifacts/build
+        git commit -m "gh-actions updated website build"
         git push --force https://${GITHUB_ACTOR}:${{secrets.GITHUB_TOKEN}}@github.com/${GITHUB_REPOSITORY}.git HEAD:${REMOTE_BRANCH}
