@@ -10,7 +10,7 @@ def process_commits(users, commits):
 
     for commit in commits:
         for user in users:
-            if commit['author_name'] == user['name']:
+            if set(commit['author_name'].split()).issubset( set(user['name'].split()) ):
                 user = update_user_points(user, commit, 'commit')
                 break
         else:
@@ -27,7 +27,7 @@ def process_merge_requests(users, merge_requests):
 
     for mr in merge_requests:
         for user in users:
-            if mr['author']['name'] == user['name']:
+            if set(user['name'].split()).issubset( set(mr['author']['name'].split()) ):
                 user = update_user_points(user, mr, 'mr')
                 break
         else:
@@ -42,13 +42,16 @@ def process_issues(users, issues):
     Process the issues and award users points.
     '''
 
-    for issue in issues:
+    for index, issue in enumerate(issues):
 
         if issue['state'] == 'closed':
-
+                        
             for user in users:
-                if issue['closed_by']['name'] == user['name']:
-                    user = update_user_points(user, issue, 'issue')
+                if issue['closed_by'] is not None:
+                    if set(user['name'].split()).issubset( set(issue['closed_by']['name'].split()) ):
+                        user = update_user_points(user, issue, 'issue')
+                        break
+                else:
                     break
             else:
                 new_user = create_user(issue, 'issue')
@@ -57,8 +60,11 @@ def process_issues(users, issues):
         elif issue['state'] == 'opened':
 
             for user in users:
-                if issue['author']['name'] == user['name']:
-                    user = update_user_points(user, issue, 'issue')
+                if issue['author'] is not None:
+                    if set(user['name'].split()).issubset( set(issue['author']['name'].split()) ):
+                        user = update_user_points(user, issue, 'issue')
+                        break
+                else:
                     break
             else:
                 new_user = create_user(issue, 'issue')
@@ -74,7 +80,7 @@ def process_users(users, all_users):
 
     for user in users:
         for user_data in all_users:
-            if user['name'] == user_data['name']:
+            if set(user['name'].split()).issubset( set(user_data['name'].split()) ):
                 user = update_user_info(user, user_data)
 
     return users
@@ -95,13 +101,13 @@ def main():
     all_users = load_data('users.json')
 
     # process the commits, merge requests and issues and generate points for the users
-    users = process_commits(users, commits)
-    users = process_merge_requests(users, merge_requests)
     users = process_issues(users, issues)
+    users = process_merge_requests(users, merge_requests)
+    users = process_commits(users, commits)
     users = process_users(users, all_users)
 
     # download the avatar image from each user
-    fetch_images(users)
+    # fetch_images(users)
 
     # sort the data for each criteria and save them in their respective json files
     criteria = ['days_1', 'days_7', 'days_15', 'days_30']

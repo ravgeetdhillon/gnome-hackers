@@ -151,11 +151,14 @@ def fetch_images(users):
         os.mkdir('static/img/users')
 
     for user in users:
+        # print(user['avatar_url'])
+        # continue
         try:
             image = requests.get(user['avatar_url'])
-            with open(f'static/img/users/{user["id"]}.png', 'wb') as f:
-                f.write(image.content)
+            # with open(f'static/img/users/{user["id"]}.png', 'wb') as f:
+            #     f.write(image.content)
         except Exception as e:
+            print(user['name'], user['avatar_url'])
             print(e)
 
     finish = time.time()
