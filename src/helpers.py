@@ -210,5 +210,10 @@ def update_user_points(user, data, method):
                 user['points']['days_30'] += POINTS['closed_issue']
             elif days_from_now(issue_date) <= 30:
                 user['points']['days_30'] += POINTS['closed_issue']
+    
+    user['points']['days_1'] = round(user['points']['days_1'])
+    user['points']['days_7'] = round(user['points']['days_7'])
+    user['points']['days_15'] = round(user['points']['days_15'])
+    user['points']['days_30'] = round(user['points']['days_30'])
 
     return user

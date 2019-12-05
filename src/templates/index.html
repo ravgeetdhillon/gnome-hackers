@@ -17,21 +17,21 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 p-4">
+                        <div class="col-12 px-sm-4 px-3 py-4">
                             <div class="row header pb-2">
-                                <div class="col-2 col-md-3 text-muted small">
+                                <div class="col-2 text-muted small">
                                     <span>{{ 'Rank' | upper }}</span>
                                 </div>
-                                <div class="col-8 col-md-7 text-muted small">
+                                <div class="col-7 text-muted small">
                                     <span style="margin-left: 34px;">{{ 'Star' | upper }}</span>
                                 </div>
-                                <div class="col-2 col-md-2 text-muted small text-right">
+                                <div class="col-3 text-muted small text-right">
                                     <span data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='small'>Based on issues, commits and merge requests.</span>" style="text-decoration: underline; text-decoration-style: dotted;">{{ 'Points' | upper }}</span>
                                 </div>
                             </div>
                             {% for user in stat.users %}
                                 <div class="row align-items-baseline py-2">
-                                    <div class="col-2 col-md-3">
+                                    <div class="col-2">
                                         {% if loop.index == 1 %}
                                             <span data-toggle="tooltip" data-placement="right" data-html="true" title="<span class='small'>Gold - Rank 1</span>"><i class="fas fa-medal" style="color: #ffd700"></i></span>
                                         {% elif loop.index == 2 %}
@@ -42,11 +42,11 @@
                                             <span>{{ loop.index }}</span>
                                         {% endif %}
                                     </div>
-                                    <div class="col-8 col-md-7">
+                                    <div class="col-7">
                                         <img src="/static/img/users/{{ user.id }}.png" class="img-fluid rounded-circle" style="width:24px;">
                                         <span class="ml-1"><a class="text-dark" href="{{ user.web_url }}">{{ user.name }}</a></span>
                                     </div>
-                                    <div class="col-2 col-md-2 text-right">
+                                    <div class="col-3 text-right">
                                         {% if stat.type == 'Today' %}
                                             <span>{{ user.points.days_1 }}</span>
                                         {% elif stat.type == 'Week' %}
