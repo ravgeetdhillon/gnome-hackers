@@ -76,17 +76,17 @@ jobs:
     - name: Clone the repoitory
       uses: actions/checkout@v1
     
-    - name: Download artifacts
-      uses: actions/download-artifact@v1
-      with:
-        name: artifacts
-        path: artifacts
-        
     - name: Configure Git
       run: |
         git checkout -f ${REMOTE_BRANCH}
         git config --global user.email ${GITHUB_ACTOR}@gmail.com
         git config --global user.name ${GITHUB_ACTOR}
+    
+    - name: Download artifacts
+      uses: actions/download-artifact@v1
+      with:
+        name: artifacts
+        path: artifacts
     
     - name: Commit and Push
       run: |
