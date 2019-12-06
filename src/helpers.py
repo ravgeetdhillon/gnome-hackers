@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta
 from variables import POINTS
+from PIL import Image
 import dateutil.parser
 import pytz
 import json
@@ -217,3 +218,14 @@ def update_user_points(user, data, method):
     user['points']['days_30'] = round(user['points']['days_30'])
 
     return user
+
+
+def compress_image(image_name):
+    '''
+    Reduce the image file size by reducing the image dimensions to 80x80.    
+    '''
+
+    image = Image.open(f'{image_name}.png')
+    x = min(80, image.size[0])
+    image = image.resize((x, x), Image.LANCZOS)
+    image.save(f'{image_name}.png', optimize=True, quality=95)

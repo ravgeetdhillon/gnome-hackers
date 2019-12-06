@@ -1,4 +1,4 @@
-from helpers import save_data, get_date_30_days_now
+from helpers import save_data, get_date_30_days_now, compress_image
 from variables import GITLAB_SERVER, PRIVATE_TOKEN
 import requests
 import gitlab
@@ -155,6 +155,7 @@ def fetch_images(users):
             image = requests.get(user['avatar_url'])
             with open(f'static/img/users/{user["id"]}.png', 'wb') as f:
                 f.write(image.content)
+            compress_image(user['id'])
         except Exception as e:
             print(e)
 
