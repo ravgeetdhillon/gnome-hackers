@@ -8,4 +8,4 @@ freezer = Freezer(app)
 
 if __name__ == '__main__':
     freezer.freeze()
-    copyfile('google4e1a0869f2d05873.html', 'build/google4e1a0869f2d05873.html')
+    copyfile('static/google4e1a0869f2d05873.html', 'build/google4e1a0869f2d05873.html')
