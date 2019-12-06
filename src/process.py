@@ -107,7 +107,7 @@ def main():
     users = process_users(users, all_users)
 
     # download the avatar image from each user
-    # fetch_images(users)
+    fetch_images(users)
 
     # sort the data for each criteria and save them in their respective json files
     criteria = ['days_1', 'days_7', 'days_15', 'days_30']
