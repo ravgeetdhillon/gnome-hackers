@@ -8,8 +8,27 @@
                 </a>
             </p>
         </div>
-        <div class="d-flex justify-content-center text-center">
+        <div class="d-flex justify-content-center text-center mb-3">
             <span class="text-muted w-lg-75">{{ data.site.description }}</span>
+        </div>
+        <div class="d-flex justify-content-center text-center">
+            <input type="text" name="searchInput" class="form-control form-control-sm" placeholder="Your Gitlab username" />
+            <button class="btn btn-light btn-sm ml-1" id="searchBtn" onclick="getUser()"><i class="fas fa-search"></i></button>
         </div>
     </header>
 </section>
+
+<script>
+    function getUser() {
+        var user = document.getElementsByName('searchInput')[0].value;
+        window.location.assign(`/${user}/`);
+    }
+
+    var search_input = document.getElementsByName('searchInput')[0];
+    search_input.addEventListener("keyup", function(event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            document.getElementById("searchBtn").click();
+        }
+    });
+</script>
