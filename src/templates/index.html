@@ -30,7 +30,7 @@
                                 </div>
                             </div>
                             {% for user in stat.users %}
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         {% if loop.index == 1 %}
                                             <span data-toggle="tooltip" data-placement="right" data-html="true" title="<span class='small'>Gold - Rank 1</span>"><i class="fas fa-medal" style="color: #ffd700"></i></span>
@@ -43,8 +43,8 @@
                                         {% endif %}
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/{{ user.id }}.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="{{ user.web_url }}">{{ user.name }}</a></span>
+                                        <img src="/static/img/users/{{ user.id }}_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="{{ '/' ~ user.user_name }}">{{ user.name }}</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         {% if stat.type == 'Today' %}

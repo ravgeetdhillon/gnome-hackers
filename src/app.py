@@ -49,5 +49,25 @@ def index():
     return render_template('index.html', data=data)
 
 
+@app.route('/<user_name>/')
+def user_details(user_name):
+
+    users = load_data('sorted_users_acc_days_30.json')
+    for user in users:
+        if user['user_name'] == user_name:
+            break
+    else:
+        return 'Not Found.<br> If you think this link is broken, please file an <a href="https://github.com/ravgeetdhillon/gnome-hackers/issues">issue</a>.'
+
+    data = {
+        'page': {
+            'user': user
+        },
+        'site': SITE_CONFIG
+    }
+
+    return render_template('user.html', data=data)
+
+
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)

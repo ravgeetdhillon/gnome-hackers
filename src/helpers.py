@@ -61,6 +61,7 @@ def create_user(data, method):
         'name': '',
         'avatar_url': '',
         'web_url': '',
+        'user_name': '',
         'points': {
             'days_1': 0,
             'days_7': 0,
@@ -83,6 +84,8 @@ def update_user_info(user, data):
     user['avatar_url'] = data['avatar_url']
     user['web_url'] = data['web_url']
     user['id'] = data['id']
+    user['user_name'] = data['username']
+    user['name'] = user['name'].title()
 
     return user
 
@@ -226,6 +229,6 @@ def compress_image(image_name):
     '''
 
     image = Image.open(f'{image_name}.png')
-    x = min(80, image.size[0])
+    x = min(48, image.size[0])
     image = image.resize((x, x), Image.LANCZOS)
-    image.save(f'{image_name}.png', optimize=True, quality=95)
+    image.save(f'{image_name}_small.png', optimize=True, quality=95)

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+{% include 'includes/meta.html' %}
+
+<body>
+    
+    {% include 'includes/header.html' %}
+    
+    {% set user = data.page.user %}
+    <div class="container w-lg-75 w-xl-50 shadow-sm shadow mb-5 overflow-hidden" style="background: #fff;">
+        <div class="row">
+            <div class="col-4 p-4 bg-light d-flex justify-content-center align-items-start">
+                <img src="/static/img/users/{{ user.id }}.png" class="img-fluid rounded-circle">    
+            </div>
+            <div class="col-8 p-4">
+                <h6 class="mb-0">{{ user.name }}</h6>
+                <span class="small"><a href="{{ user.web_url }}" class="text-muted">{{ '@' ~ user.user_name }}</a></span>
+                <br><br>
+                <p class="font-weight-bold small mb-1">{{ 'Points' | upper }}</p>
+                <div class="row">
+                    <div class="col">
+                        <p class="text-muted small mb-0">{{ 'today' | lower }}</p>
+                        <span class="">{{ user.points.days_1 }}</span>
+                    </div>
+                    <div class="col">
+                        <p class="text-muted small mb-0">{{ 'week' | lower }}</p>
+                        <span class="">{{ user.points.days_7 }}</span>
+                    </div>
+                    <div class="col">
+                        <p class="text-muted small mb-0">{{ 'fortnight' | lower }}</p>
+                        <span class="">{{ user.points.days_15 }}</span>
+                    </div>
+                    <div class="col">
+                        <p class="text-muted small mb-0">{{ 'month' | lower }}</p>
+                        <span class="">{{ user.points.days_30 }}</span>
+                    </div>
+                </div>
+                <br>
+                <p class="font-weight-bold small mb-1">{{ 'Awards' | upper }}</p>
+                <div class="row">
+                    <div class="col">
+                        <p class="text-muted small mb-0">{{ 'gold' | lower }}</p>
+                        <span class="">{{ user.points.days_1 }}</span>
+                    </div>
+                    <div class="col">
+                        <p class="text-muted small mb-0">{{ 'silver' | lower }}</p>
+                        <span class="">{{ user.points.days_7 }}</span>
+                    </div>
+                    <div class="col">
+                        <p class="text-muted small mb-0">{{ 'bronze' | lower }}</p>
+                        <span class="">{{ user.points.days_15 }}</span>
+                    </div>
+                    <div class="col">
+                        <p class="text-muted small mb-0">{{ 'top10' | lower }}</p>
+                        <span class="">{{ user.points.days_30 }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    {% include 'includes/footer.html' %}
+
+</body>
+
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
+
+</html>
