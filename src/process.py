@@ -86,6 +86,76 @@ def process_users(users, all_users):
     return users
 
 
+def process_awards():
+    '''
+    Process the awards for top 10 users.
+    '''
+
+    try:
+        awards = load_data('awards.json')
+    except:
+        awards = []
+        
+    # sort the data for each criteria and save them in their respective json files
+    criteria = ['days_1', 'days_7', 'days_15', 'days_30']
+    for key in criteria:
+            
+        users = load_data('processed_users.json')
+        users = sorted(users, key=lambda k: k['points'][key], reverse=True)[:10]
+
+        for user in users:
+            for u in awards:
+                if user['id'] == u['id']:
+                    break
+            else:
+                awards.append(
+                    {
+                        'id': user['id'],
+                        'awards': {
+                            'gold': 0,
+                            'silver': 0,
+                            'bronze': 0,
+                            'top10': 0,
+                        }
+                    }
+                )
+
+        for u in awards:
+            for index, user in enumerate(users, start=1):
+                if u['id'] == user['id']:
+                    
+                    if index == 1:
+                        u['awards']['gold'] += 1
+                    elif index == 2:
+                        u['awards']['silver'] += 1
+                    elif index == 3:
+                        u['awards']['bronze'] += 1
+                    u['awards']['top10'] += 1
+
+                    break
+    
+    save_data(awards, 'awards.json')
+
+
+def add_awards():
+    '''
+    Add the processed awards to the processed users.
+    '''
+
+    awards = load_data('awards.json')
+    users = load_data('processed_users.json')
+    
+    for user in users:
+        for u in awards:
+            if u['id'] == user['id']:
+                user['awards'] = u['awards']
+                break
+    
+    save_data(users, 'processed_users.json')
+
+    return users
+
+
 def main():
     '''
     Main function for the process.py.
@@ -109,13 +179,16 @@ def main():
     # download the avatar image from each user
     fetch_images(users)
 
-    # sort the data for each criteria and save them in their respective json files
-    criteria = ['days_1', 'days_7', 'days_15', 'days_30']
-    
-    for key in criteria:
-        users = sorted(users, key=lambda k: k['points'][key], reverse=True)
-        save_data(users, f'sorted_users_acc_{key}.json')
+    save_data(users, 'processed_users.json')
 
 
 if __name__ == '__main__':
     main()
+    process_awards()
+    users = add_awards()
+
+    # sort the data for each criteria and save them in their respective json files
+    criteria = ['days_1', 'days_7', 'days_15', 'days_30']
+    for key in criteria:
+        users = sorted(users, key=lambda k: k['points'][key], reverse=True)
+        save_data(users, f'sorted_users_acc_{key}.json')

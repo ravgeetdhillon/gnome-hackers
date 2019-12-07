@@ -10,13 +10,14 @@
     {% set user = data.page.user %}
     <div class="container w-lg-75 w-xl-50 shadow-sm shadow mb-5 overflow-hidden" style="background: #fff;">
         <div class="row">
-            <div class="col-4 p-4 bg-light d-flex justify-content-center align-items-start">
-                <img src="/static/img/users/{{ user.id }}.png" class="img-fluid rounded-circle">    
+            <div class="col-sm-4 p-4 bg-light d-flex flex-column justify-content-start align-items-center">
+                <img src="/static/img/users/{{ user.id }}.png" class="img-fluid rounded-circle mb-3">
+                <div>
+                    <h6 class="mb-0">{{ user.name }}</h6>
+                    <span class="small"><a href="{{ user.web_url }}" class="text-muted">{{ '@' ~ user.user_name }}</a></span>
+                </div>
             </div>
-            <div class="col-8 p-4">
-                <h6 class="mb-0">{{ user.name }}</h6>
-                <span class="small"><a href="{{ user.web_url }}" class="text-muted">{{ '@' ~ user.user_name }}</a></span>
-                <br><br>
+            <div class="col-sm-8 p-4">
                 <p class="font-weight-bold small mb-1">{{ 'Points' | upper }}</p>
                 <div class="row">
                     <div class="col">
@@ -41,19 +42,36 @@
                 <div class="row">
                     <div class="col">
                         <p class="text-muted small mb-0">{{ 'gold' | lower }}</p>
-                        <span class="">{{ user.points.days_1 }}</span>
+                        <span class="">{{ user.awards.gold }}</span>
                     </div>
                     <div class="col">
                         <p class="text-muted small mb-0">{{ 'silver' | lower }}</p>
-                        <span class="">{{ user.points.days_7 }}</span>
+                        <span class="">{{ user.awards.silver }}</span>
                     </div>
                     <div class="col">
                         <p class="text-muted small mb-0">{{ 'bronze' | lower }}</p>
-                        <span class="">{{ user.points.days_15 }}</span>
+                        <span class="">{{ user.awards.bronze }}</span>
                     </div>
                     <div class="col">
                         <p class="text-muted small mb-0">{{ 'top10' | lower }}</p>
-                        <span class="">{{ user.points.days_30 }}</span>
+                        <span class="">{{ user.awards.top10 }}</span>
+                    </div>
+                </div>
+                <br>
+                <p class="font-weight-bold small mb-1">{{ 'Activity' | upper }}</p>
+                <div class="row">
+                    <div class="col">
+                        <p data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='small'>Includes commits during last 30 days.</span>" style="text-decoration: underline; text-decoration-style: dotted;" class="text-muted small mb-0">{{ 'commits' | lower }}</p>
+                        <span class="">{{ user.activity.commits }}</span>
+                    </div>
+                    <div class="col">
+                        <p data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='small'>Includes opened and closed issues during last 30 days.</span>" style="text-decoration: underline; text-decoration-style: dotted;" class="text-muted small mb-0">{{ 'issues' | lower }}</p>
+                        <span class="">{{ user.activity.issues }}</span>
+                    </div>
+                    <div class="col">
+                        <p data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='small'>Includes opened and closed merge requests during last 30 days.</span>" style="text-decoration: underline; text-decoration-style: dotted;" class="text-muted small mb-0">{{ 'mrs' | lower }}</p>
+                        <span class="">{{ user.activity.merge_requests }}</span>
+                    </div>
                     </div>
                 </div>
             </div>

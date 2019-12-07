@@ -67,6 +67,17 @@ def create_user(data, method):
             'days_7': 0,
             'days_15': 0,
             'days_30': 0,
+        },
+        'awards': {
+            'gold': 0,
+            'silver': 0,
+            'bronze': 0,
+            'top10': 0,
+        },
+        'activity': {
+            'issues': 0,
+            'commits': 0,
+            'merge_requests': 0,
         }
     }
 
@@ -116,34 +127,29 @@ def update_user_points(user, data, method):
 
         commit = data
         commit_date = commit['created_at']
+        user['activity']['commits'] += 1
 
         if days_from_now(commit_date) <= 1:
             user['points']['days_1'] += commit['stats']['total'] * POINTS['commit']
             user['points']['days_7'] += commit['stats']['total'] * POINTS['commit']
-            user['points']['days_15'] += commit['stats']['total'] * \
-                POINTS['commit']
-            user['points']['days_30'] += commit['stats']['total'] * \
-                POINTS['commit']
+            user['points']['days_15'] += commit['stats']['total'] * POINTS['commit']
+            user['points']['days_30'] += commit['stats']['total'] * POINTS['commit']
         elif days_from_now(commit_date) <= 7:
             user['points']['days_7'] += commit['stats']['total'] * POINTS['commit']
-            user['points']['days_15'] += commit['stats']['total'] * \
-                POINTS['commit']
-            user['points']['days_30'] += commit['stats']['total'] * \
-                POINTS['commit']
+            user['points']['days_15'] += commit['stats']['total'] * POINTS['commit']
+            user['points']['days_30'] += commit['stats']['total'] * POINTS['commit']
         elif days_from_now(commit_date) <= 15:
-            user['points']['days_15'] += commit['stats']['total'] * \
-                POINTS['commit']
-            user['points']['days_30'] += commit['stats']['total'] * \
-                POINTS['commit']
+            user['points']['days_15'] += commit['stats']['total'] * POINTS['commit']
+            user['points']['days_30'] += commit['stats']['total'] * POINTS['commit']
         elif days_from_now(commit_date) <= 30:
-            user['points']['days_30'] += commit['stats']['total'] * \
-                POINTS['commit']
+            user['points']['days_30'] += commit['stats']['total'] * POINTS['commit']
 
     elif method == 'mr':
 
         mr = data
         mr_date = mr['created_at']
         mr_state = mr['state']
+        user['activity']['merge_requests'] += 1
 
         if mr_state == 'merged':
             if days_from_now(mr_date) <= 1:
@@ -182,6 +188,7 @@ def update_user_points(user, data, method):
         issue = data
         issue_date = issue['created_at']
         issue_state = issue['state']
+        user['activity']['issues'] += 1
 
         if issue_state == 'opened':
             if days_from_now(issue_date) <= 1:
