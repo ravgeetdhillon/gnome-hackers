@@ -42,9 +42,11 @@
                                             <span>{{ loop.index }}</span>
                                         {% endif %}
                                     </div>
-                                    <div class="col-7">
-                                        <img src="/static/img/users/{{ user.id }}_small.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark stretched-link" href="{{ '/' ~ user.user_name }}">{{ user.name }}</a></span>
+                                    <div class="col-7 d-flex">
+                                        <div>
+                                            <img src="/static/img/users/{{ user.id }}_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        </div>
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/{{ user.user_name }}/">{{ user.name }}</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         {% if stat.type == 'Today' %}
