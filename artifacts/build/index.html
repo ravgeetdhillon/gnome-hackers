@@ -65,11 +65,30 @@
                 </a>
             </p>
         </div>
-        <div class="d-flex justify-content-center text-center">
+        <div class="d-flex justify-content-center text-center mb-3">
             <span class="text-muted w-lg-75">A Leaderboard web app for hackers contributing to the projects hosted by GNOME.</span>
+        </div>
+        <div class="d-flex justify-content-center text-center">
+            <input type="text" name="searchInput" class="form-control form-control-sm" placeholder="Your Gitlab username" />
+            <button class="btn btn-light btn-sm ml-1" id="searchBtn" onclick="getUser()"><i class="fas fa-search"></i></button>
         </div>
     </header>
 </section>
+
+<script>
+    function getUser() {
+        var user = document.getElementsByName('searchInput')[0].value;
+        window.location.assign(`/${user}/`);
+    }
+
+    var search_input = document.getElementsByName('searchInput')[0];
+    search_input.addEventListener("keyup", function(event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            document.getElementById("searchBtn").click();
+        }
+    });
+</script>
     
     
         <div class="container w-lg-75 w-xl-50 shadow-sm shadow mb-5 overflow-hidden" style="background: #fff; border-radius: 1rem;">
@@ -87,39 +106,73 @@
                                     <span>RANK</span>
                                 </div>
                                 <div class="col-7 text-muted small">
-                                    <span style="margin-left: 34px;">STAR</span>
+                                    <span style="margin-left: 34px;">HACKER</span>
                                 </div>
                                 <div class="col-3 text-muted small text-right">
                                     <span data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='small'>Based on issues, commits and merge requests.</span>" style="text-decoration: underline; text-decoration-style: dotted;">POINTS</span>
                                 </div>
                             </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span data-toggle="tooltip" data-placement="right" data-html="true" title="<span class='small'>Gold - Rank 1</span>"><i class="fas fa-medal" style="color: #ffd700"></i></span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/540.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/bertob">Tobias Bernard</a></span>
+                                        <img src="/static/img/users/290_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/mterry">Michael Terry</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>1012</span>
+                                            <span>810</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span data-toggle="tooltip" data-placement="right" data-html="true" title="<span class='small'>Silver - Rank 2</span>"><i class="fas fa-medal" style="color: #c0c0c0"></i></span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/261.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/jimmac">Jakub Steiner</a></span>
+                                        <img src="/static/img/users/540_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/bertob">Tobias Bernard</a></span>
+                                    </div>
+                                    <div class="col-3 text-right">
+                                        
+                                            <span>537</span>
+                                        
+                                    </div>
+                                </div>
+                            
+                                <div class="user-hover row align-items-baseline py-2">
+                                    <div class="col-2">
+                                        
+                                            <span data-toggle="tooltip" data-placement="right" data-html="true" title="<span class='small'>Bronze - Rank 3</span>"><i class="fas fa-medal" style="color: #cd7f32"></i></span>
+                                        
+                                    </div>
+                                    <div class="col-7">
+                                        <img src="/static/img/users/23188_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/asiersarasua">Asier Sarasua Garmendia</a></span>
+                                    </div>
+                                    <div class="col-3 text-right">
+                                        
+                                            <span>189</span>
+                                        
+                                    </div>
+                                </div>
+                            
+                                <div class="user-hover row align-items-baseline py-2">
+                                    <div class="col-2">
+                                        
+                                            <span>4</span>
+                                        
+                                    </div>
+                                    <div class="col-7">
+                                        <img src="/static/img/users/261_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/jimmac">Jakub Steiner</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
@@ -128,15 +181,15 @@
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
-                                            <span data-toggle="tooltip" data-placement="right" data-html="true" title="<span class='small'>Bronze - Rank 3</span>"><i class="fas fa-medal" style="color: #cd7f32"></i></span>
+                                            <span>5</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/13.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/aday">Allan Day</a></span>
+                                        <img src="/static/img/users/13_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/aday">Allan Day</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
@@ -145,121 +198,87 @@
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
-                                    <div class="col-2">
-                                        
-                                            <span>4</span>
-                                        
-                                    </div>
-                                    <div class="col-7">
-                                        <img src="/static/img/users/290.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/mterry">Michael Terry</a></span>
-                                    </div>
-                                    <div class="col-3 text-right">
-                                        
-                                            <span>61</span>
-                                        
-                                    </div>
-                                </div>
-                            
-                                <div class="row align-items-baseline py-2">
-                                    <div class="col-2">
-                                        
-                                            <span>5</span>
-                                        
-                                    </div>
-                                    <div class="col-7">
-                                        <img src="/static/img/users/652.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/matthiasc">Matthias Clasen</a></span>
-                                    </div>
-                                    <div class="col-3 text-right">
-                                        
-                                            <span>29</span>
-                                        
-                                    </div>
-                                </div>
-                            
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>6</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/665.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/snwh">Sam Hewitt</a></span>
+                                        <img src="/static/img/users/11438_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/libreajans">Sabri Ünal</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>27</span>
+                                            <span>89</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>7</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/82.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/bilelmoussaoui">Bilal Elmoussaoui</a></span>
+                                        <img src="/static/img/users/430_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/jbrummer">Jan-Michael Brummer</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>21</span>
+                                            <span>43</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>8</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/467.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/carlosg">Carlos Garnacho</a></span>
+                                        <img src="/static/img/users/652_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/matthiasc">Matthias Clasen</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>20</span>
+                                            <span>34</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>9</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/31.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/fmuellner">Florian Müllner</a></span>
+                                        <img src="/static/img/users/82_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/bilelmoussaoui">Bilal Elmoussaoui</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>15</span>
+                                            <span>28</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>10</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/256.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/debarshir">Debarshi Ray</a></span>
+                                        <img src="/static/img/users/665_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/snwh">Sam Hewitt</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>15</span>
+                                            <span>27</span>
                                         
                                     </div>
                                 </div>
@@ -285,141 +304,141 @@
                                     <span>RANK</span>
                                 </div>
                                 <div class="col-7 text-muted small">
-                                    <span style="margin-left: 34px;">STAR</span>
+                                    <span style="margin-left: 34px;">HACKER</span>
                                 </div>
                                 <div class="col-3 text-muted small text-right">
                                     <span data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='small'>Based on issues, commits and merge requests.</span>" style="text-decoration: underline; text-decoration-style: dotted;">POINTS</span>
                                 </div>
                             </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span data-toggle="tooltip" data-placement="right" data-html="true" title="<span class='small'>Gold - Rank 1</span>"><i class="fas fa-medal" style="color: #ffd700"></i></span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/540.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/bertob">Tobias Bernard</a></span>
+                                        <img src="/static/img/users/540_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/bertob">Tobias Bernard</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>1015</span>
+                                            <span>1013</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span data-toggle="tooltip" data-placement="right" data-html="true" title="<span class='small'>Silver - Rank 2</span>"><i class="fas fa-medal" style="color: #c0c0c0"></i></span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/13.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/aday">Allan Day</a></span>
+                                        <img src="/static/img/users/290_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/mterry">Michael Terry</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>406</span>
+                                            <span>871</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span data-toggle="tooltip" data-placement="right" data-html="true" title="<span class='small'>Bronze - Rank 3</span>"><i class="fas fa-medal" style="color: #cd7f32"></i></span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/5.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/federico">Federico Mena Quintero</a></span>
+                                        <img src="/static/img/users/13_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/aday">Allan Day</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>275</span>
+                                            <span>367</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>4</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/131.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/rafaelff">Rafael Fontenelle</a></span>
+                                        <img src="/static/img/users/23188_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/asiersarasua">Asier Sarasua Garmendia</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>225</span>
+                                            <span>190</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>5</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/261.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/jimmac">Jakub Steiner</a></span>
+                                        <img src="/static/img/users/261_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/jimmac">Jakub Steiner</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>193</span>
+                                            <span>176</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>6</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/82.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/bilelmoussaoui">Bilal Elmoussaoui</a></span>
+                                        <img src="/static/img/users/11438_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/libreajans">Sabri Ünal</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>150</span>
+                                            <span>156</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>7</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/1049.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/dmustieles">Daniel Mustieles García</a></span>
+                                        <img src="/static/img/users/82_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/bilelmoussaoui">Bilal Elmoussaoui</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>134</span>
+                                            <span>135</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>8</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/4079.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/xaviblas">Xavier de Blas</a></span>
+                                        <img src="/static/img/users/4079_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/xaviblas">Xavier De Blas</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
@@ -428,36 +447,36 @@
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>9</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/362.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/mcatanzaro">Michael Catanzaro</a></span>
+                                        <img src="/static/img/users/1049_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/dmustieles">Daniel Mustieles García</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>121</span>
+                                            <span>128</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>10</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/6285.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/brgl">Bartosz</a></span>
+                                        <img src="/static/img/users/6285_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/brgl">Bartosz</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>115</span>
+                                            <span>105</span>
                                         
                                     </div>
                                 </div>
@@ -483,90 +502,90 @@
                                     <span>RANK</span>
                                 </div>
                                 <div class="col-7 text-muted small">
-                                    <span style="margin-left: 34px;">STAR</span>
+                                    <span style="margin-left: 34px;">HACKER</span>
                                 </div>
                                 <div class="col-3 text-muted small text-right">
                                     <span data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='small'>Based on issues, commits and merge requests.</span>" style="text-decoration: underline; text-decoration-style: dotted;">POINTS</span>
                                 </div>
                             </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span data-toggle="tooltip" data-placement="right" data-html="true" title="<span class='small'>Gold - Rank 1</span>"><i class="fas fa-medal" style="color: #ffd700"></i></span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/540.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/bertob">Tobias Bernard</a></span>
+                                        <img src="/static/img/users/540_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/bertob">Tobias Bernard</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>1157</span>
+                                            <span>1156</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span data-toggle="tooltip" data-placement="right" data-html="true" title="<span class='small'>Silver - Rank 2</span>"><i class="fas fa-medal" style="color: #c0c0c0"></i></span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/13.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/aday">Allan Day</a></span>
+                                        <img src="/static/img/users/290_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/mterry">Michael Terry</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>508</span>
+                                            <span>917</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span data-toggle="tooltip" data-placement="right" data-html="true" title="<span class='small'>Bronze - Rank 3</span>"><i class="fas fa-medal" style="color: #cd7f32"></i></span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/261.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/jimmac">Jakub Steiner</a></span>
+                                        <img src="/static/img/users/13_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/aday">Allan Day</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>490</span>
+                                            <span>420</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>4</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/4328.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/dimspingos">Dimitris Spingos</a></span>
+                                        <img src="/static/img/users/261_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/jimmac">Jakub Steiner</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>339</span>
+                                            <span>384</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>5</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/10541.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/pan93412">Yi-Jyun Pan</a></span>
+                                        <img src="/static/img/users/10541_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/pan93412">Yi-Jyun Pan</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
@@ -575,15 +594,15 @@
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>6</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/1127.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/jmas">Jordi Mas</a></span>
+                                        <img src="/static/img/users/1127_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/jmas">Jordi Mas</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
@@ -592,66 +611,66 @@
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>7</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/1049.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/dmustieles">Daniel Mustieles García</a></span>
+                                        <img src="/static/img/users/5_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/federico">Federico Mena Quintero</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>306</span>
+                                            <span>314</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>8</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/5.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/federico">Federico Mena Quintero</a></span>
+                                        <img src="/static/img/users/4328_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/dimspingos">Dimitris Spingos</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>302</span>
+                                            <span>312</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>9</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/31.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/fmuellner">Florian Müllner</a></span>
+                                        <img src="/static/img/users/82_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/bilelmoussaoui">Bilal Elmoussaoui</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>242</span>
+                                            <span>235</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>10</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/131.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/rafaelff">Rafael Fontenelle</a></span>
+                                        <img src="/static/img/users/131_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/rafaelff">Rafael Fontenelle</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
@@ -681,56 +700,73 @@
                                     <span>RANK</span>
                                 </div>
                                 <div class="col-7 text-muted small">
-                                    <span style="margin-left: 34px;">STAR</span>
+                                    <span style="margin-left: 34px;">HACKER</span>
                                 </div>
                                 <div class="col-3 text-muted small text-right">
                                     <span data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='small'>Based on issues, commits and merge requests.</span>" style="text-decoration: underline; text-decoration-style: dotted;">POINTS</span>
                                 </div>
                             </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span data-toggle="tooltip" data-placement="right" data-html="true" title="<span class='small'>Gold - Rank 1</span>"><i class="fas fa-medal" style="color: #ffd700"></i></span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/261.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/jimmac">Jakub Steiner</a></span>
+                                        <img src="/static/img/users/290_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/mterry">Michael Terry</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>1327</span>
+                                            <span>1160</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span data-toggle="tooltip" data-placement="right" data-html="true" title="<span class='small'>Silver - Rank 2</span>"><i class="fas fa-medal" style="color: #c0c0c0"></i></span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/540.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/bertob">Tobias Bernard</a></span>
+                                        <img src="/static/img/users/540_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/bertob">Tobias Bernard</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>1157</span>
+                                            <span>1156</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span data-toggle="tooltip" data-placement="right" data-html="true" title="<span class='small'>Bronze - Rank 3</span>"><i class="fas fa-medal" style="color: #cd7f32"></i></span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/13.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/aday">Allan Day</a></span>
+                                        <img src="/static/img/users/261_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/jimmac">Jakub Steiner</a></span>
+                                    </div>
+                                    <div class="col-3 text-right">
+                                        
+                                            <span>794</span>
+                                        
+                                    </div>
+                                </div>
+                            
+                                <div class="user-hover row align-items-baseline py-2">
+                                    <div class="col-2">
+                                        
+                                            <span>4</span>
+                                        
+                                    </div>
+                                    <div class="col-7">
+                                        <img src="/static/img/users/13_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/aday">Allan Day</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
@@ -739,32 +775,15 @@
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
-                                    <div class="col-2">
-                                        
-                                            <span>4</span>
-                                        
-                                    </div>
-                                    <div class="col-7">
-                                        <img src="/static/img/users/589.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/mjog">Michael Gratton</a></span>
-                                    </div>
-                                    <div class="col-3 text-right">
-                                        
-                                            <span>576</span>
-                                        
-                                    </div>
-                                </div>
-                            
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>5</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/1127.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/jmas">Jordi Mas</a></span>
+                                        <img src="/static/img/users/1127_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/jmas">Jordi Mas</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
@@ -773,32 +792,15 @@
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>6</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/5.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/federico">Federico Mena Quintero</a></span>
-                                    </div>
-                                    <div class="col-3 text-right">
-                                        
-                                            <span>546</span>
-                                        
-                                    </div>
-                                </div>
-                            
-                                <div class="row align-items-baseline py-2">
-                                    <div class="col-2">
-                                        
-                                            <span>7</span>
-                                        
-                                    </div>
-                                    <div class="col-7">
-                                        <img src="/static/img/users/1049.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/dmustieles">Daniel Mustieles García</a></span>
+                                        <img src="/static/img/users/1049_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/dmustieles">Daniel Mustieles García</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
@@ -807,15 +809,15 @@
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
-                                            <span>8</span>
+                                            <span>7</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/4328.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/dimspingos">Dimitris Spingos</a></span>
+                                        <img src="/static/img/users/4328_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/dimspingos">Dimitris Spingos</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
@@ -824,36 +826,53 @@
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
+                                    <div class="col-2">
+                                        
+                                            <span>8</span>
+                                        
+                                    </div>
+                                    <div class="col-7">
+                                        <img src="/static/img/users/5_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/federico">Federico Mena Quintero</a></span>
+                                    </div>
+                                    <div class="col-3 text-right">
+                                        
+                                            <span>467</span>
+                                        
+                                    </div>
+                                </div>
+                            
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>9</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/1229.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/malureau">Marc-André Lureau</a></span>
+                                        <img src="/static/img/users/1229_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/malureau">Marc-André Lureau</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>447</span>
+                                            <span>444</span>
                                         
                                     </div>
                                 </div>
                             
-                                <div class="row align-items-baseline py-2">
+                                <div class="user-hover row align-items-baseline py-2">
                                     <div class="col-2">
                                         
                                             <span>10</span>
                                         
                                     </div>
                                     <div class="col-7">
-                                        <img src="/static/img/users/362.png" class="img-fluid rounded-circle" style="width:24px;">
-                                        <span class="ml-1"><a class="text-dark" href="https://gitlab.gnome.org/mcatanzaro">Michael Catanzaro</a></span>
+                                        <img src="/static/img/users/589_small.png" class="img-fluid rounded-circle" style="width:24px;">
+                                        <span class="ml-1"><a class="text-dark stretched-link" href="/mjog">Michael Gratton</a></span>
                                     </div>
                                     <div class="col-3 text-right">
                                         
-                                            <span>373</span>
+                                            <span>410</span>
                                         
                                     </div>
                                 </div>
@@ -871,6 +890,7 @@
             <div class="col d-flex justify-content-between">
                 <span class="text-muted">Made by <a href="https://ravgeetdhillon.github.io/">Ravgeet Dhillon</a></span>
                 <div>
+                    <span><a href="https://ravgeetdhillon.github.io/blog/developing-leaderboard-for-gnome">About</a></span>
                     <span class="ml-2"><a href="https://github.com/ravgeetdhillon/gnome-hackers">Code</a></span>
                 </div>
             </div>

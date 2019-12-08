@@ -122,3 +122,8 @@ body {
 b,
 strong {
   font-weight: bold !important; }
+
+.user-hover {
+  transition: 0.15s ease-in-out; }
+  .user-hover:hover {
+    background: var(--light); }
