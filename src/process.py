@@ -1,6 +1,7 @@
 from helpers import load_data, create_user, save_data, days_from_now, update_user_points, update_user_info
 from fetch import fetch_images
 import json
+import requests
 
 
 def process_commits(users, commits):
@@ -92,7 +93,9 @@ def process_awards():
     '''
 
     try:
-        awards = load_data('awards.json')
+        # awards = load_data('awards.json')
+        awards = requests.get('https://raw.githubusercontent.com/ravgeetdhillon/gnome-hackers/website/artifacts/data/awards.json')
+        awards = json.loads(awards.text)
     except:
         awards = []
         
