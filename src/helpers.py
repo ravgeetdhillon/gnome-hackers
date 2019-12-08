@@ -235,7 +235,7 @@ def compress_image(image_name):
     Reduce the image file size by reducing the image dimensions to 80x80.    
     '''
 
-    image = Image.open(f'{image_name}.png')
+    image = Image.open(f'static/img/users/{image_name}.png')
     x = min(48, image.size[0])
     image = image.resize((x, x), Image.LANCZOS)
-    image.save(f'{image_name}_small.png', optimize=True, quality=95)
+    image.save(f'static/img/users/{image_name}_small.png', optimize=True, quality=95)
