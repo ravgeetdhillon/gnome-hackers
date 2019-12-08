@@ -9056,6 +9056,159 @@
     "project_id": 1895
   },
   {
+    "id": "a4727a8a6c48872e271ba668bf889944b76564cc",
+    "short_id": "a4727a8a",
+    "created_at": "2019-12-08T00:54:48.000+00:00",
+    "parent_ids": [
+      "4d0ed05a2b73dacf58088261039e7c39120cfaa4",
+      "953f943907b10d964bd56af252f5a635e48a706f"
+    ],
+    "title": "Merge branch '640-feedback-on-slow-image-paste' into 'mainline'",
+    "message": "Merge branch '640-feedback-on-slow-image-paste' into 'mainline'\n\nProvide feedback for slow inline image paste\n\nCloses #640\n\nSee merge request GNOME/geary!387",
+    "author_name": "Michael Gratton",
+    "author_email": "mike@vee.net",
+    "authored_date": "2019-12-08T00:54:48.000+00:00",
+    "committer_name": "Michael Gratton",
+    "committer_email": "mike@vee.net",
+    "committed_date": "2019-12-08T00:54:48.000+00:00",
+    "stats": {
+      "additions": 80,
+      "deletions": 25,
+      "total": 105
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 136328,
+      "sha": "a4727a8a6c48872e271ba668bf889944b76564cc",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-08T04:19:45.619Z",
+      "updated_at": "2019-12-08T04:38:14.299Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/geary/pipelines/136328"
+    },
+    "project_id": 1894
+  },
+  {
+    "id": "953f943907b10d964bd56af252f5a635e48a706f",
+    "short_id": "953f9439",
+    "created_at": "2019-12-07T13:53:51.000+01:00",
+    "parent_ids": [
+      "7a5fb05fb5bc813a237278450885b120cb2b1a2a"
+    ],
+    "title": "Improved docstrings for shared timeout values for background progress",
+    "message": "Improved docstrings for shared timeout values for background progress\nbars\n",
+    "author_name": "Chris Heywood",
+    "author_email": "15127-creywood@users.noreply.gitlab.gnome.org",
+    "authored_date": "2019-12-07T13:53:51.000+01:00",
+    "committer_name": "Chris Heywood",
+    "committer_email": "15127-creywood@users.noreply.gitlab.gnome.org",
+    "committed_date": "2019-12-07T13:53:51.000+01:00",
+    "stats": {
+      "additions": 3,
+      "deletions": 1,
+      "total": 4
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1894
+  },
+  {
+    "id": "7a5fb05fb5bc813a237278450885b120cb2b1a2a",
+    "short_id": "7a5fb05f",
+    "created_at": "2019-12-07T13:48:03.000+01:00",
+    "parent_ids": [
+      "554a8d9e1aecb3eef29386d283b75c636fed13b2"
+    ],
+    "title": "Minor tidy up for feedback on large image paste",
+    "message": "Minor tidy up for feedback on large image paste\n",
+    "author_name": "Chris Heywood",
+    "author_email": "15127-creywood@users.noreply.gitlab.gnome.org",
+    "authored_date": "2019-12-07T13:48:03.000+01:00",
+    "committer_name": "Chris Heywood",
+    "committer_email": "15127-creywood@users.noreply.gitlab.gnome.org",
+    "committed_date": "2019-12-07T13:48:03.000+01:00",
+    "stats": {
+      "additions": 0,
+      "deletions": 6,
+      "total": 6
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1894
+  },
+  {
+    "id": "554a8d9e1aecb3eef29386d283b75c636fed13b2",
+    "short_id": "554a8d9e",
+    "created_at": "2019-12-07T09:45:44.000+01:00",
+    "parent_ids": [
+      "8299f9c17a2c2747af128c832e9ab60403323eb9"
+    ],
+    "title": "Use shared values for timeouts on background process progress",
+    "message": "Use shared values for timeouts on background process progress\n",
+    "author_name": "Chris Heywood",
+    "author_email": "15127-creywood@users.noreply.gitlab.gnome.org",
+    "authored_date": "2019-12-07T09:45:44.000+01:00",
+    "committer_name": "Chris Heywood",
+    "committer_email": "15127-creywood@users.noreply.gitlab.gnome.org",
+    "committed_date": "2019-12-07T09:45:44.000+01:00",
+    "stats": {
+      "additions": 10,
+      "deletions": 9,
+      "total": 19
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1894
+  },
+  {
+    "id": "8299f9c17a2c2747af128c832e9ab60403323eb9",
+    "short_id": "8299f9c1",
+    "created_at": "2019-12-07T08:52:43.000+01:00",
+    "parent_ids": [
+      "50a1691b2ff089ef894f8940fe88649ad93cc761"
+    ],
+    "title": "Bubble error on inline image paste up to UI",
+    "message": "Bubble error on inline image paste up to UI\n",
+    "author_name": "Chris Heywood",
+    "author_email": "15127-creywood@users.noreply.gitlab.gnome.org",
+    "authored_date": "2019-12-07T08:52:43.000+01:00",
+    "committer_name": "Chris Heywood",
+    "committer_email": "15127-creywood@users.noreply.gitlab.gnome.org",
+    "committed_date": "2019-12-07T08:52:43.000+01:00",
+    "stats": {
+      "additions": 6,
+      "deletions": 2,
+      "total": 8
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1894
+  },
+  {
+    "id": "50a1691b2ff089ef894f8940fe88649ad93cc761",
+    "short_id": "50a1691b",
+    "created_at": "2019-12-06T11:17:12.000+01:00",
+    "parent_ids": [
+      "4d0ed05a2b73dacf58088261039e7c39120cfaa4"
+    ],
+    "title": "Add feedback via HUD progress pulse on slow inline image paste",
+    "message": "Add feedback via HUD progress pulse on slow inline image paste\n",
+    "author_name": "Chris Heywood",
+    "author_email": "15127-creywood@users.noreply.gitlab.gnome.org",
+    "authored_date": "2019-12-06T11:17:12.000+01:00",
+    "committer_name": "Chris Heywood",
+    "committer_email": "15127-creywood@users.noreply.gitlab.gnome.org",
+    "committed_date": "2019-12-06T11:17:12.000+01:00",
+    "stats": {
+      "additions": 71,
+      "deletions": 17,
+      "total": 88
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1894
+  },
+  {
     "id": "4d0ed05a2b73dacf58088261039e7c39120cfaa4",
     "short_id": "4d0ed05a",
     "created_at": "2019-12-06T00:30:12.000+00:00",
@@ -49520,6 +49673,136 @@
     "project_id": 1516
   },
   {
+    "id": "8c5ef455e8cf21ae50b9ce8e86ca74734c45c3db",
+    "short_id": "8c5ef455",
+    "created_at": "2019-12-08T04:10:26.000+00:00",
+    "parent_ids": [
+      "29019094450227a68cacd5170ce7b5735bb2faef",
+      "a2864370a0c6751faa4b3ef3b9dc0390b4d1ba46"
+    ],
+    "title": "Merge branch 'fix-build' into 'master'",
+    "message": "Merge branch 'fix-build' into 'master'\n\nbuild: Move C-only warning flags to right place\n\nSee merge request GNOME/pango!166",
+    "author_name": "Matthias Clasen",
+    "author_email": "mclasen@redhat.com",
+    "authored_date": "2019-12-08T04:10:26.000+00:00",
+    "committer_name": "Matthias Clasen",
+    "committer_email": "mclasen@redhat.com",
+    "committed_date": "2019-12-08T04:10:26.000+00:00",
+    "stats": {
+      "additions": 2,
+      "deletions": 2,
+      "total": 4
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 136323,
+      "sha": "8c5ef455e8cf21ae50b9ce8e86ca74734c45c3db",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-08T04:10:29.180Z",
+      "updated_at": "2019-12-08T04:13:14.163Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/pango/pipelines/136323"
+    },
+    "project_id": 1515
+  },
+  {
+    "id": "a2864370a0c6751faa4b3ef3b9dc0390b4d1ba46",
+    "short_id": "a2864370",
+    "created_at": "2019-12-08T05:07:51.000+01:00",
+    "parent_ids": [
+      "5e07328675aa49d9b84b3ab4405ff94b92835e9c"
+    ],
+    "title": "build: Move C-only warning flags to right place",
+    "message": "build: Move C-only warning flags to right place\n\nThe build was complaining about those and that broke -Werror builds.\n",
+    "author_name": "Benjamin Otte",
+    "author_email": "otte@redhat.com",
+    "authored_date": "2019-12-08T05:07:05.000+01:00",
+    "committer_name": "Benjamin Otte",
+    "committer_email": "otte@redhat.com",
+    "committed_date": "2019-12-08T05:07:51.000+01:00",
+    "stats": {
+      "additions": 2,
+      "deletions": 2,
+      "total": 4
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 136321,
+      "sha": "a2864370a0c6751faa4b3ef3b9dc0390b4d1ba46",
+      "ref": "fix-build",
+      "status": "success",
+      "created_at": "2019-12-08T04:08:21.930Z",
+      "updated_at": "2019-12-08T04:10:22.646Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/pango/pipelines/136321"
+    },
+    "project_id": 1515
+  },
+  {
+    "id": "29019094450227a68cacd5170ce7b5735bb2faef",
+    "short_id": "29019094",
+    "created_at": "2019-12-08T02:38:55.000+00:00",
+    "parent_ids": [
+      "5ab34cc4103de109ef4e4e54c435c5e4e41cfe96",
+      "5e07328675aa49d9b84b3ab4405ff94b92835e9c"
+    ],
+    "title": "Merge branch 'get_face' into 'master'",
+    "message": "Merge branch 'get_face' into 'master'\n\nfamily: Clarify and improve pango_font_family_get_face()\n\nSee merge request GNOME/pango!165",
+    "author_name": "Matthias Clasen",
+    "author_email": "mclasen@redhat.com",
+    "authored_date": "2019-12-08T02:38:55.000+00:00",
+    "committer_name": "Matthias Clasen",
+    "committer_email": "mclasen@redhat.com",
+    "committed_date": "2019-12-08T02:38:55.000+00:00",
+    "stats": {
+      "additions": 19,
+      "deletions": 6,
+      "total": 25
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 136315,
+      "sha": "29019094450227a68cacd5170ce7b5735bb2faef",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-08T02:38:57.383Z",
+      "updated_at": "2019-12-08T02:40:53.048Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/pango/pipelines/136315"
+    },
+    "project_id": 1515
+  },
+  {
+    "id": "5e07328675aa49d9b84b3ab4405ff94b92835e9c",
+    "short_id": "5e073286",
+    "created_at": "2019-12-08T03:33:02.000+01:00",
+    "parent_ids": [
+      "5ab34cc4103de109ef4e4e54c435c5e4e41cfe96"
+    ],
+    "title": "family: Clarify and improve pango_font_family_get_face()",
+    "message": "family: Clarify and improve pango_font_family_get_face()\n\n- Clarify that the function can return NULL\n- Fix annotations\n- Allow passing NULL as name to get a guaranteed default face.\n- Map the default name to \"Regular\" in the FC backend\n",
+    "author_name": "Benjamin Otte",
+    "author_email": "otte@redhat.com",
+    "authored_date": "2019-12-08T03:33:02.000+01:00",
+    "committer_name": "Benjamin Otte",
+    "committer_email": "otte@redhat.com",
+    "committed_date": "2019-12-08T03:33:02.000+01:00",
+    "stats": {
+      "additions": 19,
+      "deletions": 6,
+      "total": 25
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 136314,
+      "sha": "5e07328675aa49d9b84b3ab4405ff94b92835e9c",
+      "ref": "get_face",
+      "status": "success",
+      "created_at": "2019-12-08T02:36:30.811Z",
+      "updated_at": "2019-12-08T02:38:55.132Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/pango/pipelines/136314"
+    },
+    "project_id": 1515
+  },
+  {
     "id": "5ab34cc4103de109ef4e4e54c435c5e4e41cfe96",
     "short_id": "5ab34cc4",
     "created_at": "2019-12-06T16:58:41.000+00:00",
@@ -49808,6 +50091,78 @@
     "status": null,
     "last_pipeline": null,
     "project_id": 1514
+  },
+  {
+    "id": "3d79874066e1a1c1bba646135cf5fc5811b0eb55",
+    "short_id": "3d798740",
+    "created_at": "2019-12-07T20:51:37.000-05:00",
+    "parent_ids": [
+      "8a240946b14884f529b55a7f9b89987544b7f760"
+    ],
+    "title": "Replace use of deprecated G_CONST_RETURN",
+    "message": "Replace use of deprecated G_CONST_RETURN\n\nSigned-off-by: W. Michael Petullo <mike@flyn.org>\n",
+    "author_name": "W. Michael Petullo",
+    "author_email": "mike@flyn.org",
+    "authored_date": "2019-12-07T20:51:29.000-05:00",
+    "committer_name": "W. Michael Petullo",
+    "committer_email": "mike@flyn.org",
+    "committed_date": "2019-12-07T20:51:37.000-05:00",
+    "stats": {
+      "additions": 3,
+      "deletions": 3,
+      "total": 6
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1513
+  },
+  {
+    "id": "8a240946b14884f529b55a7f9b89987544b7f760",
+    "short_id": "8a240946",
+    "created_at": "2019-12-06T22:35:08.000-05:00",
+    "parent_ids": [
+      "9d377f803d09cd3fb69f1d8db55e17f3575fa0b1"
+    ],
+    "title": "Update Vala code",
+    "message": "Update Vala code\n\nSigned-off-by: W. Michael Petullo <mike@flyn.org>\n",
+    "author_name": "W. Michael Petullo",
+    "author_email": "mike@flyn.org",
+    "authored_date": "2019-12-06T22:35:08.000-05:00",
+    "committer_name": "W. Michael Petullo",
+    "committer_email": "mike@flyn.org",
+    "committed_date": "2019-12-06T22:35:08.000-05:00",
+    "stats": {
+      "additions": 39,
+      "deletions": 30,
+      "total": 69
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1513
+  },
+  {
+    "id": "9d377f803d09cd3fb69f1d8db55e17f3575fa0b1",
+    "short_id": "9d377f80",
+    "created_at": "2019-12-06T22:33:58.000-05:00",
+    "parent_ids": [
+      "0d1b035a19c7e6bd8c75d2b1c0b47ed696bd0a40"
+    ],
+    "title": "Make some functions static",
+    "message": "Make some functions static\n\nSigned-off-by: W. Michael Petullo <mike@flyn.org>\n",
+    "author_name": "W. Michael Petullo",
+    "author_email": "mike@flyn.org",
+    "authored_date": "2019-12-06T22:33:58.000-05:00",
+    "committer_name": "W. Michael Petullo",
+    "committer_email": "mike@flyn.org",
+    "committed_date": "2019-12-06T22:33:58.000-05:00",
+    "stats": {
+      "additions": 1654,
+      "deletions": 1716,
+      "total": 3370
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1513
   },
   {
     "id": "f9009f8d9b29cf7d96f251bcfbdb8402298a76b5",
@@ -56910,6 +57265,38 @@
     "project_id": 819
   },
   {
+    "id": "bb84f5bdc1511e21aad33be1b0ba2db7e7422b16",
+    "short_id": "bb84f5bd",
+    "created_at": "2019-12-02T11:52:33.000+01:00",
+    "parent_ids": [
+      "335623281b7f2f96b1354548ce827442ba1e0f17"
+    ],
+    "title": "mainwindow: Show the UI when window is ready",
+    "message": "mainwindow: Show the UI when window is ready\n\nThis prevents a GTK error about the Greeter perspective's headerbar\nproviding a negative size for some widget.\n\n(pitivi:358): Gtk-WARNING **: 21:41:06.354: gtk_widget_size_allocate(): attempt to allocate widget with width -151 and height 19\n",
+    "author_name": "Alexandru B\u0103lu\u021b",
+    "author_email": "alexandru.balut@gmail.com",
+    "authored_date": "2019-11-09T11:09:18.000+01:00",
+    "committer_name": "Alexandru B\u0103lu\u021b",
+    "committer_email": "alexandru.balut@gmail.com",
+    "committed_date": "2019-12-02T11:52:33.000+01:00",
+    "stats": {
+      "additions": 12,
+      "deletions": 0,
+      "total": 12
+    },
+    "status": "failed",
+    "last_pipeline": {
+      "id": 136329,
+      "sha": "bb84f5bdc1511e21aad33be1b0ba2db7e7422b16",
+      "ref": "master",
+      "status": "failed",
+      "created_at": "2019-12-08T04:19:47.048Z",
+      "updated_at": "2019-12-08T04:23:00.713Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/pitivi/pipelines/136329"
+    },
+    "project_id": 817
+  },
+  {
     "id": "335623281b7f2f96b1354548ce827442ba1e0f17",
     "short_id": "33562328",
     "created_at": "2019-11-26T22:23:49.000+01:00",
@@ -58405,6 +58792,70 @@
     "status": null,
     "last_pipeline": null,
     "project_id": 811
+  },
+  {
+    "id": "d683d085c0fd48abccf87fa6185379c3b29cd80d",
+    "short_id": "d683d085",
+    "created_at": "2019-12-08T00:30:32.000-05:00",
+    "parent_ids": [
+      "92ab45098381eb828f65c6391fe51f96c5a37f14"
+    ],
+    "title": "tree list model: Add a missing annotation",
+    "message": "tree list model: Add a missing annotation\n\nThe GtkTreeListModelCreateModelFunc returns\na new reference.\n",
+    "author_name": "Matthias Clasen",
+    "author_email": "mclasen@redhat.com",
+    "authored_date": "2019-12-07T22:39:35.000-05:00",
+    "committer_name": "Matthias Clasen",
+    "committer_email": "mclasen@redhat.com",
+    "committed_date": "2019-12-08T00:30:32.000-05:00",
+    "stats": {
+      "additions": 1,
+      "deletions": 1,
+      "total": 2
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 136349,
+      "sha": "d683d085c0fd48abccf87fa6185379c3b29cd80d",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-08T05:30:23.808Z",
+      "updated_at": "2019-12-08T05:57:14.370Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/gtk/pipelines/136349"
+    },
+    "project_id": 665
+  },
+  {
+    "id": "92ab45098381eb828f65c6391fe51f96c5a37f14",
+    "short_id": "92ab4509",
+    "created_at": "2019-12-07T19:39:02.000-05:00",
+    "parent_ids": [
+      "7b14c65b41a089ecadb3da006cf3bc021586682e"
+    ],
+    "title": "inspector: Avoid critical warnings",
+    "message": "inspector: Avoid critical warnings\n\nWe were still using this but it's not defined in the UI xml.\n\nFixes: https://gitlab.gnome.org/GNOME/gtk/issues/2295\n",
+    "author_name": "Matthias Clasen",
+    "author_email": "mclasen@redhat.com",
+    "authored_date": "2019-12-07T19:39:02.000-05:00",
+    "committer_name": "Matthias Clasen",
+    "committer_email": "mclasen@redhat.com",
+    "committed_date": "2019-12-07T19:39:02.000-05:00",
+    "stats": {
+      "additions": 0,
+      "deletions": 2,
+      "total": 2
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 136306,
+      "sha": "92ab45098381eb828f65c6391fe51f96c5a37f14",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-08T00:39:17.857Z",
+      "updated_at": "2019-12-08T00:59:09.620Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/gtk/pipelines/136306"
+    },
+    "project_id": 665
   },
   {
     "id": "7b14c65b41a089ecadb3da006cf3bc021586682e",
@@ -65723,13 +66174,13 @@
     },
     "status": "success",
     "last_pipeline": {
-      "id": 134826,
+      "id": 136338,
       "sha": "9a7f55c1e7a8bc2e2c0a1e3f8326e6fd17823205",
       "ref": "master",
       "status": "success",
-      "created_at": "2019-12-01T04:19:50.117Z",
-      "updated_at": "2019-12-01T07:47:23.579Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gobject-introspection/pipelines/134826"
+      "created_at": "2019-12-08T04:20:06.557Z",
+      "updated_at": "2019-12-08T04:27:44.989Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/gobject-introspection/pipelines/136338"
     },
     "project_id": 659
   },
@@ -70683,13 +71134,13 @@
     },
     "status": "success",
     "last_pipeline": {
-      "id": 136278,
+      "id": 136325,
       "sha": "eed957ac0a6ce361d79f52e88d27b21a857899b4",
       "ref": "master",
       "status": "success",
-      "created_at": "2019-12-07T20:47:52.843Z",
-      "updated_at": "2019-12-07T20:59:13.357Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gnome-contacts/pipelines/136278"
+      "created_at": "2019-12-08T04:19:40.519Z",
+      "updated_at": "2019-12-08T04:35:14.173Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/gnome-contacts/pipelines/136325"
     },
     "project_id": 553
   },
@@ -77545,14 +77996,14 @@
       "deletions": 0,
       "total": 1
     },
-    "status": "running",
+    "status": "success",
     "last_pipeline": {
       "id": 136304,
       "sha": "678cd7153f9f1ae6f32eaeb44dd54a5dbad5156e",
       "ref": "master",
-      "status": "running",
+      "status": "success",
       "created_at": "2019-12-08T00:19:05.505Z",
-      "updated_at": "2019-12-08T00:19:09.881Z",
+      "updated_at": "2019-12-08T03:39:28.141Z",
       "web_url": "https://gitlab.gnome.org/GNOME/gnome-build-meta/pipelines/136304"
     },
     "project_id": 456
@@ -82453,13 +82904,13 @@
     },
     "status": "success",
     "last_pipeline": {
-      "id": 136156,
+      "id": 136352,
       "sha": "a974bc4ae74b465acd80b095d1076bf9fa334e3d",
       "ref": "master",
       "status": "success",
-      "created_at": "2019-12-07T02:37:50.494Z",
-      "updated_at": "2019-12-07T03:07:25.280Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/librsvg/pipelines/136156"
+      "created_at": "2019-12-08T06:19:29.598Z",
+      "updated_at": "2019-12-08T06:54:28.467Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/librsvg/pipelines/136352"
     },
     "project_id": 296
   },
@@ -84982,78 +85433,6 @@
     "project_id": 296
   },
   {
-    "id": "6f7e6b82a62ef8a3142005a0d8c9bb6c2623c6a5",
-    "short_id": "6f7e6b82",
-    "created_at": "2019-11-07T19:16:32.000-06:00",
-    "parent_ids": [
-      "2b251eb7ab3e71cd78638f2ddff7e8f888f1abff"
-    ],
-    "title": "Load the stylesheet directly in append_stylesheet_from_xml_processing_instruction",
-    "message": "Load the stylesheet directly in append_stylesheet_from_xml_processing_instruction\n\nDon't queue it for later.  This will change in the next commits.\n\nThis removes the Stylesheet struct, which was just a temporary holding\nplace for the xml-stylesheet's pseudo-attributes.\n",
-    "author_name": "Federico Mena Quintero",
-    "author_email": "federico@gnome.org",
-    "authored_date": "2019-11-07T19:16:08.000-06:00",
-    "committer_name": "Federico Mena Quintero",
-    "committer_email": "federico@gnome.org",
-    "committed_date": "2019-11-07T19:16:32.000-06:00",
-    "stats": {
-      "additions": 28,
-      "deletions": 33,
-      "total": 61
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 296
-  },
-  {
-    "id": "2b251eb7ab3e71cd78638f2ddff7e8f888f1abff",
-    "short_id": "2b251eb7",
-    "created_at": "2019-11-07T18:55:32.000-06:00",
-    "parent_ids": [
-      "f42d5336fb276743a4fc645f5211dfe32edebb70"
-    ],
-    "title": "Rename function to append_stylesheet_from_xml_processing_instruction()",
-    "message": "Rename function to append_stylesheet_from_xml_processing_instruction()\n\nI'm going to create a separate Stylesheet type for actual loaded\nstylesheets, so the existing one will probably go away.\n",
-    "author_name": "Federico Mena Quintero",
-    "author_email": "federico@gnome.org",
-    "authored_date": "2019-11-07T18:55:32.000-06:00",
-    "committer_name": "Federico Mena Quintero",
-    "committer_email": "federico@gnome.org",
-    "committed_date": "2019-11-07T18:55:32.000-06:00",
-    "stats": {
-      "additions": 2,
-      "deletions": 2,
-      "total": 4
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 296
-  },
-  {
-    "id": "f42d5336fb276743a4fc645f5211dfe32edebb70",
-    "short_id": "f42d5336",
-    "created_at": "2019-11-07T18:55:09.000-06:00",
-    "parent_ids": [
-      "ef8da41e14a98f7dad5a6af7b26477c532912564"
-    ],
-    "title": "derive_common: Fix example in documentation",
-    "message": "derive_common: Fix example in documentation\n",
-    "author_name": "Federico Mena Quintero",
-    "author_email": "federico@gnome.org",
-    "authored_date": "2019-11-07T18:55:09.000-06:00",
-    "committer_name": "Federico Mena Quintero",
-    "committer_email": "federico@gnome.org",
-    "committed_date": "2019-11-07T18:55:09.000-06:00",
-    "stats": {
-      "additions": 2,
-      "deletions": 0,
-      "total": 2
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 296
-  },
-  {
     "id": "825dc903605eb165c8ad9f4e878e496812f33412",
     "short_id": "825dc903",
     "created_at": "2019-11-20T10:34:40.000+00:00",
@@ -85299,13 +85678,13 @@
     },
     "status": "success",
     "last_pipeline": {
-      "id": 136164,
+      "id": 136337,
       "sha": "66ff0ccdb0c920277fc90e2f902c16fca9e929be",
       "ref": "master",
       "status": "success",
-      "created_at": "2019-12-07T04:19:44.009Z",
-      "updated_at": "2019-12-07T04:27:51.036Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gnome-music/pipelines/136164"
+      "created_at": "2019-12-08T04:20:05.113Z",
+      "updated_at": "2019-12-08T04:30:41.237Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/gnome-music/pipelines/136337"
     },
     "project_id": 293
   },
@@ -87563,13 +87942,13 @@
     },
     "status": "success",
     "last_pipeline": {
-      "id": 134847,
+      "id": 136336,
       "sha": "824ea2c59359bf2cd222b2aa94a0f1fc1de49f25",
       "ref": "master",
       "status": "success",
-      "created_at": "2019-12-01T10:02:43.548Z",
-      "updated_at": "2019-12-01T10:22:41.195Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gnome-games/pipelines/134847"
+      "created_at": "2019-12-08T04:20:03.181Z",
+      "updated_at": "2019-12-08T04:39:53.989Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/gnome-games/pipelines/136336"
     },
     "project_id": 197
   },
@@ -90288,13 +90667,13 @@
     },
     "status": "success",
     "last_pipeline": {
-      "id": 136298,
+      "id": 136326,
       "sha": "702a4f5c843a6cd31d94206f0b792bb98c4b0b50",
       "ref": "master",
       "status": "success",
-      "created_at": "2019-12-07T22:55:24.339Z",
-      "updated_at": "2019-12-07T23:05:53.845Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/nautilus/pipelines/136298"
+      "created_at": "2019-12-08T04:19:42.092Z",
+      "updated_at": "2019-12-08T04:45:43.624Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/nautilus/pipelines/136326"
     },
     "project_id": 1
   },
@@ -90416,13 +90795,13 @@
     },
     "status": "success",
     "last_pipeline": {
-      "id": 136298,
+      "id": 136326,
       "sha": "702a4f5c843a6cd31d94206f0b792bb98c4b0b50",
       "ref": "master",
       "status": "success",
-      "created_at": "2019-12-07T22:55:24.339Z",
-      "updated_at": "2019-12-07T23:05:53.845Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/nautilus/pipelines/136298"
+      "created_at": "2019-12-08T04:19:42.092Z",
+      "updated_at": "2019-12-08T04:45:43.624Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/nautilus/pipelines/136326"
     },
     "project_id": 1
   },
@@ -90544,13 +90923,13 @@
     },
     "status": "success",
     "last_pipeline": {
-      "id": 136298,
+      "id": 136326,
       "sha": "702a4f5c843a6cd31d94206f0b792bb98c4b0b50",
       "ref": "master",
       "status": "success",
-      "created_at": "2019-12-07T22:55:24.339Z",
-      "updated_at": "2019-12-07T23:05:53.845Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/nautilus/pipelines/136298"
+      "created_at": "2019-12-08T04:19:42.092Z",
+      "updated_at": "2019-12-08T04:45:43.624Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/nautilus/pipelines/136326"
     },
     "project_id": 1
   },
@@ -92809,30 +93188,6 @@
     "project_id": 7083
   },
   {
-    "id": "9e853c5be447e7a4b3566a3ddc91f113654b1377",
-    "short_id": "9e853c5b",
-    "created_at": "2019-11-08T08:32:24.000+01:00",
-    "parent_ids": [
-      "8e867b28415af692679c135f2a56dd401e1adbf9"
-    ],
-    "title": "spamd: Tune what amavis should consider spam",
-    "message": "spamd: Tune what amavis should consider spam\n",
-    "author_name": "Bart\u0142omiej Piotrowski",
-    "author_email": "bpiotrowski@gnome.org",
-    "authored_date": "2019-11-08T08:30:11.000+01:00",
-    "committer_name": "Bart\u0142omiej Piotrowski",
-    "committer_email": "bpiotrowski@gnome.org",
-    "committed_date": "2019-11-08T08:32:24.000+01:00",
-    "stats": {
-      "additions": 2,
-      "deletions": 2,
-      "total": 4
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 7083
-  },
-  {
     "id": "422000e5e8d9fce16b178ca1e8ef8ee39fc0e8ed",
     "short_id": "422000e5",
     "created_at": "2019-11-26T15:31:59.000+00:00",
@@ -93199,13 +93554,13 @@
     },
     "status": "success",
     "last_pipeline": {
-      "id": 136160,
+      "id": 136332,
       "sha": "29a8d43d4b87110d6649d96640aa7e7a22f77229",
       "ref": "master",
       "status": "success",
-      "created_at": "2019-12-07T04:19:37.412Z",
-      "updated_at": "2019-12-07T04:24:53.033Z",
-      "web_url": "https://gitlab.gnome.org/Infrastructure/extensions-web/pipelines/136160"
+      "created_at": "2019-12-08T04:19:56.696Z",
+      "updated_at": "2019-12-08T04:29:19.959Z",
+      "web_url": "https://gitlab.gnome.org/Infrastructure/extensions-web/pipelines/136332"
     },
     "project_id": 2878
   },
@@ -96029,14 +96384,14 @@
       "deletions": 1,
       "total": 2
     },
-    "status": "running",
+    "status": "success",
     "last_pipeline": {
       "id": 136302,
       "sha": "a49b6ba6bf9d875e1f62360c6bd23986b8120e48",
       "ref": "master",
-      "status": "running",
+      "status": "success",
       "created_at": "2019-12-07T23:26:08.998Z",
-      "updated_at": "2019-12-07T23:29:52.585Z",
+      "updated_at": "2019-12-08T00:41:32.343Z",
       "web_url": "https://gitlab.gnome.org/World/OpenPaperwork/libinsane/pipelines/136302"
     },
     "project_id": 3536
@@ -108359,13 +108714,13 @@
     },
     "status": "success",
     "last_pipeline": {
-      "id": 134808,
+      "id": 136324,
       "sha": "bcd610e2e377d70ff75f52bbfae4d2007a248a90",
       "ref": "master",
       "status": "success",
-      "created_at": "2019-12-01T04:19:14.049Z",
-      "updated_at": "2019-12-01T04:52:17.901Z",
-      "web_url": "https://gitlab.gnome.org/World/podcasts/pipelines/134808"
+      "created_at": "2019-12-08T04:19:38.995Z",
+      "updated_at": "2019-12-08T05:01:42.978Z",
+      "web_url": "https://gitlab.gnome.org/World/podcasts/pipelines/136324"
     },
     "project_id": 142
   }
