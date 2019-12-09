@@ -152,10 +152,17 @@ def fetch_images(users):
 
     for user in users:
         try:
-            image = requests.get(user['avatar_url'])
+            if 'https://secure.gravatar.com/' in user['avatar_url']:
+                avatar_url = user['avatar_url'].split('?')[0]
+                image = requests.get(f'{avatar_url}?s=200&d=identicon')
+            else:
+                image = requests.get(user['avatar_url'])
+            
             with open(f'static/img/users/{user["id"]}.png', 'wb') as f:
                 f.write(image.content)
+            
             compress_image(user['id'])
+        
         except Exception as e:
             print(e)
 
