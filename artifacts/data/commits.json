@@ -544,78 +544,6 @@
     "project_id": 1207
   },
   {
-    "id": "5774a92e3a05034d2da86a4f0ca0a0408ec234da",
-    "short_id": "5774a92e",
-    "created_at": "2019-11-28T16:09:39.000+01:00",
-    "parent_ids": [
-      "7a20c027b72365e39ecd3139221e2e44c4587e1e"
-    ],
-    "title": "Background: fix export",
-    "message": "Background: fix export\n",
-    "author_name": "Tobias Bernard",
-    "author_email": "tbernard@gnome.org",
-    "authored_date": "2019-11-28T16:09:39.000+01:00",
-    "committer_name": "Tobias Bernard",
-    "committer_email": "tbernard@gnome.org",
-    "committed_date": "2019-11-28T16:09:39.000+01:00",
-    "stats": {
-      "additions": 0,
-      "deletions": 0,
-      "total": 0
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1207
-  },
-  {
-    "id": "7a20c027b72365e39ecd3139221e2e44c4587e1e",
-    "short_id": "7a20c027",
-    "created_at": "2019-11-28T16:08:02.000+01:00",
-    "parent_ids": [
-      "f356295ee8e22bcbac88e79b37a631e3c49a2976"
-    ],
-    "title": "Background: forgot updating the popovers",
-    "message": "Background: forgot updating the popovers\n",
-    "author_name": "Tobias Bernard",
-    "author_email": "tbernard@gnome.org",
-    "authored_date": "2019-11-28T16:08:02.000+01:00",
-    "committer_name": "Tobias Bernard",
-    "committer_email": "tbernard@gnome.org",
-    "committed_date": "2019-11-28T16:08:02.000+01:00",
-    "stats": {
-      "additions": 4172,
-      "deletions": 3860,
-      "total": 8032
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1207
-  },
-  {
-    "id": "f356295ee8e22bcbac88e79b37a631e3c49a2976",
-    "short_id": "f356295e",
-    "created_at": "2019-11-28T15:28:05.000+01:00",
-    "parent_ids": [
-      "210dc73662be565caaa86d78a20d75e6c37aac1b"
-    ],
-    "title": "Background: update for new lockscreen design (i.e. no separate lock wallpaper)",
-    "message": "Background: update for new lockscreen design (i.e. no separate lock wallpaper)\n",
-    "author_name": "Tobias Bernard",
-    "author_email": "tbernard@gnome.org",
-    "authored_date": "2019-11-28T15:28:05.000+01:00",
-    "committer_name": "Tobias Bernard",
-    "committer_email": "tbernard@gnome.org",
-    "committed_date": "2019-11-28T15:28:05.000+01:00",
-    "stats": {
-      "additions": 3860,
-      "deletions": 1922,
-      "total": 5782
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1207
-  },
-  {
     "id": "9c26ba9e3e9a7fada7be832304fbce2d9b2ea06d",
     "short_id": "9c26ba9e",
     "created_at": "2019-12-20T15:19:27.000+00:00",
@@ -2458,126 +2386,6 @@
     "project_id": 9467
   },
   {
-    "id": "b2dbcfc9295b64bb52dd23b686d49a06774e4231",
-    "short_id": "b2dbcfc9",
-    "created_at": "2019-11-28T16:04:56.000+01:00",
-    "parent_ids": [
-      "bbe98519518c052ea506c15934c6487a04e31d39"
-    ],
-    "title": "Sort the icons and fix some parsing issues",
-    "message": "Sort the icons and fix some parsing issues\n",
-    "author_name": "Bilal Elmoussaoui",
-    "author_email": "bil.elmoussaoui@gmail.com",
-    "authored_date": "2019-11-28T16:04:56.000+01:00",
-    "committer_name": "Bilal Elmoussaoui",
-    "committer_email": "bil.elmoussaoui@gmail.com",
-    "committed_date": "2019-11-28T16:04:56.000+01:00",
-    "stats": {
-      "additions": 82,
-      "deletions": 400,
-      "total": 482
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134237,
-      "sha": "b2dbcfc9295b64bb52dd23b686d49a06774e4231",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T15:04:51.553Z",
-      "updated_at": "2019-11-28T15:14:25.675Z",
-      "web_url": "https://gitlab.gnome.org/World/design/symbolic-preview/pipelines/134237"
-    },
-    "project_id": 9467
-  },
-  {
-    "id": "bbe98519518c052ea506c15934c6487a04e31d39",
-    "short_id": "bbe98519",
-    "created_at": "2019-11-28T02:52:21.000+01:00",
-    "parent_ids": [
-      "fdfbb7161690e57e80d0ba9419c3ae8373efa09c"
-    ],
-    "title": "Make it work with adwaita set, because why not",
-    "message": "Make it work with adwaita set, because why not\n",
-    "author_name": "Bilal Elmoussaoui",
-    "author_email": "bil.elmoussaoui@gmail.com",
-    "authored_date": "2019-11-28T02:52:21.000+01:00",
-    "committer_name": "Bilal Elmoussaoui",
-    "committer_email": "bil.elmoussaoui@gmail.com",
-    "committed_date": "2019-11-28T02:52:21.000+01:00",
-    "stats": {
-      "additions": 14,
-      "deletions": 10,
-      "total": 24
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134147,
-      "sha": "bbe98519518c052ea506c15934c6487a04e31d39",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T01:52:14.016Z",
-      "updated_at": "2019-11-28T01:57:55.347Z",
-      "web_url": "https://gitlab.gnome.org/World/design/symbolic-preview/pipelines/134147"
-    },
-    "project_id": 9467
-  },
-  {
-    "id": "fdfbb7161690e57e80d0ba9419c3ae8373efa09c",
-    "short_id": "fdfbb716",
-    "created_at": "2019-11-28T02:17:44.000+01:00",
-    "parent_ids": [
-      "6ebccfffc122a83e8b8a9d0169e11879877972f4"
-    ],
-    "title": "Metafiles: update name/description",
-    "message": "Metafiles: update name/description\n",
-    "author_name": "Bilal Elmoussaoui",
-    "author_email": "bil.elmoussaoui@gmail.com",
-    "authored_date": "2019-11-28T02:17:44.000+01:00",
-    "committer_name": "Bilal Elmoussaoui",
-    "committer_email": "bil.elmoussaoui@gmail.com",
-    "committed_date": "2019-11-28T02:17:44.000+01:00",
-    "stats": {
-      "additions": 6,
-      "deletions": 7,
-      "total": 13
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134146,
-      "sha": "fdfbb7161690e57e80d0ba9419c3ae8373efa09c",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T01:17:44.488Z",
-      "updated_at": "2019-11-28T01:24:22.463Z",
-      "web_url": "https://gitlab.gnome.org/World/design/symbolic-preview/pipelines/134146"
-    },
-    "project_id": 9467
-  },
-  {
-    "id": "6ebccfffc122a83e8b8a9d0169e11879877972f4",
-    "short_id": "6ebccfff",
-    "created_at": "2019-11-28T01:59:44.000+01:00",
-    "parent_ids": [
-      "d003902e232af0e2880259ea0721824280041849"
-    ],
-    "title": "Render the icons",
-    "message": "Render the icons\n\ncurrently, we are forced to save the icons in some tmp dir\nso we use that to display the icons, export them and so on.\n\nSee https://github.com/gtk-rs/cairo/issues/293\n",
-    "author_name": "Bilal Elmoussaoui",
-    "author_email": "bil.elmoussaoui@gmail.com",
-    "authored_date": "2019-11-28T01:59:44.000+01:00",
-    "committer_name": "Bilal Elmoussaoui",
-    "committer_email": "bil.elmoussaoui@gmail.com",
-    "committed_date": "2019-11-28T01:59:44.000+01:00",
-    "stats": {
-      "additions": 2205,
-      "deletions": 87,
-      "total": 2292
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 9467
-  },
-  {
     "id": "ec7005685425d35d79e0fd73739bd70606951141",
     "short_id": "ec700568",
     "created_at": "2019-11-29T11:52:01.000+01:00",
@@ -2602,52 +2410,316 @@
     "project_id": 9450
   },
   {
-    "id": "11009abb8131110769f862e7c4abffca347f8b21",
-    "short_id": "11009abb",
-    "created_at": "2019-11-28T14:31:19.000+01:00",
+    "id": "e9415ce7c8fc62522b702f048031598088f8b58e",
+    "short_id": "e9415ce7",
+    "created_at": "2019-12-28T11:02:56.000+01:00",
     "parent_ids": [
-      "d3b0a6f2faa873459db36006bf1cc45ac0602151"
+      "be8d1ed6368a53202cff319d6761d46de58a3dc8"
     ],
-    "title": "parse title property for icon-dev-kit",
-    "message": "parse title property for icon-dev-kit\n\nThis can be enabled by passing -t or --devkit as a argument\n",
+    "title": "Change app id to org.gnome.design.VectorSlicer",
+    "message": "Change app id to org.gnome.design.VectorSlicer\n\nFixes https://gitlab.gnome.org/World/design/vector-slicer/issues/2\n",
     "author_name": "Julian Sparber",
     "author_email": "julian@sparber.net",
-    "authored_date": "2019-03-17T12:16:48.000+01:00",
+    "authored_date": "2019-12-28T10:57:02.000+01:00",
     "committer_name": "Julian Sparber",
     "committer_email": "julian@sparber.net",
-    "committed_date": "2019-11-28T14:31:19.000+01:00",
+    "committed_date": "2019-12-28T11:02:56.000+01:00",
     "stats": {
-      "additions": 24,
-      "deletions": 1,
-      "total": 25
+      "additions": 45,
+      "deletions": 201,
+      "total": 246
     },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 9450
+    "status": "success",
+    "last_pipeline": {
+      "id": 139819,
+      "sha": "e9415ce7c8fc62522b702f048031598088f8b58e",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T10:47:57.979Z",
+      "updated_at": "2019-12-28T10:54:14.570Z",
+      "web_url": "https://gitlab.gnome.org/World/design/vector-slicer/pipelines/139819"
+    },
+    "project_id": 9242
   },
   {
-    "id": "d3b0a6f2faa873459db36006bf1cc45ac0602151",
-    "short_id": "d3b0a6f2",
-    "created_at": "2019-11-28T12:14:56.000+01:00",
+    "id": "be8d1ed6368a53202cff319d6761d46de58a3dc8",
+    "short_id": "be8d1ed6",
+    "created_at": "2019-12-25T10:27:51.000+01:00",
     "parent_ids": [
-      "cae2bca145cae3339bbf902425a091caacd060c3"
+      "ec58ea5af0919f83981a7dccc31affed05e69f00"
     ],
-    "title": "Readd css classes after export",
-    "message": "Readd css classes after export\n",
+    "title": "Change group ID to pages",
+    "message": "Change group ID to pages\n\nFixes https://gitlab.gnome.org/jsparber/vector-slicer/issues/1\n",
     "author_name": "Julian Sparber",
     "author_email": "julian@sparber.net",
-    "authored_date": "2019-11-28T12:14:56.000+01:00",
+    "authored_date": "2019-12-25T10:27:51.000+01:00",
     "committer_name": "Julian Sparber",
     "committer_email": "julian@sparber.net",
-    "committed_date": "2019-11-28T12:14:56.000+01:00",
+    "committed_date": "2019-12-25T10:27:51.000+01:00",
     "stats": {
-      "additions": 14,
-      "deletions": 5,
-      "total": 19
+      "additions": 1,
+      "deletions": 1,
+      "total": 2
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139433,
+      "sha": "be8d1ed6368a53202cff319d6761d46de58a3dc8",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-25T09:37:51.862Z",
+      "updated_at": "2019-12-25T09:47:17.699Z",
+      "web_url": "https://gitlab.gnome.org/World/design/vector-slicer/pipelines/139433"
+    },
+    "project_id": 9242
+  },
+  {
+    "id": "ec58ea5af0919f83981a7dccc31affed05e69f00",
+    "short_id": "ec58ea5a",
+    "created_at": "2019-12-24T23:41:40.000+01:00",
+    "parent_ids": [
+      "28bbddb87876189605e2ac8c638b5059b7535523"
+    ],
+    "title": "Readme: add how it works section",
+    "message": "Readme: add how it works section\n",
+    "author_name": "Tobias Bernard",
+    "author_email": "tbernard@gnome.org",
+    "authored_date": "2019-12-24T23:41:40.000+01:00",
+    "committer_name": "Tobias Bernard",
+    "committer_email": "tbernard@gnome.org",
+    "committed_date": "2019-12-24T23:41:40.000+01:00",
+    "stats": {
+      "additions": 11,
+      "deletions": 2,
+      "total": 13
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139391,
+      "sha": "ec58ea5af0919f83981a7dccc31affed05e69f00",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-25T00:16:20.538Z",
+      "updated_at": "2019-12-25T00:22:36.741Z",
+      "web_url": "https://gitlab.gnome.org/World/design/vector-slicer/pipelines/139391"
+    },
+    "project_id": 9242
+  },
+  {
+    "id": "28bbddb87876189605e2ac8c638b5059b7535523",
+    "short_id": "28bbddb8",
+    "created_at": "2019-12-23T20:50:33.000+00:00",
+    "parent_ids": [
+      "d2637d09a38557481bcd29629507ec8fa1cf5e03"
+    ],
+    "title": "Add app icon",
+    "message": "Add app icon\n",
+    "author_name": "Tobias Bernard",
+    "author_email": "tbernard@gnome.org",
+    "authored_date": "2019-12-23T21:47:06.000+01:00",
+    "committer_name": "Julian Sparber",
+    "committer_email": "julian@sparber.net",
+    "committed_date": "2019-12-23T20:50:33.000+00:00",
+    "stats": {
+      "additions": 4805,
+      "deletions": 1207,
+      "total": 6012
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139255,
+      "sha": "28bbddb87876189605e2ac8c638b5059b7535523",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-23T20:59:32.599Z",
+      "updated_at": "2019-12-23T21:05:48.622Z",
+      "web_url": "https://gitlab.gnome.org/World/design/vector-slicer/pipelines/139255"
+    },
+    "project_id": 9242
+  },
+  {
+    "id": "d2637d09a38557481bcd29629507ec8fa1cf5e03",
+    "short_id": "d2637d09",
+    "created_at": "2019-12-23T21:44:18.000+01:00",
+    "parent_ids": [
+      "99388531199dc81af58b98545ac87d2928f1662e"
+    ],
+    "title": "Update Cargo.lock",
+    "message": "Update Cargo.lock\n",
+    "author_name": "Julian Sparber",
+    "author_email": "julian@sparber.net",
+    "authored_date": "2019-12-23T21:26:15.000+01:00",
+    "committer_name": "Julian Sparber",
+    "committer_email": "julian@sparber.net",
+    "committed_date": "2019-12-23T21:44:18.000+01:00",
+    "stats": {
+      "additions": 783,
+      "deletions": 414,
+      "total": 1197
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139250,
+      "sha": "d2637d09a38557481bcd29629507ec8fa1cf5e03",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-23T20:50:08.184Z",
+      "updated_at": "2019-12-23T20:59:17.687Z",
+      "web_url": "https://gitlab.gnome.org/World/design/vector-slicer/pipelines/139250"
+    },
+    "project_id": 9242
+  },
+  {
+    "id": "99388531199dc81af58b98545ac87d2928f1662e",
+    "short_id": "99388531",
+    "created_at": "2019-12-23T21:44:18.000+01:00",
+    "parent_ids": [
+      "dccbe7c23ae9719db4ed45ddf05a4dd3e009f3f2"
+    ],
+    "title": "Use ci template",
+    "message": "Use ci template\n",
+    "author_name": "Julian Sparber",
+    "author_email": "julian@sparber.net",
+    "authored_date": "2019-12-23T21:13:21.000+01:00",
+    "committer_name": "Julian Sparber",
+    "committer_email": "julian@sparber.net",
+    "committed_date": "2019-12-23T21:44:18.000+01:00",
+    "stats": {
+      "additions": 21,
+      "deletions": 70,
+      "total": 91
     },
     "status": null,
     "last_pipeline": null,
-    "project_id": 9450
+    "project_id": 9242
+  },
+  {
+    "id": "dccbe7c23ae9719db4ed45ddf05a4dd3e009f3f2",
+    "short_id": "dccbe7c2",
+    "created_at": "2019-12-23T20:29:42.000+00:00",
+    "parent_ids": [
+      "33bb3c2e03af83c51df295253801e85f579e9732"
+    ],
+    "title": "Add template",
+    "message": "Add template\n",
+    "author_name": "Tobias Bernard",
+    "author_email": "tbernard@gnome.org",
+    "authored_date": "2019-12-23T21:27:55.000+01:00",
+    "committer_name": "Tobias Bernard",
+    "committer_email": "tbernard@gnome.org",
+    "committed_date": "2019-12-23T20:29:42.000+00:00",
+    "stats": {
+      "additions": 23675,
+      "deletions": 0,
+      "total": 23675
+    },
+    "status": "failed",
+    "last_pipeline": {
+      "id": 139247,
+      "sha": "dccbe7c23ae9719db4ed45ddf05a4dd3e009f3f2",
+      "ref": "master",
+      "status": "failed",
+      "created_at": "2019-12-23T20:35:52.084Z",
+      "updated_at": "2019-12-23T20:39:07.615Z",
+      "web_url": "https://gitlab.gnome.org/World/design/vector-slicer/pipelines/139247"
+    },
+    "project_id": 9242
+  },
+  {
+    "id": "33bb3c2e03af83c51df295253801e85f579e9732",
+    "short_id": "33bb3c2e",
+    "created_at": "2019-12-23T19:53:14.000+00:00",
+    "parent_ids": [
+      "39dc90145156e7453effa719eeb0666ed89a094c"
+    ],
+    "title": "UI: Left-align all labels in main view",
+    "message": "UI: Left-align all labels in main view\n",
+    "author_name": "Tobias Bernard",
+    "author_email": "tbernard@gnome.org",
+    "authored_date": "2019-12-23T20:48:16.000+01:00",
+    "committer_name": "Julian Sparber",
+    "committer_email": "julian@sparber.net",
+    "committed_date": "2019-12-23T19:53:14.000+00:00",
+    "stats": {
+      "additions": 6,
+      "deletions": 1,
+      "total": 7
+    },
+    "status": "failed",
+    "last_pipeline": {
+      "id": 139237,
+      "sha": "33bb3c2e03af83c51df295253801e85f579e9732",
+      "ref": "master",
+      "status": "failed",
+      "created_at": "2019-12-23T19:53:43.129Z",
+      "updated_at": "2019-12-23T19:56:00.861Z",
+      "web_url": "https://gitlab.gnome.org/World/design/vector-slicer/pipelines/139237"
+    },
+    "project_id": 9242
+  },
+  {
+    "id": "39dc90145156e7453effa719eeb0666ed89a094c",
+    "short_id": "39dc9014",
+    "created_at": "2019-12-09T17:32:46.000+00:00",
+    "parent_ids": [
+      "9a6dbe81ea83296110aa53da33097015e0c523fa"
+    ],
+    "title": "Update README.md",
+    "message": "Update README.md",
+    "author_name": "Julian Sparber",
+    "author_email": "julian@sparber.net",
+    "authored_date": "2019-12-09T17:32:46.000+00:00",
+    "committer_name": "Julian Sparber",
+    "committer_email": "julian@sparber.net",
+    "committed_date": "2019-12-09T17:32:46.000+00:00",
+    "stats": {
+      "additions": 10,
+      "deletions": 1,
+      "total": 11
+    },
+    "status": "failed",
+    "last_pipeline": {
+      "id": 136650,
+      "sha": "39dc90145156e7453effa719eeb0666ed89a094c",
+      "ref": "master",
+      "status": "failed",
+      "created_at": "2019-12-09T17:32:47.971Z",
+      "updated_at": "2019-12-09T17:35:01.350Z",
+      "web_url": "https://gitlab.gnome.org/World/design/vector-slicer/pipelines/136650"
+    },
+    "project_id": 9242
+  },
+  {
+    "id": "9a6dbe81ea83296110aa53da33097015e0c523fa",
+    "short_id": "9a6dbe81",
+    "created_at": "2019-12-02T16:07:48.000+01:00",
+    "parent_ids": [
+      "3a2ab508ca7f569372f32c249c28e5ff53e718cc"
+    ],
+    "title": "Add repository logo",
+    "message": "Add repository logo\n",
+    "author_name": "Tobias Bernard",
+    "author_email": "tbernard@gnome.org",
+    "authored_date": "2019-12-02T16:07:48.000+01:00",
+    "committer_name": "Tobias Bernard",
+    "committer_email": "tbernard@gnome.org",
+    "committed_date": "2019-12-02T16:07:48.000+01:00",
+    "stats": {
+      "additions": 101,
+      "deletions": 0,
+      "total": 101
+    },
+    "status": "failed",
+    "last_pipeline": {
+      "id": 135055,
+      "sha": "9a6dbe81ea83296110aa53da33097015e0c523fa",
+      "ref": "master",
+      "status": "failed",
+      "created_at": "2019-12-02T15:07:36.741Z",
+      "updated_at": "2019-12-02T15:11:54.126Z",
+      "web_url": "https://gitlab.gnome.org/World/design/vector-slicer/pipelines/135055"
+    },
+    "project_id": 9242
   },
   {
     "id": "41fd5ddbd91214730229f597387da85c512005b7",
@@ -3056,63 +3128,6 @@
       "updated_at": "2019-11-29T07:00:09.910Z",
       "web_url": "https://gitlab.gnome.org/World/design/icon-library/pipelines/134384"
     },
-    "project_id": 8035
-  },
-  {
-    "id": "aa859d2eb364c73eacd4468c88de66f6c964dc20",
-    "short_id": "aa859d2e",
-    "created_at": "2019-11-28T14:52:43.000+00:00",
-    "parent_ids": [
-      "eafc64c64722fd9143571004534e4aa939ebe898",
-      "6d359a2d8745afba4cec36ab652adc52513e6264"
-    ],
-    "title": "Merge branch 'piotrdrag/update-potfiles-191128' into 'master'",
-    "message": "Merge branch 'piotrdrag/update-potfiles-191128' into 'master'\n\nUpdate POTFILES.in 191128\n\nSee merge request World/design/icon-library!7",
-    "author_name": "Bilal Elmoussaoui",
-    "author_email": "bil.elmoussaoui@gmail.com",
-    "authored_date": "2019-11-28T14:52:43.000+00:00",
-    "committer_name": "Bilal Elmoussaoui",
-    "committer_email": "bil.elmoussaoui@gmail.com",
-    "committed_date": "2019-11-28T14:52:43.000+00:00",
-    "stats": {
-      "additions": 1,
-      "deletions": 1,
-      "total": 2
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134232,
-      "sha": "aa859d2eb364c73eacd4468c88de66f6c964dc20",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T14:52:46.755Z",
-      "updated_at": "2019-11-28T15:01:38.594Z",
-      "web_url": "https://gitlab.gnome.org/World/design/icon-library/pipelines/134232"
-    },
-    "project_id": 8035
-  },
-  {
-    "id": "6d359a2d8745afba4cec36ab652adc52513e6264",
-    "short_id": "6d359a2d",
-    "created_at": "2019-11-28T15:40:08.000+01:00",
-    "parent_ids": [
-      "eafc64c64722fd9143571004534e4aa939ebe898"
-    ],
-    "title": "Update POTFILES.in",
-    "message": "Update POTFILES.in\n",
-    "author_name": "Piotr Dr\u0105g",
-    "author_email": "piotrdrag@gmail.com",
-    "authored_date": "2019-11-28T15:40:08.000+01:00",
-    "committer_name": "Piotr Dr\u0105g",
-    "committer_email": "piotrdrag@gmail.com",
-    "committed_date": "2019-11-28T15:40:08.000+01:00",
-    "stats": {
-      "additions": 1,
-      "deletions": 1,
-      "total": 2
-    },
-    "status": null,
-    "last_pipeline": null,
     "project_id": 8035
   },
   {
@@ -5057,6 +5072,30 @@
     "project_id": 2905
   },
   {
+    "id": "b717fb6cd4df096be0d7a9e40233411e997af9b8",
+    "short_id": "b717fb6c",
+    "created_at": "2019-12-28T06:35:26.000+01:00",
+    "parent_ids": [
+      "745bbfff082a20e6bd1d41af0c01b576ee3cee14"
+    ],
+    "title": "Update Catalan translation",
+    "message": "Update Catalan translation\n",
+    "author_name": "Jordi Mas",
+    "author_email": "jmas@softcatala.org",
+    "authored_date": "2019-12-28T06:35:26.000+01:00",
+    "committer_name": "Jordi Mas",
+    "committer_email": "jmas@softcatala.org",
+    "committed_date": "2019-12-28T06:35:26.000+01:00",
+    "stats": {
+      "additions": 2,
+      "deletions": 2,
+      "total": 4
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1911
+  },
+  {
     "id": "745bbfff082a20e6bd1d41af0c01b576ee3cee14",
     "short_id": "745bbfff",
     "created_at": "2019-12-27T17:08:19.000+00:00",
@@ -5225,6 +5264,30 @@
     "project_id": 1911
   },
   {
+    "id": "45b591bf6be587163ba2ba33f6fc720c7784bce5",
+    "short_id": "45b591bf",
+    "created_at": "2019-12-28T06:47:35.000+01:00",
+    "parent_ids": [
+      "43101c3984a8bb4ed8a123e740b3242e39643272"
+    ],
+    "title": "Update Catalan translation",
+    "message": "Update Catalan translation\n",
+    "author_name": "Jordi Mas",
+    "author_email": "jmas@softcatala.org",
+    "authored_date": "2019-12-28T06:47:35.000+01:00",
+    "committer_name": "Jordi Mas",
+    "committer_email": "jmas@softcatala.org",
+    "committed_date": "2019-12-28T06:47:35.000+01:00",
+    "stats": {
+      "additions": 1,
+      "deletions": 1,
+      "total": 2
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1910
+  },
+  {
     "id": "43101c3984a8bb4ed8a123e740b3242e39643272",
     "short_id": "43101c39",
     "created_at": "2019-12-27T12:56:32.000+00:00",
@@ -5273,28 +5336,68 @@
     "project_id": 1910
   },
   {
-    "id": "d3e6ddbd1cd3cb9612c496f5ff1a0026b618a4bc",
-    "short_id": "d3e6ddbd",
-    "created_at": "2019-11-28T20:44:03.000+01:00",
+    "id": "6d686fdc47d16977f2231e6ebaf338577d8acc6f",
+    "short_id": "6d686fdc",
+    "created_at": "2019-12-28T15:26:02.000+00:00",
     "parent_ids": [
-      "b9e2f85797e892084ef34f0cfbde7b846f2eac88"
+      "e7dd03da7bc76a5456a45001904e9381533e09db"
     ],
-    "title": "Update Catalan translation",
-    "message": "Update Catalan translation\n",
-    "author_name": "Jordi Mas",
-    "author_email": "jmas@softcatala.org",
-    "authored_date": "2019-11-28T20:44:03.000+01:00",
-    "committer_name": "Jordi Mas",
-    "committer_email": "jmas@softcatala.org",
-    "committed_date": "2019-11-28T20:44:03.000+01:00",
+    "title": "Update Friulian translation",
+    "message": "Update Friulian translation\n",
+    "author_name": "Fabio Tomat",
+    "author_email": "f.t.public@gmail.com",
+    "authored_date": "2019-12-28T15:26:02.000+00:00",
+    "committer_name": "GNOME Translation Robot",
+    "committer_email": "gnome-sysadmin@gnome.org",
+    "committed_date": "2019-12-28T15:26:02.000+00:00",
     "stats": {
-      "additions": 6,
-      "deletions": 6,
-      "total": 12
+      "additions": 297,
+      "deletions": 288,
+      "total": 585
     },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1910
+    "status": "success",
+    "last_pipeline": {
+      "id": 139839,
+      "sha": "6d686fdc47d16977f2231e6ebaf338577d8acc6f",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T15:26:12.869Z",
+      "updated_at": "2019-12-28T15:31:53.934Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/epiphany/pipelines/139839"
+    },
+    "project_id": 1906
+  },
+  {
+    "id": "e7dd03da7bc76a5456a45001904e9381533e09db",
+    "short_id": "e7dd03da",
+    "created_at": "2019-12-28T12:37:44.000+01:00",
+    "parent_ids": [
+      "7973408975af80b237d3812e24c3ec1035880925"
+    ],
+    "title": "Switch from cppcheck to scanbuild",
+    "message": "Switch from cppcheck to scanbuild\n",
+    "author_name": "Jan-Michael Brummer",
+    "author_email": "jan.brummer@tabos.org",
+    "authored_date": "2019-12-23T01:43:48.000+01:00",
+    "committer_name": "Jan-Michael Brummer",
+    "committer_email": "jan.brummer@tabos.org",
+    "committed_date": "2019-12-28T12:37:44.000+01:00",
+    "stats": {
+      "additions": 21,
+      "deletions": 40,
+      "total": 61
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139832,
+      "sha": "e7dd03da7bc76a5456a45001904e9381533e09db",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T14:52:38.214Z",
+      "updated_at": "2019-12-28T15:01:16.067Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/epiphany/pipelines/139832"
+    },
+    "project_id": 1906
   },
   {
     "id": "7973408975af80b237d3812e24c3ec1035880925",
@@ -7185,92 +7288,60 @@
     "project_id": 1906
   },
   {
-    "id": "c7017b2137f4d12a1bbe066b612345291ea88620",
-    "short_id": "c7017b21",
-    "created_at": "2019-11-28T12:44:17.000-06:00",
+    "id": "629bbca0bf6f9ffe8ae5c7f3ec8255224c7f2d18",
+    "short_id": "629bbca0",
+    "created_at": "2019-12-28T14:50:05.000-06:00",
     "parent_ids": [
-      "39b21cc79ebe4c449510df7085d3c7cc367d6b68"
+      "421e41f408ebf0d0b5e0850ebd6c80022d5290d9"
     ],
-    "title": "Remove about:plugins leftovers",
-    "message": "Remove about:plugins leftovers\n\nThis page no longer exists.\n",
+    "title": "gnutls: ensure connection never fails without an error",
+    "message": "gnutls: ensure connection never fails without an error\n\nThis regressed in 18360afb03b5b23887f6f027bddb4f19c9fc4be8, when I\ncarelessly added a codepath that allows initialization to fail without\nan error.\n",
     "author_name": "Michael Catanzaro",
     "author_email": "mcatanzaro@gnome.org",
-    "authored_date": "2019-11-28T12:44:17.000-06:00",
+    "authored_date": "2019-12-28T14:47:19.000-06:00",
     "committer_name": "Michael Catanzaro",
     "committer_email": "mcatanzaro@gnome.org",
-    "committed_date": "2019-11-28T12:44:17.000-06:00",
+    "committed_date": "2019-12-28T14:50:05.000-06:00",
+    "stats": {
+      "additions": 6,
+      "deletions": 1,
+      "total": 7
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139877,
+      "sha": "629bbca0bf6f9ffe8ae5c7f3ec8255224c7f2d18",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T20:57:05.238Z",
+      "updated_at": "2019-12-28T21:01:03.614Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/glib-networking/pipelines/139877"
+    },
+    "project_id": 1905
+  },
+  {
+    "id": "421e41f408ebf0d0b5e0850ebd6c80022d5290d9",
+    "short_id": "421e41f4",
+    "created_at": "2019-12-28T14:44:34.000-06:00",
+    "parent_ids": [
+      "50b76e43e03086d82b7cc28d3f77400c141920d2"
+    ],
+    "title": "base: remove duplicate notifies",
+    "message": "base: remove duplicate notifies\n\nThis got copied into two different places by mistake.\n",
+    "author_name": "Michael Catanzaro",
+    "author_email": "mcatanzaro@gnome.org",
+    "authored_date": "2019-12-28T14:44:34.000-06:00",
+    "committer_name": "Michael Catanzaro",
+    "committer_email": "mcatanzaro@gnome.org",
+    "committed_date": "2019-12-28T14:44:34.000-06:00",
     "stats": {
       "additions": 0,
-      "deletions": 35,
-      "total": 35
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134298,
-      "sha": "c7017b2137f4d12a1bbe066b612345291ea88620",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T18:44:27.071Z",
-      "updated_at": "2019-11-28T18:52:31.354Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/epiphany/pipelines/134298"
-    },
-    "project_id": 1906
-  },
-  {
-    "id": "39b21cc79ebe4c449510df7085d3c7cc367d6b68",
-    "short_id": "39b21cc7",
-    "created_at": "2019-11-28T14:04:56.000+01:00",
-    "parent_ids": [
-      "b7381c715dfbf2c89b6face4b7f10e889cfd8e17"
-    ],
-    "title": "Enable Process Swap On (Cross-site) Navigation",
-    "message": "Enable Process Swap On (Cross-site) Navigation\n",
-    "author_name": "Carlos Garcia Campos",
-    "author_email": "cgarcia@igalia.com",
-    "authored_date": "2019-11-28T12:07:51.000+01:00",
-    "committer_name": "Carlos Garcia Campos",
-    "committer_email": "carlosgc@gnome.org",
-    "committed_date": "2019-11-28T14:04:56.000+01:00",
-    "stats": {
-      "additions": 12,
-      "deletions": 13,
-      "total": 25
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134258,
-      "sha": "39b21cc79ebe4c449510df7085d3c7cc367d6b68",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T16:51:29.298Z",
-      "updated_at": "2019-11-28T16:56:38.162Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/epiphany/pipelines/134258"
-    },
-    "project_id": 1906
-  },
-  {
-    "id": "b7381c715dfbf2c89b6face4b7f10e889cfd8e17",
-    "short_id": "b7381c71",
-    "created_at": "2019-11-28T14:04:56.000+01:00",
-    "parent_ids": [
-      "00a63a019221b53e4636d89000b4a9829905dd18"
-    ],
-    "title": "Use the new WebKit user messages API instead of DBus",
-    "message": "Use the new WebKit user messages API instead of DBus\n\nIt simplifies the code a lot and it's also a lot more efficient.\n",
-    "author_name": "Carlos Garcia Campos",
-    "author_email": "cgarcia@igalia.com",
-    "authored_date": "2019-11-28T12:06:13.000+01:00",
-    "committer_name": "Carlos Garcia Campos",
-    "committer_email": "carlosgc@gnome.org",
-    "committed_date": "2019-11-28T14:04:56.000+01:00",
-    "stats": {
-      "additions": 407,
-      "deletions": 1175,
-      "total": 1582
+      "deletions": 3,
+      "total": 3
     },
     "status": null,
     "last_pipeline": null,
-    "project_id": 1906
+    "project_id": 1905
   },
   {
     "id": "50b76e43e03086d82b7cc28d3f77400c141920d2",
@@ -7815,6 +7886,38 @@
       "web_url": "https://gitlab.gnome.org/GNOME/shotwell/pipelines/136953"
     },
     "project_id": 1898
+  },
+  {
+    "id": "8fdbf667014990b3827dde4a7167bb53bb0acfb2",
+    "short_id": "8fdbf667",
+    "created_at": "2019-12-28T16:21:54.000+01:00",
+    "parent_ids": [
+      "f56e75af35450f5f9732fc73e8c95703b17fbaee"
+    ],
+    "title": "Update Polish translation",
+    "message": "Update Polish translation\n",
+    "author_name": "Piotr Dr\u0105g",
+    "author_email": "piotrdrag@gmail.com",
+    "authored_date": "2019-12-28T16:21:23.000+01:00",
+    "committer_name": "Piotr Dr\u0105g",
+    "committer_email": "piotrdrag@gmail.com",
+    "committed_date": "2019-12-28T16:21:54.000+01:00",
+    "stats": {
+      "additions": 1178,
+      "deletions": 849,
+      "total": 2027
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139836,
+      "sha": "8fdbf667014990b3827dde4a7167bb53bb0acfb2",
+      "ref": "mainline",
+      "status": "success",
+      "created_at": "2019-12-28T15:21:42.870Z",
+      "updated_at": "2019-12-28T15:40:49.662Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/geary/pipelines/139836"
+    },
+    "project_id": 1894
   },
   {
     "id": "f56e75af35450f5f9732fc73e8c95703b17fbaee",
@@ -9917,62 +10020,6 @@
     "project_id": 1894
   },
   {
-    "id": "70dee4794dd08128fe803ef71aa69f12873b185b",
-    "short_id": "70dee479",
-    "created_at": "2019-11-28T15:37:06.000+01:00",
-    "parent_ids": [
-      "151d9aed863c310082ef663802436b3a73ded6c7"
-    ],
-    "title": "Update POTFILES.in",
-    "message": "Update POTFILES.in\n",
-    "author_name": "Piotr Dr\u0105g",
-    "author_email": "piotrdrag@gmail.com",
-    "authored_date": "2019-11-28T15:37:06.000+01:00",
-    "committer_name": "Piotr Dr\u0105g",
-    "committer_email": "piotrdrag@gmail.com",
-    "committed_date": "2019-11-28T15:37:06.000+01:00",
-    "stats": {
-      "additions": 1,
-      "deletions": 0,
-      "total": 1
-    },
-    "status": "failed",
-    "last_pipeline": {
-      "id": 134227,
-      "sha": "70dee4794dd08128fe803ef71aa69f12873b185b",
-      "ref": "mainline",
-      "status": "failed",
-      "created_at": "2019-11-28T14:36:55.340Z",
-      "updated_at": "2019-11-28T15:05:49.163Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/geary/pipelines/134227"
-    },
-    "project_id": 1894
-  },
-  {
-    "id": "eb36fd59296a576b7ccc4cc523ff851a8969b06d",
-    "short_id": "eb36fd59",
-    "created_at": "2019-11-28T11:33:28.000+01:00",
-    "parent_ids": [
-      "151d9aed863c310082ef663802436b3a73ded6c7"
-    ],
-    "title": "Highlight destination folder upon conversation DND",
-    "message": "Highlight destination folder upon conversation DND\n\nFurther utilises partially enabled automatic DND. Fixes #422.\n",
-    "author_name": "Chris Heywood",
-    "author_email": "15127-creywood@users.noreply.gitlab.gnome.org",
-    "authored_date": "2019-11-28T11:33:28.000+01:00",
-    "committer_name": "Chris Heywood",
-    "committer_email": "15127-creywood@users.noreply.gitlab.gnome.org",
-    "committed_date": "2019-11-28T11:33:28.000+01:00",
-    "stats": {
-      "additions": 10,
-      "deletions": 21,
-      "total": 31
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1894
-  },
-  {
     "id": "ca4b833b306eeea94058a19be5e7cdfdf9756966",
     "short_id": "ca4b833b",
     "created_at": "2019-12-01T23:59:31.000+01:00",
@@ -10399,30 +10446,6 @@
       "additions": 489,
       "deletions": 469,
       "total": 958
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1892
-  },
-  {
-    "id": "18939a24d21d6b7c6edd57a00a3a8a48f3aecec5",
-    "short_id": "18939a24",
-    "created_at": "2019-11-28T18:34:45.000+01:00",
-    "parent_ids": [
-      "ba1431442e68afdcbfd36c1c322d1a1769c7afd4"
-    ],
-    "title": "prefs: Fix getting/setting the encodings combo box",
-    "message": "prefs: Fix getting/setting the encodings combo box\n\nUsing active-id with GtkComboBox only works for flat models;\nso re-implement this for deeper models.\n\nhttps://gitlab.gnome.org/GNOME/vte/issues/40\n",
-    "author_name": "Christian Persch",
-    "author_email": "chpe@src.gnome.org",
-    "authored_date": "2019-11-28T18:34:45.000+01:00",
-    "committer_name": "Christian Persch",
-    "committer_email": "chpe@src.gnome.org",
-    "committed_date": "2019-11-28T18:34:45.000+01:00",
-    "stats": {
-      "additions": 98,
-      "deletions": 33,
-      "total": 131
     },
     "status": null,
     "last_pipeline": null,
@@ -11219,6 +11242,38 @@
     "status": null,
     "last_pipeline": null,
     "project_id": 1849
+  },
+  {
+    "id": "45ad58dff4a744a9ccace51b630dfa8be27f9b36",
+    "short_id": "45ad58df",
+    "created_at": "2019-12-28T21:39:11.000+01:00",
+    "parent_ids": [
+      "7cd99086ba2e3ed9e134b1bba4c8168ec67b8189"
+    ],
+    "title": "Issue #2674 - File/Open Recent opens the wrong document",
+    "message": "Issue #2674 - File/Open Recent opens the wrong document\n\nMust call gimp_action_init() from gimp_action_impl_init() or the\nsignal handlers to update label and tooltip will ever be installed.\nFound by Massimo.\n",
+    "author_name": "Michael Natterer",
+    "author_email": "mitch@gimp.org",
+    "authored_date": "2019-12-28T21:38:06.000+01:00",
+    "committer_name": "Michael Natterer",
+    "committer_email": "mitch@gimp.org",
+    "committed_date": "2019-12-28T21:39:11.000+01:00",
+    "stats": {
+      "additions": 2,
+      "deletions": 0,
+      "total": 2
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139874,
+      "sha": "45ad58dff4a744a9ccace51b630dfa8be27f9b36",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T20:39:28.501Z",
+      "updated_at": "2019-12-28T21:03:00.218Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/gimp/pipelines/139874"
+    },
+    "project_id": 1848
   },
   {
     "id": "7cd99086ba2e3ed9e134b1bba4c8168ec67b8189",
@@ -13967,62 +14022,6 @@
       "web_url": "https://gitlab.gnome.org/GNOME/gnome-menus/pipelines/136547"
     },
     "project_id": 1784
-  },
-  {
-    "id": "5b1a24d44a9c9b3ad819cf5bf993a4115d2859cd",
-    "short_id": "5b1a24d4",
-    "created_at": "2019-11-28T12:50:09.000+01:00",
-    "parent_ids": [
-      "87735e00336bd2ef0dbba14f24338f97983a1fc3"
-    ],
-    "title": "Add new EXSLT string tests to EXTRA_DIST",
-    "message": "Add new EXSLT string tests to EXTRA_DIST\n",
-    "author_name": "Nick Wellnhofer",
-    "author_email": "wellnhofer@aevum.de",
-    "authored_date": "2019-11-28T12:50:09.000+01:00",
-    "committer_name": "Nick Wellnhofer",
-    "committer_email": "wellnhofer@aevum.de",
-    "committed_date": "2019-11-28T12:50:09.000+01:00",
-    "stats": {
-      "additions": 2,
-      "deletions": 1,
-      "total": 3
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134198,
-      "sha": "5b1a24d44a9c9b3ad819cf5bf993a4115d2859cd",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T11:59:27.062Z",
-      "updated_at": "2019-11-28T12:03:57.795Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/libxslt/pipelines/134198"
-    },
-    "project_id": 1762
-  },
-  {
-    "id": "87735e00336bd2ef0dbba14f24338f97983a1fc3",
-    "short_id": "87735e00",
-    "created_at": "2019-11-28T12:48:07.000+01:00",
-    "parent_ids": [
-      "1db044d91d1965dc63236af43cada036f480529f"
-    ],
-    "title": "Add EXSLT str:encode-uri and str:decode-uri tests",
-    "message": "Add EXSLT str:encode-uri and str:decode-uri tests\n",
-    "author_name": "Afonso Bordado",
-    "author_email": "afonsobordado+gitlab@az8.co",
-    "authored_date": "2019-11-23T23:49:57.000+00:00",
-    "committer_name": "Nick Wellnhofer",
-    "committer_email": "wellnhofer@aevum.de",
-    "committed_date": "2019-11-28T12:48:07.000+01:00",
-    "stats": {
-      "additions": 77,
-      "deletions": 0,
-      "total": 77
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1762
   },
   {
     "id": "ed7d3d19a9c7a9b686d64664b0e4cdb725be2df5",
@@ -16870,126 +16869,6 @@
     "project_id": 1666
   },
   {
-    "id": "0b6c4efc7b65a2ccb30e6256c9aecbb0b83aca1d",
-    "short_id": "0b6c4efc",
-    "created_at": "2019-11-28T19:33:39.000+01:00",
-    "parent_ids": [
-      "7a0356be22702cd7c159c05806bc2ceb4a012df9"
-    ],
-    "title": "kerberos-identity: Drop the priv pointer",
-    "message": "kerberos-identity: Drop the priv pointer\n\nThe current GObject recommendation is to use the generated\nget_instance_private function instead of a separate priv pointer in the\ninstance struct. This saves one pointer per class in the hierarchy\nmultiplied by the number of instances of the type, and the function is\nfast enough because it only does pointer arithmetic.\n\nhttps://gitlab.gnome.org/GNOME/gnome-online-accounts/merge_requests/36\n",
-    "author_name": "Debarshi Ray",
-    "author_email": "debarshir@gnome.org",
-    "authored_date": "2019-11-28T18:37:40.000+01:00",
-    "committer_name": "Debarshi Ray",
-    "committer_email": "debarshir@gnome.org",
-    "committed_date": "2019-11-28T19:33:39.000+01:00",
-    "stats": {
-      "additions": 253,
-      "deletions": 255,
-      "total": 508
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1666
-  },
-  {
-    "id": "7a0356be22702cd7c159c05806bc2ceb4a012df9",
-    "short_id": "7a0356be",
-    "created_at": "2019-11-28T19:33:35.000+01:00",
-    "parent_ids": [
-      "4c763a166d24523bcdcad0be4e8ebd4883b70003"
-    ],
-    "title": "identity-service: Style fixes",
-    "message": "identity-service: Style fixes\n\nDon't use a separate line to initialize variables.\n\nhttps://gitlab.gnome.org/GNOME/gnome-online-accounts/merge_requests/36\n",
-    "author_name": "Debarshi Ray",
-    "author_email": "debarshir@gnome.org",
-    "authored_date": "2019-11-28T16:55:30.000+01:00",
-    "committer_name": "Debarshi Ray",
-    "committer_email": "debarshir@gnome.org",
-    "committed_date": "2019-11-28T19:33:35.000+01:00",
-    "stats": {
-      "additions": 4,
-      "deletions": 10,
-      "total": 14
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1666
-  },
-  {
-    "id": "4c763a166d24523bcdcad0be4e8ebd4883b70003",
-    "short_id": "4c763a16",
-    "created_at": "2019-11-28T19:33:31.000+01:00",
-    "parent_ids": [
-      "60185ec32aba92c42e183cb34f6d26d7959c121a"
-    ],
-    "title": "identity-service: Drop the priv pointer",
-    "message": "identity-service: Drop the priv pointer\n\nThe current GObject recommendation is to use the generated\nget_instance_private function instead of a separate priv pointer in the\ninstance struct. This saves one pointer per class in the hierarchy\nmultiplied by the number of instances of the type, and the function is\nfast enough because it only does pointer arithmetic.\n\nhttps://gitlab.gnome.org/GNOME/gnome-online-accounts/merge_requests/36\n",
-    "author_name": "Debarshi Ray",
-    "author_email": "debarshir@gnome.org",
-    "authored_date": "2019-11-28T16:57:45.000+01:00",
-    "committer_name": "Debarshi Ray",
-    "committer_email": "debarshir@gnome.org",
-    "committed_date": "2019-11-28T19:33:31.000+01:00",
-    "stats": {
-      "additions": 151,
-      "deletions": 102,
-      "total": 253
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1666
-  },
-  {
-    "id": "60185ec32aba92c42e183cb34f6d26d7959c121a",
-    "short_id": "60185ec3",
-    "created_at": "2019-11-28T19:33:28.000+01:00",
-    "parent_ids": [
-      "f39d25742162c8ada63222aa620e7ae50e40805f"
-    ],
-    "title": "kerberos-identity-manager: Drop the priv pointer",
-    "message": "kerberos-identity-manager: Drop the priv pointer\n\nThe current GObject recommendation is to use the generated\nget_instance_private function instead of a separate priv pointer in the\ninstance struct. This saves one pointer per class in the hierarchy\nmultiplied by the number of instances of the type, and the function is\nfast enough because it only does pointer arithmetic.\n\nhttps://gitlab.gnome.org/GNOME/gnome-online-accounts/merge_requests/36\n",
-    "author_name": "Debarshi Ray",
-    "author_email": "debarshir@gnome.org",
-    "authored_date": "2019-11-28T15:14:48.000+01:00",
-    "committer_name": "Debarshi Ray",
-    "committer_email": "debarshir@gnome.org",
-    "committed_date": "2019-11-28T19:33:28.000+01:00",
-    "stats": {
-      "additions": 193,
-      "deletions": 157,
-      "total": 350
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1666
-  },
-  {
-    "id": "f39d25742162c8ada63222aa620e7ae50e40805f",
-    "short_id": "f39d2574",
-    "created_at": "2019-11-28T19:33:22.000+01:00",
-    "parent_ids": [
-      "b62f0ffacd26176e6c03507938e44c6dd94bfbdb"
-    ],
-    "title": "alarm: Drop the priv pointer",
-    "message": "alarm: Drop the priv pointer\n\nThe current GObject recommendation is to use the generated\nget_instance_private function instead of a separate priv pointer in the\ninstance struct. This saves one pointer per class in the hierarchy\nmultiplied by the number of instances of the type, and the function is\nfast enough because it only does pointer arithmetic.\n\nhttps://gitlab.gnome.org/GNOME/gnome-online-accounts/merge_requests/36\n",
-    "author_name": "Debarshi Ray",
-    "author_email": "debarshir@gnome.org",
-    "authored_date": "2019-11-28T13:59:39.000+01:00",
-    "committer_name": "Debarshi Ray",
-    "committer_email": "debarshir@gnome.org",
-    "committed_date": "2019-11-28T19:33:22.000+01:00",
-    "stats": {
-      "additions": 94,
-      "deletions": 56,
-      "total": 150
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1666
-  },
-  {
     "id": "0815302dee2b78139832c2080348086a0564836b",
     "short_id": "0815302d",
     "created_at": "2019-12-06T12:27:29.000+01:00",
@@ -18303,20 +18182,20 @@
     "project_id": 1659
   },
   {
-    "id": "2bb33887ea575263b06cb7154f48ed8438c4b8cc",
-    "short_id": "2bb33887",
-    "created_at": "2019-11-28T13:40:00.000+00:00",
+    "id": "5bc236e4a66784461048cae00ff56751a63e2805",
+    "short_id": "5bc236e4",
+    "created_at": "2019-12-29T01:12:26.000+01:00",
     "parent_ids": [
-      "8c70b206dad19f8bbf1834a4bae62adf61443cde"
+      "49ecb7b051700bebaef23250f44d580befdcd1d2"
     ],
-    "title": "meson.build: Bump to 3.34.2",
-    "message": "meson.build: Bump to 3.34.2\n",
-    "author_name": "Iain Lane",
-    "author_email": "iainl@gnome.org",
-    "authored_date": "2019-11-28T13:40:00.000+00:00",
-    "committer_name": "Iain Lane",
-    "committer_email": "iainl@gnome.org",
-    "committed_date": "2019-11-28T13:40:00.000+00:00",
+    "title": "export-to-folder: Make the folder selector expand horizontally",
+    "message": "export-to-folder: Make the folder selector expand horizontally\n\nIf the dialog's default size is too small enlarging it can\nmake the button text/the folder readable again.\n",
+    "author_name": "Felix Riemann",
+    "author_email": "friemann@gnome.org",
+    "authored_date": "2019-12-29T01:10:46.000+01:00",
+    "committer_name": "Felix Riemann",
+    "committer_email": "friemann@gnome.org",
+    "committed_date": "2019-12-29T01:12:26.000+01:00",
     "stats": {
       "additions": 1,
       "deletions": 1,
@@ -18324,31 +18203,56 @@
     },
     "status": null,
     "last_pipeline": null,
-    "project_id": 1659
+    "project_id": 1658
   },
   {
-    "id": "8c70b206dad19f8bbf1834a4bae62adf61443cde",
-    "short_id": "8c70b206",
-    "created_at": "2019-11-28T13:39:45.000+00:00",
+    "id": "49ecb7b051700bebaef23250f44d580befdcd1d2",
+    "short_id": "49ecb7b0",
+    "created_at": "2019-12-29T01:11:11.000+01:00",
     "parent_ids": [
-      "29abfebe2f7fc3f1d0ff51dcd1da44abe59082d4"
+      "7883ead03b6fa22eb93eef6abba5551ed98d0165"
     ],
-    "title": "NEWS: Prepare for 3.34.2",
-    "message": "NEWS: Prepare for 3.34.2\n",
-    "author_name": "Iain Lane",
-    "author_email": "iainl@gnome.org",
-    "authored_date": "2019-11-28T13:39:45.000+00:00",
-    "committer_name": "Iain Lane",
-    "committer_email": "iainl@gnome.org",
-    "committed_date": "2019-11-28T13:39:45.000+00:00",
+    "title": "export-to-folder: Fix spacing to be more like eog's dialogs",
+    "message": "export-to-folder: Fix spacing to be more like eog's dialogs\n\neog commonly uses 12px spacing in its dialogs, not 10.\n",
+    "author_name": "Felix Riemann",
+    "author_email": "friemann@gnome.org",
+    "authored_date": "2019-12-29T00:45:33.000+01:00",
+    "committer_name": "Felix Riemann",
+    "committer_email": "friemann@gnome.org",
+    "committed_date": "2019-12-29T01:11:11.000+01:00",
     "stats": {
-      "additions": 14,
-      "deletions": 0,
-      "total": 14
+      "additions": 4,
+      "deletions": 8,
+      "total": 12
     },
     "status": null,
     "last_pipeline": null,
-    "project_id": 1659
+    "project_id": 1658
+  },
+  {
+    "id": "7883ead03b6fa22eb93eef6abba5551ed98d0165",
+    "short_id": "7883ead0",
+    "created_at": "2019-12-28T23:33:31.000+00:00",
+    "parent_ids": [
+      "f11f00ef631b3176578a23f39949a57ad7514ffa",
+      "676d80ce93c41e760d5b013c767607221be4583d"
+    ],
+    "title": "Merge branch 'master' into 'master'",
+    "message": "Merge branch 'master' into 'master'\n\nexport-to-folder: Fix setting target directory\n\nSee merge request GNOME/eog-plugins!1",
+    "author_name": "Felix Riemann",
+    "author_email": "friemann@gnome.org",
+    "authored_date": "2019-12-28T23:33:31.000+00:00",
+    "committer_name": "Felix Riemann",
+    "committer_email": "friemann@gnome.org",
+    "committed_date": "2019-12-28T23:33:31.000+00:00",
+    "stats": {
+      "additions": 5,
+      "deletions": 5,
+      "total": 10
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1658
   },
   {
     "id": "9494499738aedea3d594a2bfdffef56a84209f25",
@@ -18422,6 +18326,118 @@
     "status": null,
     "last_pipeline": null,
     "project_id": 1656
+  },
+  {
+    "id": "9ec8ceeb27bfb29543836192febae64e5752732d",
+    "short_id": "9ec8ceeb",
+    "created_at": "2019-12-28T07:05:35.000+01:00",
+    "parent_ids": [
+      "9e788d8289c4d4cda1ac4d409b5f05af6580eed5"
+    ],
+    "title": "Update Catalan translation",
+    "message": "Update Catalan translation\n",
+    "author_name": "Jordi Mas",
+    "author_email": "jmas@softcatala.org",
+    "authored_date": "2019-12-28T07:05:35.000+01:00",
+    "committer_name": "Jordi Mas",
+    "committer_email": "jmas@softcatala.org",
+    "committed_date": "2019-12-28T07:05:35.000+01:00",
+    "stats": {
+      "additions": 23,
+      "deletions": 23,
+      "total": 46
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139794,
+      "sha": "9ec8ceeb27bfb29543836192febae64e5752732d",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T06:05:25.644Z",
+      "updated_at": "2019-12-28T06:11:24.800Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/NetworkManager-openconnect/pipelines/139794"
+    },
+    "project_id": 1654
+  },
+  {
+    "id": "d4e90ead871157de3cede5bb8dea463247e6f58e",
+    "short_id": "d4e90ead",
+    "created_at": "2019-12-28T22:07:29.000+02:00",
+    "parent_ids": [
+      "3bd161954e3d4a6a479c31c13f0876b40ac049f2"
+    ],
+    "title": "redo session handling",
+    "message": "redo session handling\n",
+    "author_name": "Alberts Muktup\u0101vels",
+    "author_email": "alberts.muktupavels@gmail.com",
+    "authored_date": "2019-12-28T22:07:29.000+02:00",
+    "committer_name": "Alberts Muktup\u0101vels",
+    "committer_email": "alberts.muktupavels@gmail.com",
+    "committed_date": "2019-12-28T22:07:29.000+02:00",
+    "stats": {
+      "additions": 693,
+      "deletions": 539,
+      "total": 1232
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139872,
+      "sha": "d4e90ead871157de3cede5bb8dea463247e6f58e",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T20:12:20.053Z",
+      "updated_at": "2019-12-28T20:24:30.364Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/gnome-panel/pipelines/139872"
+    },
+    "project_id": 1653
+  },
+  {
+    "id": "3bd161954e3d4a6a479c31c13f0876b40ac049f2",
+    "short_id": "3bd16195",
+    "created_at": "2019-12-28T15:04:15.000+02:00",
+    "parent_ids": [
+      "7d80dfa0bc89b872685338aac98726628054ec63"
+    ],
+    "title": "move theme handling to GpApplication",
+    "message": "move theme handling to GpApplication\n",
+    "author_name": "Alberts Muktup\u0101vels",
+    "author_email": "alberts.muktupavels@gmail.com",
+    "authored_date": "2019-12-28T15:04:15.000+02:00",
+    "committer_name": "Alberts Muktup\u0101vels",
+    "committer_email": "alberts.muktupavels@gmail.com",
+    "committed_date": "2019-12-28T15:04:15.000+02:00",
+    "stats": {
+      "additions": 209,
+      "deletions": 145,
+      "total": 354
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1653
+  },
+  {
+    "id": "7d80dfa0bc89b872685338aac98726628054ec63",
+    "short_id": "7d80dfa0",
+    "created_at": "2019-12-28T14:34:20.000+02:00",
+    "parent_ids": [
+      "2a21a16ca1371dd19ae38e55fc290b87623f85de"
+    ],
+    "title": "add GpApplication",
+    "message": "add GpApplication\n",
+    "author_name": "Alberts Muktup\u0101vels",
+    "author_email": "alberts.muktupavels@gmail.com",
+    "authored_date": "2019-12-28T14:34:20.000+02:00",
+    "committer_name": "Alberts Muktup\u0101vels",
+    "committer_email": "alberts.muktupavels@gmail.com",
+    "committed_date": "2019-12-28T14:34:20.000+02:00",
+    "stats": {
+      "additions": 82,
+      "deletions": 0,
+      "total": 82
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1653
   },
   {
     "id": "2a21a16ca1371dd19ae38e55fc290b87623f85de",
@@ -19056,30 +19072,6 @@
     "project_id": 1651
   },
   {
-    "id": "cd4132479385efd6e05cd67ef2f5ccd8bc8173c3",
-    "short_id": "cd413247",
-    "created_at": "2019-11-28T12:32:44.000+01:00",
-    "parent_ids": [
-      "bf17ebc5f80e74c314805f3e6c36f3620fc57ae0"
-    ],
-    "title": "Updated Spanish Translation",
-    "message": "Updated Spanish Translation\n",
-    "author_name": "Daniel Mustieles",
-    "author_email": "daniel.mustieles@gmail.com",
-    "authored_date": "2019-11-28T12:32:44.000+01:00",
-    "committer_name": "Daniel Mustieles",
-    "committer_email": "daniel.mustieles@gmail.com",
-    "committed_date": "2019-11-28T12:32:44.000+01:00",
-    "stats": {
-      "additions": 95,
-      "deletions": 98,
-      "total": 193
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1651
-  },
-  {
     "id": "f53967737e7031ccc683df977d1a31f789d33ac6",
     "short_id": "f5396773",
     "created_at": "2019-12-13T14:33:39.000+01:00",
@@ -19194,30 +19186,6 @@
       "additions": 8,
       "deletions": 10,
       "total": 18
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1650
-  },
-  {
-    "id": "5953e917f3b90cb60d3037bc804d0dbcf4109c1a",
-    "short_id": "5953e917",
-    "created_at": "2019-11-28T09:21:06.000+01:00",
-    "parent_ids": [
-      "d3beb4ccc615fea095d337650e5e8a4f05e9fe30"
-    ],
-    "title": "Remove the Zeitgeist plugin",
-    "message": "Remove the Zeitgeist plugin\n\nFixes https://gitlab.gnome.org/GNOME/gedit-plugins/issues/9\n",
-    "author_name": "S\u00e9bastien Wilmet",
-    "author_email": "swilmet@gnome.org",
-    "authored_date": "2019-11-28T09:16:30.000+01:00",
-    "committer_name": "S\u00e9bastien Wilmet",
-    "committer_email": "swilmet@gnome.org",
-    "committed_date": "2019-11-28T09:21:06.000+01:00",
-    "stats": {
-      "additions": 0,
-      "deletions": 538,
-      "total": 538
     },
     "status": null,
     "last_pipeline": null,
@@ -21328,38 +21296,6 @@
     "project_id": 1638
   },
   {
-    "id": "eadc85dae16e20225bf833bda99000acb261e2a7",
-    "short_id": "eadc85da",
-    "created_at": "2019-11-28T13:48:41.000+01:00",
-    "parent_ids": [
-      "af60f91f7f5efde3a0733e4b0df1b196e61a5303"
-    ],
-    "title": "Updated Spanish translation",
-    "message": "Updated Spanish translation\n",
-    "author_name": "Daniel Mustieles",
-    "author_email": "daniel.mustieles@gmail.com",
-    "authored_date": "2019-11-28T13:48:41.000+01:00",
-    "committer_name": "Daniel Mustieles",
-    "committer_email": "daniel.mustieles@gmail.com",
-    "committed_date": "2019-11-28T13:48:41.000+01:00",
-    "stats": {
-      "additions": 1848,
-      "deletions": 889,
-      "total": 2737
-    },
-    "status": "failed",
-    "last_pipeline": {
-      "id": 134204,
-      "sha": "eadc85dae16e20225bf833bda99000acb261e2a7",
-      "ref": "master",
-      "status": "failed",
-      "created_at": "2019-11-28T12:48:27.651Z",
-      "updated_at": "2019-11-28T12:57:44.009Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gparted/pipelines/134204"
-    },
-    "project_id": 1638
-  },
-  {
     "id": "d15532f23054a410afbae118bac7bdfd66e8996d",
     "short_id": "d15532f2",
     "created_at": "2019-12-25T03:58:53.000+00:00",
@@ -21658,6 +21594,30 @@
     "project_id": 1630
   },
   {
+    "id": "580290761ecc28cfdb98d1d63999b1fa7be867db",
+    "short_id": "58029076",
+    "created_at": "2019-12-28T06:42:53.000+01:00",
+    "parent_ids": [
+      "68c05c27e7b6d3f69d5404cf962f9c644d6331b7"
+    ],
+    "title": "Update Catalan translation",
+    "message": "Update Catalan translation\n",
+    "author_name": "Jordi Mas",
+    "author_email": "jmas@softcatala.org",
+    "authored_date": "2019-12-28T06:42:53.000+01:00",
+    "committer_name": "Jordi Mas",
+    "committer_email": "jmas@softcatala.org",
+    "committed_date": "2019-12-28T06:42:53.000+01:00",
+    "stats": {
+      "additions": 1,
+      "deletions": 3,
+      "total": 4
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1629
+  },
+  {
     "id": "68c05c27e7b6d3f69d5404cf962f9c644d6331b7",
     "short_id": "68c05c27",
     "created_at": "2019-12-25T01:22:09.000+00:00",
@@ -21864,6 +21824,30 @@
     "status": null,
     "last_pipeline": null,
     "project_id": 1625
+  },
+  {
+    "id": "f91b0cea9f1173ac860491a37fc158086f344ded",
+    "short_id": "f91b0cea",
+    "created_at": "2019-12-28T19:01:18.000+01:00",
+    "parent_ids": [
+      "8c0d960ca5d41c350dacf8f6b2659d559b4afa68"
+    ],
+    "title": "Update Polish translation",
+    "message": "Update Polish translation\n",
+    "author_name": "Piotr Dr\u0105g",
+    "author_email": "piotrdrag@gmail.com",
+    "authored_date": "2019-12-28T19:01:18.000+01:00",
+    "committer_name": "Piotr Dr\u0105g",
+    "committer_email": "piotrdrag@gmail.com",
+    "committed_date": "2019-12-28T19:01:18.000+01:00",
+    "stats": {
+      "additions": 937,
+      "deletions": 548,
+      "total": 1485
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1624
   },
   {
     "id": "8c0d960ca5d41c350dacf8f6b2659d559b4afa68",
@@ -23189,30 +23173,6 @@
     "project_id": 1621
   },
   {
-    "id": "6f1a480b8d1a4db83cd5ce8bd3df23dae001dbab",
-    "short_id": "6f1a480b",
-    "created_at": "2019-11-28T14:48:16.000+01:00",
-    "parent_ids": [
-      "355287f65584f817f699dae09b4a934b0f711863"
-    ],
-    "title": "Don't crash on unknown command-line options",
-    "message": "Don't crash on unknown command-line options\n\ngnome-desktop-testing-runner --foo\nmade it crash because it tried to access a number of arrays which\nweren't allocated at option parsing time. Simply allocate them so we\naccess empty arrays instead of dereference a NULL pointer.\n",
-    "author_name": "Bastien Nocera",
-    "author_email": "hadess@hadess.net",
-    "authored_date": "2019-11-28T14:48:16.000+01:00",
-    "committer_name": "Bastien Nocera",
-    "committer_email": "hadess@hadess.net",
-    "committed_date": "2019-11-28T14:48:16.000+01:00",
-    "stats": {
-      "additions": 3,
-      "deletions": 4,
-      "total": 7
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1621
-  },
-  {
     "id": "81ee58026d8e7505be8bb64d35481856e2a3f4ad",
     "short_id": "81ee5802",
     "created_at": "2019-12-09T09:22:39.000-06:00",
@@ -23331,6 +23291,166 @@
       "web_url": "https://gitlab.gnome.org/GNOME/gnome-bluetooth/pipelines/139649"
     },
     "project_id": 1617
+  },
+  {
+    "id": "d703ff50f41bc113ec011129293335a53515c526",
+    "short_id": "d703ff50",
+    "created_at": "2019-12-28T20:32:11.000+02:00",
+    "parent_ids": [
+      "608d0ee834fde1c033d532b2b2cf1e929270a6b0"
+    ],
+    "title": "main: redo session handling",
+    "message": "main: redo session handling\n",
+    "author_name": "Alberts Muktup\u0101vels",
+    "author_email": "alberts.muktupavels@gmail.com",
+    "authored_date": "2019-12-28T20:32:11.000+02:00",
+    "committer_name": "Alberts Muktup\u0101vels",
+    "committer_email": "alberts.muktupavels@gmail.com",
+    "committed_date": "2019-12-28T20:32:11.000+02:00",
+    "stats": {
+      "additions": 431,
+      "deletions": 279,
+      "total": 710
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139865,
+      "sha": "d703ff50f41bc113ec011129293335a53515c526",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T19:11:32.927Z",
+      "updated_at": "2019-12-28T19:19:12.303Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/gnome-flashback/pipelines/139865"
+    },
+    "project_id": 1616
+  },
+  {
+    "id": "608d0ee834fde1c033d532b2b2cf1e929270a6b0",
+    "short_id": "608d0ee8",
+    "created_at": "2019-12-28T20:16:16.000+02:00",
+    "parent_ids": [
+      "d3b19820fd6f2e86e3607bedda7c88d962a371e5"
+    ],
+    "title": "data: don't set AutoRestart hint",
+    "message": "data: don't set AutoRestart hint\n",
+    "author_name": "Alberts Muktup\u0101vels",
+    "author_email": "alberts.muktupavels@gmail.com",
+    "authored_date": "2019-12-28T20:16:16.000+02:00",
+    "committer_name": "Alberts Muktup\u0101vels",
+    "committer_email": "alberts.muktupavels@gmail.com",
+    "committed_date": "2019-12-28T20:16:16.000+02:00",
+    "stats": {
+      "additions": 1,
+      "deletions": 1,
+      "total": 2
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1616
+  },
+  {
+    "id": "d3b19820fd6f2e86e3607bedda7c88d962a371e5",
+    "short_id": "d3b19820",
+    "created_at": "2019-12-28T18:47:12.000+02:00",
+    "parent_ids": [
+      "fc291d44670a81ee4bafb0e033eae76ee56f4c0b"
+    ],
+    "title": "dbus: add two session manager interfaces",
+    "message": "dbus: add two session manager interfaces\n",
+    "author_name": "Alberts Muktup\u0101vels",
+    "author_email": "alberts.muktupavels@gmail.com",
+    "authored_date": "2019-12-28T18:47:12.000+02:00",
+    "committer_name": "Alberts Muktup\u0101vels",
+    "committer_email": "alberts.muktupavels@gmail.com",
+    "committed_date": "2019-12-28T18:47:12.000+02:00",
+    "stats": {
+      "additions": 70,
+      "deletions": 0,
+      "total": 70
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1616
+  },
+  {
+    "id": "fc291d44670a81ee4bafb0e033eae76ee56f4c0b",
+    "short_id": "fc291d44",
+    "created_at": "2019-12-28T18:40:21.000+02:00",
+    "parent_ids": [
+      "b1a714a4fe8542ed0ad440d85bae256639cd35d1"
+    ],
+    "title": "main: fix exit status when printing version",
+    "message": "main: fix exit status when printing version\n",
+    "author_name": "Alberts Muktup\u0101vels",
+    "author_email": "alberts.muktupavels@gmail.com",
+    "authored_date": "2019-12-28T16:53:10.000+02:00",
+    "committer_name": "Alberts Muktup\u0101vels",
+    "committer_email": "alberts.muktupavels@gmail.com",
+    "committed_date": "2019-12-28T18:40:21.000+02:00",
+    "stats": {
+      "additions": 1,
+      "deletions": 1,
+      "total": 2
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1616
+  },
+  {
+    "id": "b1a714a4fe8542ed0ad440d85bae256639cd35d1",
+    "short_id": "b1a714a4",
+    "created_at": "2019-12-28T18:40:21.000+02:00",
+    "parent_ids": [
+      "621a4bc3e09407e8fca74d1d3186bb15a9f922eb"
+    ],
+    "title": "main: remove debug option",
+    "message": "main: remove debug option\n",
+    "author_name": "Alberts Muktup\u0101vels",
+    "author_email": "alberts.muktupavels@gmail.com",
+    "authored_date": "2019-12-28T16:51:52.000+02:00",
+    "committer_name": "Alberts Muktup\u0101vels",
+    "committer_email": "alberts.muktupavels@gmail.com",
+    "committed_date": "2019-12-28T18:40:21.000+02:00",
+    "stats": {
+      "additions": 0,
+      "deletions": 10,
+      "total": 10
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1616
+  },
+  {
+    "id": "621a4bc3e09407e8fca74d1d3186bb15a9f922eb",
+    "short_id": "621a4bc3",
+    "created_at": "2019-12-28T16:25:24.000+01:00",
+    "parent_ids": [
+      "7179ecc834280521c31dd934a25d67c6f9259b12"
+    ],
+    "title": "Update Polish translation",
+    "message": "Update Polish translation\n",
+    "author_name": "Piotr Dr\u0105g",
+    "author_email": "piotrdrag@gmail.com",
+    "authored_date": "2019-12-28T16:25:24.000+01:00",
+    "committer_name": "Piotr Dr\u0105g",
+    "committer_email": "piotrdrag@gmail.com",
+    "committed_date": "2019-12-28T16:25:24.000+01:00",
+    "stats": {
+      "additions": 84,
+      "deletions": 104,
+      "total": 188
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139838,
+      "sha": "621a4bc3e09407e8fca74d1d3186bb15a9f922eb",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T15:25:11.423Z",
+      "updated_at": "2019-12-28T15:38:23.252Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/gnome-flashback/pipelines/139838"
+    },
+    "project_id": 1616
   },
   {
     "id": "7179ecc834280521c31dd934a25d67c6f9259b12",
@@ -25381,6 +25501,38 @@
     "project_id": 1616
   },
   {
+    "id": "41ca220ae5a28dbf78c252c99633885248f4364c",
+    "short_id": "41ca220a",
+    "created_at": "2019-12-28T07:12:04.000+01:00",
+    "parent_ids": [
+      "4b5ca6bd19a4675b469ee81c952ebde31824a2be"
+    ],
+    "title": "Fixx to Spanish translation",
+    "message": "Fixx to Spanish translation\n",
+    "author_name": "Jordi Mas",
+    "author_email": "jmas@softcatala.org",
+    "authored_date": "2019-12-28T07:12:04.000+01:00",
+    "committer_name": "Jordi Mas",
+    "committer_email": "jmas@softcatala.org",
+    "committed_date": "2019-12-28T07:12:04.000+01:00",
+    "stats": {
+      "additions": 1,
+      "deletions": 1,
+      "total": 2
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139795,
+      "sha": "41ca220ae5a28dbf78c252c99633885248f4364c",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T06:12:02.598Z",
+      "updated_at": "2019-12-28T06:24:55.736Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/network-manager-applet/pipelines/139795"
+    },
+    "project_id": 1615
+  },
+  {
     "id": "4b5ca6bd19a4675b469ee81c952ebde31824a2be",
     "short_id": "4b5ca6bd",
     "created_at": "2019-12-27T21:50:06.000+00:00",
@@ -26414,78 +26566,6 @@
     "project_id": 1610
   },
   {
-    "id": "5ba2d4e0fb16a572a9fd06cb0a71c32f13dc6652",
-    "short_id": "5ba2d4e0",
-    "created_at": "2019-11-29T07:31:14.000+08:00",
-    "parent_ids": [
-      "0cb8ec3b94056b566495b9cddf073f5e188d27c9"
-    ],
-    "title": "css.lang: Allow embedding languages to disable error highlighting",
-    "message": "css.lang: Allow embedding languages to disable error highlighting\n\nThis adds \"-highlighting\" and \"-highlighting-no-error\" contexts, to\nallow embedding languages to disable error highlighting for invalid\n@charset rules and :not() pseudo-classes.\n",
-    "author_name": "Jeffery To",
-    "author_email": "jeffery.to@gmail.com",
-    "authored_date": "2019-11-29T07:20:46.000+08:00",
-    "committer_name": "Jeffery To",
-    "committer_email": "jeffery.to@gmail.com",
-    "committed_date": "2019-11-29T07:31:14.000+08:00",
-    "stats": {
-      "additions": 48,
-      "deletions": 4,
-      "total": 52
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1610
-  },
-  {
-    "id": "0cb8ec3b94056b566495b9cddf073f5e188d27c9",
-    "short_id": "0cb8ec3b",
-    "created_at": "2019-11-29T07:31:11.000+08:00",
-    "parent_ids": [
-      "e0c1dbb68706aeca387fd97fc6c701a2e6c72ae2"
-    ],
-    "title": "css.lang (and family): Add embedded-lang-hook contexts",
-    "message": "css.lang (and family): Add embedded-lang-hook contexts\n\nThis allows CSS highlighting inside <style> elements of HTML files to\nend wherever a </style> tag is present, and allows PHP code (<?php ...\n?>) inside of PHP files to be properly highlighted inside <style>\nelements.\n",
-    "author_name": "Jeffery To",
-    "author_email": "jeffery.to@gmail.com",
-    "authored_date": "2019-11-29T06:57:01.000+08:00",
-    "committer_name": "Jeffery To",
-    "committer_email": "jeffery.to@gmail.com",
-    "committed_date": "2019-11-29T07:31:11.000+08:00",
-    "stats": {
-      "additions": 184,
-      "deletions": 5,
-      "total": 189
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1610
-  },
-  {
-    "id": "e0c1dbb68706aeca387fd97fc6c701a2e6c72ae2",
-    "short_id": "e0c1dbb6",
-    "created_at": "2019-11-29T06:34:25.000+08:00",
-    "parent_ids": [
-      "d24f99323f8defee118d4e9f390fe39649ca6a35"
-    ],
-    "title": "css.lang (and family): Define own comment contexts",
-    "message": "css.lang (and family): Define own comment contexts\n\nThis will allow comment content to be modified without\nmodifying/replacing def:in-comment.\n",
-    "author_name": "Jeffery To",
-    "author_email": "jeffery.to@gmail.com",
-    "authored_date": "2019-11-29T06:34:25.000+08:00",
-    "committer_name": "Jeffery To",
-    "committer_email": "jeffery.to@gmail.com",
-    "committed_date": "2019-11-29T06:34:25.000+08:00",
-    "stats": {
-      "additions": 33,
-      "deletions": 9,
-      "total": 42
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1610
-  },
-  {
     "id": "b4f156a9be00a1e8f8019706d0c39b6b1da29d4b",
     "short_id": "b4f156a9",
     "created_at": "2019-12-27T11:24:06.000+00:00",
@@ -27056,30 +27136,6 @@
       "additions": 45,
       "deletions": 5,
       "total": 50
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1604
-  },
-  {
-    "id": "a4f2d8e2fa5d4d36172c73c9aba98c8f62e2e26d",
-    "short_id": "a4f2d8e2",
-    "created_at": "2019-11-28T21:01:22.000+01:00",
-    "parent_ids": [
-      "4888d9148a8690ac4a8b62d06ae10a73b410f4f6"
-    ],
-    "title": "Update Catalan translation",
-    "message": "Update Catalan translation\n",
-    "author_name": "Jordi Mas",
-    "author_email": "jmas@softcatala.org",
-    "authored_date": "2019-11-28T21:01:22.000+01:00",
-    "committer_name": "Jordi Mas",
-    "committer_email": "jmas@softcatala.org",
-    "committed_date": "2019-11-28T21:01:22.000+01:00",
-    "stats": {
-      "additions": 20,
-      "deletions": 20,
-      "total": 40
     },
     "status": null,
     "last_pipeline": null,
@@ -30950,13 +31006,13 @@
     },
     "status": "success",
     "last_pipeline": {
-      "id": 139676,
+      "id": 139796,
       "sha": "00717e53665feace0283a8a8c806beb73ffca4ef",
       "ref": "master",
       "status": "success",
-      "created_at": "2019-12-27T15:25:15.680Z",
-      "updated_at": "2019-12-27T15:34:23.425Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/eog/pipelines/139676"
+      "created_at": "2019-12-28T06:19:26.473Z",
+      "updated_at": "2019-12-28T06:26:02.970Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/eog/pipelines/139796"
     },
     "project_id": 1596
   },
@@ -31400,6 +31456,54 @@
       "web_url": "https://gitlab.gnome.org/GNOME/gnome-screenshot/pipelines/139661"
     },
     "project_id": 1595
+  },
+  {
+    "id": "8fbe1fb1d57b1915bbafde87e9a7af36b94a0269",
+    "short_id": "8fbe1fb1",
+    "created_at": "2019-12-28T19:02:34.000+01:00",
+    "parent_ids": [
+      "d650d52dcfe354cd0db330a188beac1f4ea4703c"
+    ],
+    "title": "Updated Italian translation",
+    "message": "Updated Italian translation\n",
+    "author_name": "Marco Ciampa",
+    "author_email": "ciampix@posteo.net",
+    "authored_date": "2019-12-28T19:02:34.000+01:00",
+    "committer_name": "Marco Ciampa",
+    "committer_email": "ciampix@posteo.net",
+    "committed_date": "2019-12-28T19:02:34.000+01:00",
+    "stats": {
+      "additions": 22,
+      "deletions": 46,
+      "total": 68
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1594
+  },
+  {
+    "id": "d650d52dcfe354cd0db330a188beac1f4ea4703c",
+    "short_id": "d650d52d",
+    "created_at": "2019-12-28T11:55:21.000+00:00",
+    "parent_ids": [
+      "a495049490cedb5439c7444f53b7f80ff6c41666"
+    ],
+    "title": "Update Spanish translation",
+    "message": "Update Spanish translation\n",
+    "author_name": "Rodrigo Lled\u00f3",
+    "author_email": "rodhos92@gmail.com",
+    "authored_date": "2019-12-28T11:55:21.000+00:00",
+    "committer_name": "GNOME Translation Robot",
+    "committer_email": "gnome-sysadmin@gnome.org",
+    "committed_date": "2019-12-28T11:55:21.000+00:00",
+    "stats": {
+      "additions": 95,
+      "deletions": 49,
+      "total": 144
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 1594
   },
   {
     "id": "a495049490cedb5439c7444f53b7f80ff6c41666",
@@ -32260,30 +32364,6 @@
       "additions": 51,
       "deletions": 50,
       "total": 101
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1594
-  },
-  {
-    "id": "ec27dae4b7bf0d2d5e774e6127d10454829d6312",
-    "short_id": "ec27dae4",
-    "created_at": "2019-11-28T21:26:21.000+01:00",
-    "parent_ids": [
-      "bf4e0cddd006731ca906774f319c59f7a3624a3c"
-    ],
-    "title": "Update Catalan translation",
-    "message": "Update Catalan translation\n",
-    "author_name": "Jordi Mas",
-    "author_email": "jmas@softcatala.org",
-    "authored_date": "2019-11-28T21:26:21.000+01:00",
-    "committer_name": "Jordi Mas",
-    "committer_email": "jmas@softcatala.org",
-    "committed_date": "2019-11-28T21:26:21.000+01:00",
-    "stats": {
-      "additions": 2170,
-      "deletions": 1752,
-      "total": 3922
     },
     "status": null,
     "last_pipeline": null,
@@ -34019,38 +34099,6 @@
     "project_id": 1557
   },
   {
-    "id": "67b5a4039a12dab6548241fefe9172a0329c81db",
-    "short_id": "67b5a403",
-    "created_at": "2019-11-28T22:10:10.000+00:00",
-    "parent_ids": [
-      "836f25a71473bfc1ca2a04320d50c3563f40ef6d"
-    ],
-    "title": "Update Greek translation",
-    "message": "Update Greek translation\n",
-    "author_name": "Efstathios Iosifidis",
-    "author_email": "eiosifidis@gnome.org",
-    "authored_date": "2019-11-28T22:10:10.000+00:00",
-    "committer_name": "GNOME Translation Robot",
-    "committer_email": "gnome-sysadmin@gnome.org",
-    "committed_date": "2019-11-28T22:10:10.000+00:00",
-    "stats": {
-      "additions": 37,
-      "deletions": 32,
-      "total": 69
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134342,
-      "sha": "67b5a4039a12dab6548241fefe9172a0329c81db",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T22:09:00.344Z",
-      "updated_at": "2019-11-28T22:16:17.413Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/seahorse/pipelines/134342"
-    },
-    "project_id": 1557
-  },
-  {
     "id": "4e78d7713e80ce0b3044979e848b78229a1b6061",
     "short_id": "4e78d771",
     "created_at": "2019-12-21T21:23:28.000+01:00",
@@ -35469,38 +35517,6 @@
       "created_at": "2019-11-30T15:39:32.102Z",
       "updated_at": "2019-11-30T15:47:56.916Z",
       "web_url": "https://gitlab.gnome.org/GNOME/evince/pipelines/134679"
-    },
-    "project_id": 1542
-  },
-  {
-    "id": "ceb255c9d3298e5c35fcdae614e7c24bdc2af869",
-    "short_id": "ceb255c9",
-    "created_at": "2019-11-28T21:13:34.000+01:00",
-    "parent_ids": [
-      "6caf0880dcb6c4a3b14f5b970c34132e62ae1500"
-    ],
-    "title": "Update Catalan translation",
-    "message": "Update Catalan translation\n",
-    "author_name": "Jordi Mas",
-    "author_email": "jmas@softcatala.org",
-    "authored_date": "2019-11-28T21:13:34.000+01:00",
-    "committer_name": "Jordi Mas",
-    "committer_email": "jmas@softcatala.org",
-    "committed_date": "2019-11-28T21:13:34.000+01:00",
-    "stats": {
-      "additions": 2,
-      "deletions": 2,
-      "total": 4
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134317,
-      "sha": "ceb255c9d3298e5c35fcdae614e7c24bdc2af869",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T20:13:23.019Z",
-      "updated_at": "2019-11-28T20:22:54.000Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/evince/pipelines/134317"
     },
     "project_id": 1542
   },
@@ -37105,38 +37121,6 @@
     "project_id": 1525
   },
   {
-    "id": "39d7c6abb3022d610b3b53aba4b6efc76d3882d3",
-    "short_id": "39d7c6ab",
-    "created_at": "2019-11-28T13:41:04.000+01:00",
-    "parent_ids": [
-      "de100dc198f0a72b0045aab442d8be2d8d6d8940"
-    ],
-    "title": "Update Catalan translation",
-    "message": "Update Catalan translation\n",
-    "author_name": "Jordi Mas",
-    "author_email": "jmas@softcatala.org",
-    "authored_date": "2019-11-28T13:41:04.000+01:00",
-    "committer_name": "Jordi Mas",
-    "committer_email": "jmas@softcatala.org",
-    "committed_date": "2019-11-28T13:41:04.000+01:00",
-    "stats": {
-      "additions": 31,
-      "deletions": 31,
-      "total": 62
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134202,
-      "sha": "39d7c6abb3022d610b3b53aba4b6efc76d3882d3",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T12:40:58.318Z",
-      "updated_at": "2019-11-28T12:43:04.846Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gnome-sudoku/pipelines/134202"
-    },
-    "project_id": 1525
-  },
-  {
     "id": "17e956d7e0e2583f406f06673e8cd8a94288d0de",
     "short_id": "17e956d7",
     "created_at": "2019-12-14T18:15:40.000+00:00",
@@ -37231,6 +37215,38 @@
       "web_url": "https://gitlab.gnome.org/GNOME/gnome-klotski/pipelines/139586"
     },
     "project_id": 1521
+  },
+  {
+    "id": "4aa0d4e187840d3691184492e25cca0cef03008e",
+    "short_id": "4aa0d4e1",
+    "created_at": "2019-12-28T15:35:16.000+00:00",
+    "parent_ids": [
+      "26ee7b485f3f4785e9da68cfe2bfa2f09068ad40"
+    ],
+    "title": "Update Friulian translation",
+    "message": "Update Friulian translation\n",
+    "author_name": "Fabio Tomat",
+    "author_email": "f.t.public@gmail.com",
+    "authored_date": "2019-12-28T15:35:16.000+00:00",
+    "committer_name": "GNOME Translation Robot",
+    "committer_email": "gnome-sysadmin@gnome.org",
+    "committed_date": "2019-12-28T15:35:16.000+00:00",
+    "stats": {
+      "additions": 336,
+      "deletions": 69,
+      "total": 405
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139841,
+      "sha": "4aa0d4e187840d3691184492e25cca0cef03008e",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T15:35:28.481Z",
+      "updated_at": "2019-12-28T15:37:30.957Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/four-in-a-row/pipelines/139841"
+    },
+    "project_id": 1520
   },
   {
     "id": "26ee7b485f3f4785e9da68cfe2bfa2f09068ad40",
@@ -39201,30 +39217,6 @@
     "project_id": 1518
   },
   {
-    "id": "3d6445d6de6f89f07276b68257bdc355dc87f0cd",
-    "short_id": "3d6445d6",
-    "created_at": "2019-11-28T13:15:42.000+01:00",
-    "parent_ids": [
-      "64841054c67279b59fc848f3cd61362a59665768"
-    ],
-    "title": "Gtk::Window: Make the move ctor noexcept",
-    "message": "Gtk::Window: Make the move ctor noexcept\n",
-    "author_name": "Kjell Ahlstedt",
-    "author_email": "kjellahlstedt@gmail.com",
-    "authored_date": "2019-11-28T13:15:42.000+01:00",
-    "committer_name": "Kjell Ahlstedt",
-    "committer_email": "kjellahlstedt@gmail.com",
-    "committed_date": "2019-11-28T13:15:42.000+01:00",
-    "stats": {
-      "additions": 13,
-      "deletions": 4,
-      "total": 17
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1518
-  },
-  {
     "id": "543b4eaab9ba203f7daa1df96c9f1b966352d95a",
     "short_id": "543b4eaa",
     "created_at": "2019-12-27T17:18:55.000+08:00",
@@ -40146,62 +40138,6 @@
     "status": null,
     "last_pipeline": null,
     "project_id": 1510
-  },
-  {
-    "id": "f9009f8d9b29cf7d96f251bcfbdb8402298a76b5",
-    "short_id": "f9009f8d",
-    "created_at": "2019-11-28T18:13:09.000+01:00",
-    "parent_ids": [
-      "823286af4c045edc0cedb05d074c704672db04ff"
-    ],
-    "title": "tests: squelch clang warnings of using fabs on integer",
-    "message": "tests: squelch clang warnings of using fabs on integer\n",
-    "author_name": "\u00d8yvind Kol\u00e5s",
-    "author_email": "pippin@gimp.org",
-    "authored_date": "2019-11-28T18:13:09.000+01:00",
-    "committer_name": "\u00d8yvind Kol\u00e5s",
-    "committer_email": "pippin@gimp.org",
-    "committed_date": "2019-11-28T18:13:09.000+01:00",
-    "stats": {
-      "additions": 2,
-      "deletions": 2,
-      "total": 4
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134273,
-      "sha": "f9009f8d9b29cf7d96f251bcfbdb8402298a76b5",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T17:13:59.959Z",
-      "updated_at": "2019-11-28T17:18:44.811Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/babl/pipelines/134273"
-    },
-    "project_id": 1507
-  },
-  {
-    "id": "823286af4c045edc0cedb05d074c704672db04ff",
-    "short_id": "823286af",
-    "created_at": "2019-11-28T18:09:38.000+01:00",
-    "parent_ids": [
-      "84128d538aa4f189c31d296d04084762ce062107"
-    ],
-    "title": "CIE: comment out self assignments",
-    "message": "CIE: comment out self assignments\n\nThis squelches warnings when using clang as the compiler.\n",
-    "author_name": "\u00d8yvind Kol\u00e5s",
-    "author_email": "pippin@gimp.org",
-    "authored_date": "2019-11-28T18:09:35.000+01:00",
-    "committer_name": "\u00d8yvind Kol\u00e5s",
-    "committer_email": "pippin@gimp.org",
-    "committed_date": "2019-11-28T18:09:38.000+01:00",
-    "stats": {
-      "additions": 6,
-      "deletions": 6,
-      "total": 12
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 1507
   },
   {
     "id": "f4a037d5116cd87244f2096480fca936d8a4dc10",
@@ -42076,198 +42012,6 @@
     "project_id": 1501
   },
   {
-    "id": "487b44faaa3af62973d26df41da5c4f4b05b518d",
-    "short_id": "487b44fa",
-    "created_at": "2019-11-28T20:38:27.000+01:00",
-    "parent_ids": [
-      "53876b3de1029745d0119fa7b89ff669dec72500"
-    ],
-    "title": "doap: update list of active maintainers",
-    "message": "doap: update list of active maintainers\n\nAdd a section Old maintainers, in comment. And re-add Paolo Maggi to\nthat section.\n\nThanks Paolo, Jesse and Ignacio for your past contributions!\n",
-    "author_name": "S\u00e9bastien Wilmet",
-    "author_email": "swilmet@gnome.org",
-    "authored_date": "2019-11-28T20:26:35.000+01:00",
-    "committer_name": "S\u00e9bastien Wilmet",
-    "committer_email": "swilmet@gnome.org",
-    "committed_date": "2019-11-28T20:38:27.000+01:00",
-    "stats": {
-      "additions": 24,
-      "deletions": 14,
-      "total": 38
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134314,
-      "sha": "487b44faaa3af62973d26df41da5c4f4b05b518d",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T19:43:01.306Z",
-      "updated_at": "2019-11-28T19:49:00.127Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gedit/pipelines/134314"
-    },
-    "project_id": 1501
-  },
-  {
-    "id": "53876b3de1029745d0119fa7b89ff669dec72500",
-    "short_id": "53876b3d",
-    "created_at": "2019-11-28T09:30:04.000+01:00",
-    "parent_ids": [
-      "d064c5f88cd76db028e6c3cf1dc4ecb5535ea2aa"
-    ],
-    "title": "flatpak: the zeitgeist plugin has been removed",
-    "message": "flatpak: the zeitgeist plugin has been removed\n",
-    "author_name": "S\u00e9bastien Wilmet",
-    "author_email": "swilmet@gnome.org",
-    "authored_date": "2019-11-28T09:30:04.000+01:00",
-    "committer_name": "S\u00e9bastien Wilmet",
-    "committer_email": "swilmet@gnome.org",
-    "committed_date": "2019-11-28T09:30:04.000+01:00",
-    "stats": {
-      "additions": 0,
-      "deletions": 2,
-      "total": 2
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134176,
-      "sha": "53876b3de1029745d0119fa7b89ff669dec72500",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T08:33:21.097Z",
-      "updated_at": "2019-11-28T08:39:31.942Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gedit/pipelines/134176"
-    },
-    "project_id": 1501
-  },
-  {
-    "id": "d064c5f88cd76db028e6c3cf1dc4ecb5535ea2aa",
-    "short_id": "d064c5f8",
-    "created_at": "2019-11-28T08:27:24.000+01:00",
-    "parent_ids": [
-      "5c035c8d9443ee99ecd6e32fb0f04c30eecb3314"
-    ],
-    "title": "Window: remove useless #include",
-    "message": "Window: remove useless #include\n",
-    "author_name": "S\u00e9bastien Wilmet",
-    "author_email": "swilmet@gnome.org",
-    "authored_date": "2019-11-28T08:27:24.000+01:00",
-    "committer_name": "S\u00e9bastien Wilmet",
-    "committer_email": "swilmet@gnome.org",
-    "committed_date": "2019-11-28T08:27:24.000+01:00",
-    "stats": {
-      "additions": 0,
-      "deletions": 1,
-      "total": 1
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134167,
-      "sha": "d064c5f88cd76db028e6c3cf1dc4ecb5535ea2aa",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T07:35:02.321Z",
-      "updated_at": "2019-11-28T07:40:52.125Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gedit/pipelines/134167"
-    },
-    "project_id": 1501
-  },
-  {
-    "id": "5c035c8d9443ee99ecd6e32fb0f04c30eecb3314",
-    "short_id": "5c035c8d",
-    "created_at": "2019-11-28T07:58:07.000+01:00",
-    "parent_ids": [
-      "9dd0918aeb11ebd2ed9575bcff60f1145988c542"
-    ],
-    "title": "Revert \"gedit-commands-file.c: Only save if file has been modified\"",
-    "message": "Revert \"gedit-commands-file.c: Only save if file has been modified\"\n\nThis reverts commit deb2af02a9dad8fe2d1cb8689c55a9ac54a8553f.\n\nIt's important to be able to save a document in all circumstances.\n\nOpening a text file in gedit and then directly save it is like the\nequivalent of the `touch` Unix command, but with a GUI.\n\nAlso, a file can be modified with another program while it is opened in\ngedit. In that case it is useful to be able to save the file again in\ngedit. gedit tries to detect when a file is externally modified, but it\ndoes it only for local files.\n\nAnother reason is if gedit bugs, if the GeditTab/GeditDocument state\n(wrt whether it needs saving or not) is buggy, then the user will be\nhappy to be able to save the content without the need to copy/paste the\ntext into another app.\n\nAnd there are probably other reasons why disabling a \"save\" feature can\nbe dangerous. On Unix when we execute a command, the system listens to\nthe user and executes the command, regardless of whether it's useful or\nnot.\n",
-    "author_name": "S\u00e9bastien Wilmet",
-    "author_email": "swilmet@gnome.org",
-    "authored_date": "2019-11-28T07:45:55.000+01:00",
-    "committer_name": "S\u00e9bastien Wilmet",
-    "committer_email": "swilmet@gnome.org",
-    "committed_date": "2019-11-28T07:58:07.000+01:00",
-    "stats": {
-      "additions": 1,
-      "deletions": 16,
-      "total": 17
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134166,
-      "sha": "5c035c8d9443ee99ecd6e32fb0f04c30eecb3314",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T07:02:15.091Z",
-      "updated_at": "2019-11-28T07:08:02.861Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gedit/pipelines/134166"
-    },
-    "project_id": 1501
-  },
-  {
-    "id": "9dd0918aeb11ebd2ed9575bcff60f1145988c542",
-    "short_id": "9dd0918a",
-    "created_at": "2019-11-28T07:39:43.000+01:00",
-    "parent_ids": [
-      "a437e524539253a17d263325f037d127fbde0c69"
-    ],
-    "title": "Utils: deprecate set_atk_relation()",
-    "message": "Utils: deprecate set_atk_relation()\n",
-    "author_name": "S\u00e9bastien Wilmet",
-    "author_email": "swilmet@gnome.org",
-    "authored_date": "2019-11-28T07:39:43.000+01:00",
-    "committer_name": "S\u00e9bastien Wilmet",
-    "committer_email": "swilmet@gnome.org",
-    "committed_date": "2019-11-28T07:39:43.000+01:00",
-    "stats": {
-      "additions": 10,
-      "deletions": 5,
-      "total": 15
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134164,
-      "sha": "9dd0918aeb11ebd2ed9575bcff60f1145988c542",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T06:43:17.113Z",
-      "updated_at": "2019-11-28T06:49:06.972Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gedit/pipelines/134164"
-    },
-    "project_id": 1501
-  },
-  {
-    "id": "a437e524539253a17d263325f037d127fbde0c69",
-    "short_id": "a437e524",
-    "created_at": "2019-11-28T07:21:14.000+01:00",
-    "parent_ids": [
-      "8d3e6faf2b1d523526516944abe63cd89acf4989"
-    ],
-    "title": "Window: fullscreen mode: add comment about the \"stuttering\" fix",
-    "message": "Window: fullscreen mode: add comment about the \"stuttering\" fix\n\nTested with GNOME 3.32 on Fedora 30. (Yes I know Fedora 31 has been\nreleased, but its kernel version breaks my touchpad, I've reported the\nbug but it's not fixed yet).\n",
-    "author_name": "S\u00e9bastien Wilmet",
-    "author_email": "swilmet@gnome.org",
-    "authored_date": "2019-11-28T07:21:14.000+01:00",
-    "committer_name": "S\u00e9bastien Wilmet",
-    "committer_email": "swilmet@gnome.org",
-    "committed_date": "2019-11-28T07:21:14.000+01:00",
-    "stats": {
-      "additions": 3,
-      "deletions": 0,
-      "total": 3
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134162,
-      "sha": "a437e524539253a17d263325f037d127fbde0c69",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T06:28:57.661Z",
-      "updated_at": "2019-11-28T06:34:49.857Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gedit/pipelines/134162"
-    },
-    "project_id": 1501
-  },
-  {
     "id": "201d014a5940663c0f96fc552af2457547f68aee",
     "short_id": "201d014a",
     "created_at": "2019-12-14T00:31:57.000+01:00",
@@ -43505,15 +43249,15 @@
       "deletions": 6,
       "total": 12
     },
-    "status": "success",
+    "status": "failed",
     "last_pipeline": {
-      "id": 139733,
+      "id": 139785,
       "sha": "861be33bcd221b272237dd74e131632ee32a5bf6",
       "ref": "master",
-      "status": "success",
-      "created_at": "2019-12-27T18:35:00.418Z",
-      "updated_at": "2019-12-27T19:12:33.580Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/pitivi/pipelines/139733"
+      "status": "failed",
+      "created_at": "2019-12-28T04:19:15.190Z",
+      "updated_at": "2019-12-28T04:21:03.622Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/pitivi/pipelines/139785"
     },
     "project_id": 817
   },
@@ -43774,6 +43518,134 @@
     "status": null,
     "last_pipeline": null,
     "project_id": 811
+  },
+  {
+    "id": "4a0476752cd523d7eb53f4f4153e35c4d6490c88",
+    "short_id": "4a047675",
+    "created_at": "2019-12-28T18:18:53.000+02:00",
+    "parent_ids": [
+      "9543a5daebe43da14d5a8dd710d500940ebe97d3"
+    ],
+    "title": "Updated Lithuanian translation",
+    "message": "Updated Lithuanian translation\n",
+    "author_name": "Aurimas \u010cernius",
+    "author_email": "aurisc4@gmail.com",
+    "authored_date": "2019-12-28T18:18:53.000+02:00",
+    "committer_name": "Aurimas \u010cernius",
+    "committer_email": "aurisc4@gmail.com",
+    "committed_date": "2019-12-28T18:18:53.000+02:00",
+    "stats": {
+      "additions": 3834,
+      "deletions": 3482,
+      "total": 7316
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139849,
+      "sha": "4a0476752cd523d7eb53f4f4153e35c4d6490c88",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T16:18:48.973Z",
+      "updated_at": "2019-12-28T16:31:02.459Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/gtk/pipelines/139849"
+    },
+    "project_id": 665
+  },
+  {
+    "id": "9543a5daebe43da14d5a8dd710d500940ebe97d3",
+    "short_id": "9543a5da",
+    "created_at": "2019-12-27T22:54:11.000-05:00",
+    "parent_ids": [
+      "28b91a44507811ab3ce5f88e347debe853a77590"
+    ],
+    "title": "popovermenu: Fix keynav with submenus",
+    "message": "popovermenu: Fix keynav with submenus\n\nWhen we right-arrow all the way into a submenu\nand then cycle to the next menu in a menubar,\nwe need to reset all open submenus, so that\nleft-arrowing back to the menu puts the focus\non the first item again.\n",
+    "author_name": "Matthias Clasen",
+    "author_email": "mclasen@redhat.com",
+    "authored_date": "2019-12-27T22:52:08.000-05:00",
+    "committer_name": "Matthias Clasen",
+    "committer_email": "mclasen@redhat.com",
+    "committed_date": "2019-12-27T22:54:11.000-05:00",
+    "stats": {
+      "additions": 10,
+      "deletions": 0,
+      "total": 10
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139783,
+      "sha": "9543a5daebe43da14d5a8dd710d500940ebe97d3",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T04:18:56.029Z",
+      "updated_at": "2019-12-28T04:29:18.719Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/gtk/pipelines/139783"
+    },
+    "project_id": 665
+  },
+  {
+    "id": "28b91a44507811ab3ce5f88e347debe853a77590",
+    "short_id": "28b91a44",
+    "created_at": "2019-12-27T21:58:54.000-05:00",
+    "parent_ids": [
+      "6b89d8a199db9fe918f055fe5006e8bc20cb8d8a"
+    ],
+    "title": "modelbutton: Be focusable",
+    "message": "modelbutton: Be focusable\n\nThis got lost when modelbuttons stopped being\nderived from buttons. It is necessary, since\nthe GTK focus machinery takes this flag seriously\nnowadays, and won't let us grab focus to non-focusable\nwidgets.\n",
+    "author_name": "Matthias Clasen",
+    "author_email": "mclasen@redhat.com",
+    "authored_date": "2019-12-27T21:58:54.000-05:00",
+    "committer_name": "Matthias Clasen",
+    "committer_email": "mclasen@redhat.com",
+    "committed_date": "2019-12-27T21:58:54.000-05:00",
+    "stats": {
+      "additions": 2,
+      "deletions": 0,
+      "total": 2
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139778,
+      "sha": "28b91a44507811ab3ce5f88e347debe853a77590",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T03:07:15.778Z",
+      "updated_at": "2019-12-28T03:17:56.298Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/gtk/pipelines/139778"
+    },
+    "project_id": 665
+  },
+  {
+    "id": "6b89d8a199db9fe918f055fe5006e8bc20cb8d8a",
+    "short_id": "6b89d8a1",
+    "created_at": "2019-12-27T17:35:09.000-05:00",
+    "parent_ids": [
+      "e999016273b7465adaf7511520d5fafbf709082e"
+    ],
+    "title": "inspector: Add a focus overlay",
+    "message": "inspector: Add a focus overlay\n\nIt helps to see what is going on.\n",
+    "author_name": "Matthias Clasen",
+    "author_email": "mclasen@redhat.com",
+    "authored_date": "2019-12-27T12:16:14.000-05:00",
+    "committer_name": "Matthias Clasen",
+    "committer_email": "mclasen@redhat.com",
+    "committed_date": "2019-12-27T17:35:09.000-05:00",
+    "stats": {
+      "additions": 222,
+      "deletions": 0,
+      "total": 222
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139775,
+      "sha": "6b89d8a199db9fe918f055fe5006e8bc20cb8d8a",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T01:28:35.681Z",
+      "updated_at": "2019-12-28T01:40:31.614Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/gtk/pipelines/139775"
+    },
+    "project_id": 665
   },
   {
     "id": "e999016273b7465adaf7511520d5fafbf709082e",
@@ -49020,6 +48892,38 @@
     "project_id": 662
   },
   {
+    "id": "bc8615687931a3d368fa597a89af00145362ea1b",
+    "short_id": "bc861568",
+    "created_at": "2019-12-28T23:18:09.000+02:00",
+    "parent_ids": [
+      "bc143344abec6253bbc3abc1654661baab2d3b7a"
+    ],
+    "title": "Updated Lithuanian translation",
+    "message": "Updated Lithuanian translation\n",
+    "author_name": "Aurimas \u010cernius",
+    "author_email": "aurisc4@gmail.com",
+    "authored_date": "2019-12-28T23:18:09.000+02:00",
+    "committer_name": "Aurimas \u010cernius",
+    "committer_email": "aurisc4@gmail.com",
+    "committed_date": "2019-12-28T23:18:09.000+02:00",
+    "stats": {
+      "additions": 2545,
+      "deletions": 2005,
+      "total": 4550
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139880,
+      "sha": "bc8615687931a3d368fa597a89af00145362ea1b",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T21:18:17.807Z",
+      "updated_at": "2019-12-28T21:19:49.388Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/gnome-control-center/pipelines/139880"
+    },
+    "project_id": 660
+  },
+  {
     "id": "bc143344abec6253bbc3abc1654661baab2d3b7a",
     "short_id": "bc143344",
     "created_at": "2019-12-27T08:03:15.000+00:00",
@@ -50200,70 +50104,6 @@
       "created_at": "2019-12-01T04:19:31.914Z",
       "updated_at": "2019-12-01T04:21:36.128Z",
       "web_url": "https://gitlab.gnome.org/GNOME/gnome-control-center/pipelines/134816"
-    },
-    "project_id": 660
-  },
-  {
-    "id": "c37ab4032b2b74b24dfede356e5b351619f354f8",
-    "short_id": "c37ab403",
-    "created_at": "2019-11-28T13:21:11.000+00:00",
-    "parent_ids": [
-      "c016a1e6da4442a1db47b02a8155796964e3cb79"
-    ],
-    "title": "network: Fix warnings after removing a VPN",
-    "message": "network: Fix warnings after removing a VPN\n\nThis is due to the object being accessed after being unreffed - connect the signal\nso it is removed when the object is finalized.\n\nThis regression was introduced in 93a269f8 when switching to GtkTemplate.\n",
-    "author_name": "Robert Ancell",
-    "author_email": "robert.ancell@canonical.com",
-    "authored_date": "2019-11-13T09:56:19.000+13:00",
-    "committer_name": "Georges Basile Stavracas Neto",
-    "committer_email": "georges.stavracas@gmail.com",
-    "committed_date": "2019-11-28T13:21:11.000+00:00",
-    "stats": {
-      "additions": 1,
-      "deletions": 2,
-      "total": 3
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134219,
-      "sha": "c37ab4032b2b74b24dfede356e5b351619f354f8",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T13:43:38.369Z",
-      "updated_at": "2019-11-28T13:48:38.045Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gnome-control-center/pipelines/134219"
-    },
-    "project_id": 660
-  },
-  {
-    "id": "c016a1e6da4442a1db47b02a8155796964e3cb79",
-    "short_id": "c016a1e6",
-    "created_at": "2019-11-28T06:39:51.000+00:00",
-    "parent_ids": [
-      "5dbbc209182cf5ee36a7f7266b6acd4a1ce4b4cc"
-    ],
-    "title": "flatpak: fix typo in \"cryptsetup\" module definition",
-    "message": "flatpak: fix typo in \"cryptsetup\" module definition\n",
-    "author_name": "Will Thompson",
-    "author_email": "will@willthompson.co.uk",
-    "authored_date": "2019-11-28T06:39:51.000+00:00",
-    "committer_name": "Will Thompson",
-    "committer_email": "will@willthompson.co.uk",
-    "committed_date": "2019-11-28T06:39:51.000+00:00",
-    "stats": {
-      "additions": 1,
-      "deletions": 1,
-      "total": 2
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134208,
-      "sha": "c016a1e6da4442a1db47b02a8155796964e3cb79",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T13:15:15.800Z",
-      "updated_at": "2019-11-28T13:20:11.651Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gnome-control-center/pipelines/134208"
     },
     "project_id": 660
   },
@@ -53431,152 +53271,6 @@
     "project_id": 658
   },
   {
-    "id": "691485fb7c8dc8b18a0eeb092967deeb7b2df86f",
-    "short_id": "691485fb",
-    "created_at": "2019-11-28T13:48:12.000+01:00",
-    "parent_ids": [
-      "9f6b5235e49695f724585bd21d1078c5d5c5f84e"
-    ],
-    "title": "Updated Spanish translation",
-    "message": "Updated Spanish translation\n",
-    "author_name": "Daniel Mustieles",
-    "author_email": "daniel.mustieles@gmail.com",
-    "authored_date": "2019-11-28T13:48:12.000+01:00",
-    "committer_name": "Daniel Mustieles",
-    "committer_email": "daniel.mustieles@gmail.com",
-    "committed_date": "2019-11-28T13:48:12.000+01:00",
-    "stats": {
-      "additions": 64,
-      "deletions": 61,
-      "total": 125
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134203,
-      "sha": "691485fb7c8dc8b18a0eeb092967deeb7b2df86f",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T12:48:00.727Z",
-      "updated_at": "2019-11-28T13:05:03.395Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/glib/pipelines/134203"
-    },
-    "project_id": 658
-  },
-  {
-    "id": "9f6b5235e49695f724585bd21d1078c5d5c5f84e",
-    "short_id": "9f6b5235",
-    "created_at": "2019-11-28T12:29:10.000+00:00",
-    "parent_ids": [
-      "a2fa23ab73e78be8a0b1137026cf9aafc7677739",
-      "805dc2ae937e3116d20e00d1a257565472eee5ef"
-    ],
-    "title": "Merge branch 'ci-fixups' into 'master'",
-    "message": "Merge branch 'ci-fixups' into 'master'\n\nMinor CI fixups\n\nSee merge request GNOME/glib!1258",
-    "author_name": "Emmanuele Bassi",
-    "author_email": "ebassi@gmail.com",
-    "authored_date": "2019-11-28T12:29:10.000+00:00",
-    "committer_name": "Emmanuele Bassi",
-    "committer_email": "ebassi@gmail.com",
-    "committed_date": "2019-11-28T12:29:10.000+00:00",
-    "stats": {
-      "additions": 28,
-      "deletions": 14,
-      "total": 42
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134201,
-      "sha": "9f6b5235e49695f724585bd21d1078c5d5c5f84e",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T12:29:13.965Z",
-      "updated_at": "2019-11-28T12:45:28.115Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/glib/pipelines/134201"
-    },
-    "project_id": 658
-  },
-  {
-    "id": "805dc2ae937e3116d20e00d1a257565472eee5ef",
-    "short_id": "805dc2ae",
-    "created_at": "2019-11-28T11:47:48.000+00:00",
-    "parent_ids": [
-      "95b8c1c697ecb8f01628491b1d052f2edfc48bc2"
-    ],
-    "title": "ci: Move style-check-diff commands out to a separate sh file",
-    "message": "ci: Move style-check-diff commands out to a separate sh file\n\nThis doesn\u2019t change how they run, but does split the code out a bit and\nmean we can interleave it with comments. Should make it a little less\nvile.\n\nSuggested by Emmanuele Bassi; see !1252.\n\nSigned-off-by: Philip Withnall <withnall@endlessm.com>\n",
-    "author_name": "Philip Withnall",
-    "author_email": "withnall@endlessm.com",
-    "authored_date": "2019-11-28T11:44:24.000+00:00",
-    "committer_name": "Philip Withnall",
-    "committer_email": "withnall@endlessm.com",
-    "committed_date": "2019-11-28T11:47:48.000+00:00",
-    "stats": {
-      "additions": 17,
-      "deletions": 3,
-      "total": 20
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 658
-  },
-  {
-    "id": "95b8c1c697ecb8f01628491b1d052f2edfc48bc2",
-    "short_id": "95b8c1c6",
-    "created_at": "2019-11-28T11:38:25.000+00:00",
-    "parent_ids": [
-      "a2fa23ab73e78be8a0b1137026cf9aafc7677739"
-    ],
-    "title": "ci: Use extends rather than YAML anchors for `only-default`",
-    "message": "ci: Use extends rather than YAML anchors for `only-default`\n\nThis makes things slightly more extensible in future, but introduces no\nfunctional differences right now.\n\nSee https://docs.gitlab.com/ce/ci/yaml/README.html#extends.\n\nSuggested by Jordan Petridis.\n\nSigned-off-by: Philip Withnall <withnall@endlessm.com>\n",
-    "author_name": "Philip Withnall",
-    "author_email": "withnall@endlessm.com",
-    "authored_date": "2019-11-28T11:38:25.000+00:00",
-    "committer_name": "Philip Withnall",
-    "committer_email": "withnall@endlessm.com",
-    "committed_date": "2019-11-28T11:38:25.000+00:00",
-    "stats": {
-      "additions": 11,
-      "deletions": 11,
-      "total": 22
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 658
-  },
-  {
-    "id": "a2fa23ab73e78be8a0b1137026cf9aafc7677739",
-    "short_id": "a2fa23ab",
-    "created_at": "2019-11-28T09:28:20.000+00:00",
-    "parent_ids": [
-      "8c68e30eb8b3f1de16f0a3a3e95a0930f9a0da54",
-      "6d734b895a89462f7226ddb342ae02e2b49efc69"
-    ],
-    "title": "Merge branch 'wip/lantw/kqueue-Do-not-return-early-from-_kqsub_cancel' into 'master'",
-    "message": "Merge branch 'wip/lantw/kqueue-Do-not-return-early-from-_kqsub_cancel' into 'master'\n\nkqueue: Do not return early from _kqsub_cancel\n\nCloses #1935\n\nSee merge request GNOME/glib!1232",
-    "author_name": "Philip Withnall",
-    "author_email": "philip@tecnocode.co.uk",
-    "authored_date": "2019-11-28T09:28:20.000+00:00",
-    "committer_name": "Philip Withnall",
-    "committer_email": "philip@tecnocode.co.uk",
-    "committed_date": "2019-11-28T09:28:20.000+00:00",
-    "stats": {
-      "additions": 2,
-      "deletions": 5,
-      "total": 7
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134182,
-      "sha": "a2fa23ab73e78be8a0b1137026cf9aafc7677739",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T09:28:23.996Z",
-      "updated_at": "2019-11-28T09:44:15.725Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/glib/pipelines/134182"
-    },
-    "project_id": 658
-  },
-  {
     "id": "17996d7f536d0df66d31049ff38295bc1c97b1db",
     "short_id": "17996d7f",
     "created_at": "2019-12-25T02:32:02.000+00:00",
@@ -54453,38 +54147,6 @@
       "created_at": "2019-11-29T22:01:32.846Z",
       "updated_at": "2019-11-29T22:04:10.757Z",
       "web_url": "https://gitlab.gnome.org/GNOME/gnome-software/pipelines/134577"
-    },
-    "project_id": 558
-  },
-  {
-    "id": "81c8549c1f38f1d91343b7aceb59e8bc8eac2e06",
-    "short_id": "81c8549c",
-    "created_at": "2019-11-28T16:02:25.000+01:00",
-    "parent_ids": [
-      "aee469d454266f6ea23b549719be1e97dd41cf3f"
-    ],
-    "title": "Update Polish translation",
-    "message": "Update Polish translation\n",
-    "author_name": "Piotr Dr\u0105g",
-    "author_email": "piotrdrag@gmail.com",
-    "authored_date": "2019-11-28T16:02:00.000+01:00",
-    "committer_name": "Piotr Dr\u0105g",
-    "committer_email": "piotrdrag@gmail.com",
-    "committed_date": "2019-11-28T16:02:25.000+01:00",
-    "stats": {
-      "additions": 154,
-      "deletions": 148,
-      "total": 302
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134235,
-      "sha": "81c8549c1f38f1d91343b7aceb59e8bc8eac2e06",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T15:02:14.904Z",
-      "updated_at": "2019-11-28T15:05:52.528Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gnome-software/pipelines/134235"
     },
     "project_id": 558
   },
@@ -57353,38 +57015,6 @@
     "project_id": 547
   },
   {
-    "id": "1c89fce30e0f478f11f90221ddb6b831d7f0f5e8",
-    "short_id": "1c89fce3",
-    "created_at": "2019-11-28T21:10:47.000+01:00",
-    "parent_ids": [
-      "0247d35e5a8e642cb093fcda1c5645e49a769f4b"
-    ],
-    "title": "stack: Allow promoting transient windows to their parent's layer",
-    "message": "stack: Allow promoting transient windows to their parent's layer\n\nWhen a window that should be stacked above another one is placed in a lower\nlayer than the other window, we currently allow promoting it to the higher\nlayer when it has a \"transient type\". We should do the same when the window\nis an actual transient of the other window.\n\nThis is particularly relevant for wayland windows, where types play a\nmuch smaller role: Transient windows like non-modal dialogs (and since\ncommit 666bef7a, popup windows as well) currently end up underneath their\nalways-on-top parent.\n\nhttps://gitlab.gnome.org/GNOME/mutter/issues/587\n",
-    "author_name": "Florian M\u00fcllner",
-    "author_email": "fmuellner@gnome.org",
-    "authored_date": "2019-11-27T02:00:00.000+01:00",
-    "committer_name": "Florian M\u00fcllner",
-    "committer_email": "fmuellner@gnome.org",
-    "committed_date": "2019-11-28T21:10:47.000+01:00",
-    "stats": {
-      "additions": 5,
-      "deletions": 2,
-      "total": 7
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134459,
-      "sha": "1c89fce30e0f478f11f90221ddb6b831d7f0f5e8",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-29T14:10:23.761Z",
-      "updated_at": "2019-11-29T14:18:35.233Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/mutter/pipelines/134459"
-    },
-    "project_id": 547
-  },
-  {
     "id": "8f8892aa20fad94d2e887e94414c09718b250c98",
     "short_id": "8f8892aa",
     "created_at": "2019-12-27T14:16:47.000+01:00",
@@ -59497,38 +59127,6 @@
     "project_id": 546
   },
   {
-    "id": "5f9036e81572a043f7de513c176c45d8e9d90929",
-    "short_id": "5f9036e8",
-    "created_at": "2019-11-28T01:42:50.000+01:00",
-    "parent_ids": [
-      "5b957f69d8096650a7ea17f6a61ea56ddea86669"
-    ],
-    "title": "calendar-server: Use correct timezone for all-day events",
-    "message": "calendar-server: Use correct timezone for all-day events\n\nSince commit 28c535e34, we use the timezone associated with the ICalTime\ninstead of the default timezone when converting to time_t. However while\nthat is correct for most events, for ICalTimes that don't have a timezone\nassociated we still want to fall back to the default timezone instead of\nUTC.\n\nhttps://gitlab.gnome.org/GNOME/gnome-shell/issues/1895\n",
-    "author_name": "Florian M\u00fcllner",
-    "author_email": "fmuellner@gnome.org",
-    "authored_date": "2019-11-28T01:23:36.000+01:00",
-    "committer_name": "Florian M\u00fcllner",
-    "committer_email": "fmuellner@gnome.org",
-    "committed_date": "2019-11-28T01:42:50.000+01:00",
-    "stats": {
-      "additions": 16,
-      "deletions": 2,
-      "total": 18
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134206,
-      "sha": "5f9036e81572a043f7de513c176c45d8e9d90929",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T13:01:56.042Z",
-      "updated_at": "2019-11-28T13:05:55.015Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gnome-shell/pipelines/134206"
-    },
-    "project_id": 546
-  },
-  {
     "id": "432fb939c5420ed4046c433f529fc5d2b2a104b1",
     "short_id": "432fb939",
     "created_at": "2019-12-25T15:39:25.000+00:00",
@@ -59646,13 +59244,13 @@
     },
     "status": "running",
     "last_pipeline": {
-      "id": 139770,
+      "id": 139887,
       "sha": "228466d2b5453f4b20dd640942eb56010270997d",
       "ref": "master",
       "status": "running",
-      "created_at": "2019-12-28T00:19:19.957Z",
-      "updated_at": "2019-12-28T00:19:22.801Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gnome-build-meta/pipelines/139770"
+      "created_at": "2019-12-29T00:19:06.006Z",
+      "updated_at": "2019-12-29T00:19:10.397Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/gnome-build-meta/pipelines/139887"
     },
     "project_id": 456
   },
@@ -60969,62 +60567,6 @@
     "project_id": 456
   },
   {
-    "id": "9e5c21608d057608c4e82c1df6c859f5c5e3db7b",
-    "short_id": "9e5c2160",
-    "created_at": "2019-11-28T15:25:12.000+00:00",
-    "parent_ids": [
-      "e6faeb4267fce0aad5c67474b90af8cb3f605764"
-    ],
-    "title": "core-deps/vte.bst: depend on boost",
-    "message": "core-deps/vte.bst: depend on boost\n\nFixes #225\n",
-    "author_name": "Michael Catanzaro",
-    "author_email": "mcatanzaro@gnome.org",
-    "authored_date": "2019-11-23T16:38:48.000-06:00",
-    "committer_name": "Michael Catanzaro",
-    "committer_email": "mcatanzaro@gnome.org",
-    "committed_date": "2019-11-28T15:25:12.000+00:00",
-    "stats": {
-      "additions": 1,
-      "deletions": 0,
-      "total": 1
-    },
-    "status": "failed",
-    "last_pipeline": {
-      "id": 134358,
-      "sha": "9e5c21608d057608c4e82c1df6c859f5c5e3db7b",
-      "ref": "master",
-      "status": "failed",
-      "created_at": "2019-11-29T00:19:26.478Z",
-      "updated_at": "2019-11-29T03:50:33.677Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gnome-build-meta/pipelines/134358"
-    },
-    "project_id": 456
-  },
-  {
-    "id": "e6faeb4267fce0aad5c67474b90af8cb3f605764",
-    "short_id": "e6faeb42",
-    "created_at": "2019-11-28T15:25:12.000+00:00",
-    "parent_ids": [
-      "2e98e41325af17805f23ef58588c766fe7b6eb74"
-    ],
-    "title": "Remove vte from SDK",
-    "message": "Remove vte from SDK\n\nIt is going to depend on Boost, which is sad. So let's move it to\ncore-deps to avoid adding Boost to the SDK. flatpak apps will need to\nbundle vte.\n",
-    "author_name": "Michael Catanzaro",
-    "author_email": "mcatanzaro@gnome.org",
-    "authored_date": "2019-11-23T16:37:44.000-06:00",
-    "committer_name": "Michael Catanzaro",
-    "committer_email": "mcatanzaro@gnome.org",
-    "committed_date": "2019-11-28T15:25:12.000+00:00",
-    "stats": {
-      "additions": 5,
-      "deletions": 5,
-      "total": 10
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 456
-  },
-  {
     "id": "73840b1a2bab57e90ba49230f2d94314ccef5227",
     "short_id": "73840b1a",
     "created_at": "2019-12-12T09:57:04.000-08:00",
@@ -61047,6 +60589,38 @@
     "status": null,
     "last_pipeline": null,
     "project_id": 427
+  },
+  {
+    "id": "c205cbfafb3744a7c4327a49313df89eafc636df",
+    "short_id": "c205cbfa",
+    "created_at": "2019-12-28T04:04:55.000+00:00",
+    "parent_ids": [
+      "566dd8af3e3eb877ced888f12ef199f13359027b"
+    ],
+    "title": "Update Brazilian Portuguese translation",
+    "message": "Update Brazilian Portuguese translation\n",
+    "author_name": "Ricardo Silva Veloso",
+    "author_email": "ricvelozo@gmail.com",
+    "authored_date": "2019-12-28T04:04:55.000+00:00",
+    "committer_name": "GNOME Translation Robot",
+    "committer_email": "gnome-sysadmin@gnome.org",
+    "committed_date": "2019-12-28T04:04:55.000+00:00",
+    "stats": {
+      "additions": 28,
+      "deletions": 38,
+      "total": 66
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139782,
+      "sha": "c205cbfafb3744a7c4327a49313df89eafc636df",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T04:05:09.759Z",
+      "updated_at": "2019-12-28T04:41:07.374Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/gnome-builder/pipelines/139782"
+    },
+    "project_id": 426
   },
   {
     "id": "566dd8af3e3eb877ced888f12ef199f13359027b",
@@ -63289,36 +62863,36 @@
     "project_id": 426
   },
   {
-    "id": "0aff04551594662c87aeb18a282509277bdb6b46",
-    "short_id": "0aff0455",
-    "created_at": "2019-11-28T15:35:06.000+01:00",
+    "id": "c4bc3209d15da433d3f0d50d7966b1c77cedc595",
+    "short_id": "c4bc3209",
+    "created_at": "2019-12-28T14:59:23.000+00:00",
     "parent_ids": [
-      "565f6b6e92b07ab27b3e44b1f7b22ec648b52059"
+      "58e8734f2a6865a9145b048f39c78eef7aa65e03"
     ],
-    "title": "Update POTFILES.in",
-    "message": "Update POTFILES.in\n",
-    "author_name": "Piotr Dr\u0105g",
-    "author_email": "piotrdrag@gmail.com",
-    "authored_date": "2019-11-28T15:35:06.000+01:00",
-    "committer_name": "Piotr Dr\u0105g",
-    "committer_email": "piotrdrag@gmail.com",
-    "committed_date": "2019-11-28T15:35:06.000+01:00",
+    "title": "Update Friulian translation",
+    "message": "Update Friulian translation\n",
+    "author_name": "Fabio Tomat",
+    "author_email": "f.t.public@gmail.com",
+    "authored_date": "2019-12-28T14:59:23.000+00:00",
+    "committer_name": "GNOME Translation Robot",
+    "committer_email": "gnome-sysadmin@gnome.org",
+    "committed_date": "2019-12-28T14:59:23.000+00:00",
     "stats": {
-      "additions": 2,
-      "deletions": 0,
-      "total": 2
+      "additions": 44,
+      "deletions": 45,
+      "total": 89
     },
-    "status": "failed",
+    "status": "success",
     "last_pipeline": {
-      "id": 134226,
-      "sha": "0aff04551594662c87aeb18a282509277bdb6b46",
+      "id": 139833,
+      "sha": "c4bc3209d15da433d3f0d50d7966b1c77cedc595",
       "ref": "master",
-      "status": "failed",
-      "created_at": "2019-11-28T14:34:55.894Z",
-      "updated_at": "2019-11-28T14:59:01.300Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gnome-builder/pipelines/134226"
+      "status": "success",
+      "created_at": "2019-12-28T14:59:37.714Z",
+      "updated_at": "2019-12-28T15:54:41.070Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/gnome-boxes/pipelines/139833"
     },
-    "project_id": 426
+    "project_id": 425
   },
   {
     "id": "58e8734f2a6865a9145b048f39c78eef7aa65e03",
@@ -64577,38 +64151,6 @@
     "project_id": 425
   },
   {
-    "id": "e66791695fb4680554b0ceec453f2eab4e10ff71",
-    "short_id": "e6679169",
-    "created_at": "2019-11-28T15:30:42.000+01:00",
-    "parent_ids": [
-      "5771b1484e477d176f029366480158b39e8aa872"
-    ],
-    "title": "Update POTFILES.in",
-    "message": "Update POTFILES.in\n",
-    "author_name": "Piotr Dr\u0105g",
-    "author_email": "piotrdrag@gmail.com",
-    "authored_date": "2019-11-28T15:30:42.000+01:00",
-    "committer_name": "Piotr Dr\u0105g",
-    "committer_email": "piotrdrag@gmail.com",
-    "committed_date": "2019-11-28T15:30:42.000+01:00",
-    "stats": {
-      "additions": 12,
-      "deletions": 1,
-      "total": 13
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134225,
-      "sha": "e66791695fb4680554b0ceec453f2eab4e10ff71",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T14:30:31.040Z",
-      "updated_at": "2019-11-28T15:29:20.376Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gnome-boxes/pipelines/134225"
-    },
-    "project_id": 425
-  },
-  {
     "id": "ae7d8a83a36f30b32470e6102203e17fdae69387",
     "short_id": "ae7d8a83",
     "created_at": "2019-12-17T12:00:51.000+01:00",
@@ -64673,100 +64215,68 @@
     "project_id": 417
   },
   {
-    "id": "c708f140a75d79c5dc4e18b547b6169a18ab6617",
-    "short_id": "c708f140",
-    "created_at": "2019-11-28T10:00:11.000+01:00",
+    "id": "7de9b68719e7c846fee576138cf1f352b8d14efe",
+    "short_id": "7de9b687",
+    "created_at": "2019-12-28T21:05:40.000+01:00",
     "parent_ids": [
-      "7a1f9666a0ffb17e8dfef5fdeac0585f00a30277"
+      "d2594956086e01e257f0583274cf22ee90feb110"
     ],
-    "title": "namedpipeconnection: implement close method",
-    "message": "namedpipeconnection: implement close method\n\nWe should ensure the named pipe gets closed when closing the stream\notherwise the peer will not detect EOF until the object gets finalized.\n",
-    "author_name": "Ignacio Casal Quinteiro",
-    "author_email": "qignacio@amazon.com",
-    "authored_date": "2019-11-28T09:55:21.000+01:00",
-    "committer_name": "Ignacio Casal Quinteiro",
-    "committer_email": "qignacio@amazon.com",
-    "committed_date": "2019-11-28T10:00:11.000+01:00",
+    "title": "Add Gaphor to Who is Using PyGObject",
+    "message": "Add Gaphor to Who is Using PyGObject\n\nSigned-off-by: Dan Yeaw <dan@yeaw.me>\n",
+    "author_name": "Dan Yeaw",
+    "author_email": "dan@yeaw.me",
+    "authored_date": "2019-12-15T12:15:28.000-05:00",
+    "committer_name": "Christoph Reiter",
+    "committer_email": "reiter.christoph@gmail.com",
+    "committed_date": "2019-12-28T21:05:40.000+01:00",
     "stats": {
-      "additions": 29,
+      "additions": 1,
       "deletions": 0,
-      "total": 29
+      "total": 1
     },
     "status": "success",
     "last_pipeline": {
-      "id": 134181,
-      "sha": "c708f140a75d79c5dc4e18b547b6169a18ab6617",
+      "id": 139871,
+      "sha": "7de9b68719e7c846fee576138cf1f352b8d14efe",
       "ref": "master",
       "status": "success",
-      "created_at": "2019-11-28T09:17:07.988Z",
-      "updated_at": "2019-11-28T09:21:23.931Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/wing/pipelines/134181"
+      "created_at": "2019-12-28T20:06:05.859Z",
+      "updated_at": "2019-12-28T20:14:34.793Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/pygobject/pipelines/139871"
     },
-    "project_id": 417
+    "project_id": 416
   },
   {
-    "id": "7a1f9666a0ffb17e8dfef5fdeac0585f00a30277",
-    "short_id": "7a1f9666",
-    "created_at": "2019-11-28T09:35:57.000+01:00",
+    "id": "d2594956086e01e257f0583274cf22ee90feb110",
+    "short_id": "d2594956",
+    "created_at": "2019-12-28T19:23:33.000+00:00",
     "parent_ids": [
-      "886b23bfcbe63e398b3b02037acfd84805cc73fa"
+      "2b85c14cc80c1d6685c8bd979ec15560f888d2b8"
     ],
-    "title": "gitlab: try to fix build",
-    "message": "gitlab: try to fix build\n",
-    "author_name": "Ignacio Casal Quinteiro",
-    "author_email": "qignacio@amazon.com",
-    "authored_date": "2019-11-28T09:35:57.000+01:00",
-    "committer_name": "Ignacio Casal Quinteiro",
-    "committer_email": "qignacio@amazon.com",
-    "committed_date": "2019-11-28T09:35:57.000+01:00",
+    "title": "Update openSUSE instructions",
+    "message": "Update openSUSE instructions\nMore packages are required to be able to run the example on the getting started page on openSUSE",
+    "author_name": "Wouter",
+    "author_email": "wwijsman@live.nl",
+    "authored_date": "2019-12-28T19:23:33.000+00:00",
+    "committer_name": "Wouter",
+    "committer_email": "wwijsman@live.nl",
+    "committed_date": "2019-12-28T19:23:33.000+00:00",
     "stats": {
-      "additions": 2,
-      "deletions": 2,
-      "total": 4
+      "additions": 1,
+      "deletions": 1,
+      "total": 2
     },
     "status": "success",
     "last_pipeline": {
-      "id": 134177,
-      "sha": "7a1f9666a0ffb17e8dfef5fdeac0585f00a30277",
+      "id": 139869,
+      "sha": "d2594956086e01e257f0583274cf22ee90feb110",
       "ref": "master",
       "status": "success",
-      "created_at": "2019-11-28T08:35:54.020Z",
-      "updated_at": "2019-11-28T08:40:00.302Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/wing/pipelines/134177"
+      "created_at": "2019-12-28T20:02:19.147Z",
+      "updated_at": "2019-12-28T20:08:16.131Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/pygobject/pipelines/139869"
     },
-    "project_id": 417
-  },
-  {
-    "id": "886b23bfcbe63e398b3b02037acfd84805cc73fa",
-    "short_id": "886b23bf",
-    "created_at": "2019-11-28T09:33:15.000+01:00",
-    "parent_ids": [
-      "ef5fe71237693344e3226480393cb5ca6e03efa1"
-    ],
-    "title": "namedpipeconnection: minor coding style cleanup",
-    "message": "namedpipeconnection: minor coding style cleanup\n",
-    "author_name": "Ignacio Casal Quinteiro",
-    "author_email": "qignacio@amazon.com",
-    "authored_date": "2019-11-03T17:21:09.000+01:00",
-    "committer_name": "Ignacio Casal Quinteiro",
-    "committer_email": "qignacio@amazon.com",
-    "committed_date": "2019-11-28T09:33:15.000+01:00",
-    "stats": {
-      "additions": 32,
-      "deletions": 32,
-      "total": 64
-    },
-    "status": "failed",
-    "last_pipeline": {
-      "id": 134175,
-      "sha": "886b23bfcbe63e398b3b02037acfd84805cc73fa",
-      "ref": "master",
-      "status": "failed",
-      "created_at": "2019-11-28T08:33:09.712Z",
-      "updated_at": "2019-11-28T08:34:09.043Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/wing/pipelines/134175"
-    },
-    "project_id": 417
+    "project_id": 416
   },
   {
     "id": "2b85c14cc80c1d6685c8bd979ec15560f888d2b8",
@@ -65024,6 +64534,375 @@
       "web_url": "https://gitlab.gnome.org/GNOME/meld/pipelines/134564"
     },
     "project_id": 301
+  },
+  {
+    "id": "19d691ba45fc1e7eec5028fb5c5d283563308c32",
+    "short_id": "19d691ba",
+    "created_at": "2019-12-28T14:29:05.000+01:00",
+    "parent_ids": [
+      "0bdb5ef62a823fa535aad726a0c9a654f9d8fc04"
+    ],
+    "title": "Update POTFILES.in",
+    "message": "Update POTFILES.in\n",
+    "author_name": "Piotr Dr\u0105g",
+    "author_email": "piotrdrag@gmail.com",
+    "authored_date": "2019-12-28T14:29:05.000+01:00",
+    "committer_name": "Piotr Dr\u0105g",
+    "committer_email": "piotrdrag@gmail.com",
+    "committed_date": "2019-12-28T14:29:05.000+01:00",
+    "stats": {
+      "additions": 2,
+      "deletions": 2,
+      "total": 4
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 299
+  },
+  {
+    "id": "0bdb5ef62a823fa535aad726a0c9a654f9d8fc04",
+    "short_id": "0bdb5ef6",
+    "created_at": "2019-12-27T21:58:17.000-05:00",
+    "parent_ids": [
+      "afabe998d0fea5512f93b0ae935f9b6b7d9deab9"
+    ],
+    "title": "Issue #34 - Added context menu to gridview",
+    "message": "Issue #34 - Added context menu to gridview\n",
+    "author_name": "Hubert Figui\u00e8re",
+    "author_email": "hub@figuiere.net",
+    "authored_date": "2019-12-27T21:58:17.000-05:00",
+    "committer_name": "Hubert Figui\u00e8re",
+    "committer_email": "hub@figuiere.net",
+    "committed_date": "2019-12-27T21:58:17.000-05:00",
+    "stats": {
+      "additions": 23,
+      "deletions": 22,
+      "total": 45
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 299
+  },
+  {
+    "id": "afabe998d0fea5512f93b0ae935f9b6b7d9deab9",
+    "short_id": "afabe998",
+    "created_at": "2019-12-27T17:40:01.000-05:00",
+    "parent_ids": [
+      "32bf738a48b02348d1f42b1ef48fa35e57eb1e27"
+    ],
+    "title": "fwk: EditableHScale take a resource path for the icon",
+    "message": "fwk: EditableHScale take a resource path for the icon\n",
+    "author_name": "Hubert Figui\u00e8re",
+    "author_email": "hub@figuiere.net",
+    "authored_date": "2019-12-27T17:40:01.000-05:00",
+    "committer_name": "Hubert Figui\u00e8re",
+    "committer_email": "hub@figuiere.net",
+    "committed_date": "2019-12-27T17:40:01.000-05:00",
+    "stats": {
+      "additions": 3,
+      "deletions": 3,
+      "total": 6
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 299
+  },
+  {
+    "id": "32bf738a48b02348d1f42b1ef48fa35e57eb1e27",
+    "short_id": "32bf738a",
+    "created_at": "2019-12-26T22:24:55.000-05:00",
+    "parent_ids": [
+      "56e61160a9d28e7f7f8300f93cd3a79efb369b1f"
+    ],
+    "title": "gtk: Move glade UI files to GResource",
+    "message": "gtk: Move glade UI files to GResource\n",
+    "author_name": "Hubert Figui\u00e8re",
+    "author_email": "hub@figuiere.net",
+    "authored_date": "2019-12-26T20:55:45.000-05:00",
+    "committer_name": "Hubert Figui\u00e8re",
+    "committer_email": "hub@figuiere.net",
+    "committed_date": "2019-12-26T22:24:55.000-05:00",
+    "stats": {
+      "additions": 14,
+      "deletions": 14,
+      "total": 28
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 299
+  },
+  {
+    "id": "56e61160a9d28e7f7f8300f93cd3a79efb369b1f",
+    "short_id": "56e61160",
+    "created_at": "2019-12-26T22:24:26.000-05:00",
+    "parent_ids": [
+      "d5612a89486cf25009885e29502e13d439698109"
+    ],
+    "title": "gtk: All the icons are in GResource",
+    "message": "gtk: All the icons are in GResource\n",
+    "author_name": "Hubert Figui\u00e8re",
+    "author_email": "hub@figuiere.net",
+    "authored_date": "2019-12-26T20:31:54.000-05:00",
+    "committer_name": "Hubert Figui\u00e8re",
+    "committer_email": "hub@figuiere.net",
+    "committed_date": "2019-12-26T22:24:26.000-05:00",
+    "stats": {
+      "additions": 142,
+      "deletions": 117,
+      "total": 259
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 299
+  },
+  {
+    "id": "d5612a89486cf25009885e29502e13d439698109",
+    "short_id": "d5612a89",
+    "created_at": "2019-12-26T12:52:29.000-05:00",
+    "parent_ids": [
+      "285f9c935f2c322a8071523aa8a0a4bc9e7d30f7"
+    ],
+    "title": "ui: ThumbStripview item-height is now a Glib property",
+    "message": "ui: ThumbStripview item-height is now a Glib property\n",
+    "author_name": "Hubert Figui\u00e8re",
+    "author_email": "hub@figuiere.net",
+    "authored_date": "2019-12-26T12:52:29.000-05:00",
+    "committer_name": "Hubert Figui\u00e8re",
+    "committer_email": "hub@figuiere.net",
+    "committed_date": "2019-12-26T12:52:29.000-05:00",
+    "stats": {
+      "additions": 7,
+      "deletions": 1,
+      "total": 8
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 299
+  },
+  {
+    "id": "285f9c935f2c322a8071523aa8a0a4bc9e7d30f7",
+    "short_id": "285f9c93",
+    "created_at": "2019-12-26T12:37:44.000-05:00",
+    "parent_ids": [
+      "23f6a16889580fef7d813efe82b71358ef153ac1"
+    ],
+    "title": "rust: make verbose builds more verbose",
+    "message": "rust: make verbose builds more verbose\n",
+    "author_name": "Hubert Figui\u00e8re",
+    "author_email": "hub@figuiere.net",
+    "authored_date": "2019-12-26T12:37:44.000-05:00",
+    "committer_name": "Hubert Figui\u00e8re",
+    "committer_email": "hub@figuiere.net",
+    "committed_date": "2019-12-26T12:37:44.000-05:00",
+    "stats": {
+      "additions": 1,
+      "deletions": 1,
+      "total": 2
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 299
+  },
+  {
+    "id": "23f6a16889580fef7d813efe82b71358ef153ac1",
+    "short_id": "23f6a168",
+    "created_at": "2019-12-26T12:37:28.000-05:00",
+    "parent_ids": [
+      "16204cc6d2f641b72361f1ed2433752c1ab1323e"
+    ],
+    "title": "git: add bindgen temp files to gitignore",
+    "message": "git: add bindgen temp files to gitignore\n",
+    "author_name": "Hubert Figui\u00e8re",
+    "author_email": "hub@figuiere.net",
+    "authored_date": "2019-12-26T12:37:28.000-05:00",
+    "committer_name": "Hubert Figui\u00e8re",
+    "committer_email": "hub@figuiere.net",
+    "committed_date": "2019-12-26T12:37:28.000-05:00",
+    "stats": {
+      "additions": 3,
+      "deletions": 1,
+      "total": 4
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 299
+  },
+  {
+    "id": "16204cc6d2f641b72361f1ed2433752c1ab1323e",
+    "short_id": "16204cc6",
+    "created_at": "2019-12-24T21:52:37.000-05:00",
+    "parent_ids": [
+      "ed3b0ae44111e4ceeb33db2818687f81937f465e"
+    ],
+    "title": "rust+npc-engine: update bindgen to 0.52",
+    "message": "rust+npc-engine: update bindgen to 0.52\n\n- Fix build.rs to pass \"-xc++\" (required)\n- Fix src/Makefile.am for proper dependency\n",
+    "author_name": "Hubert Figui\u00e8re",
+    "author_email": "hub@figuiere.net",
+    "authored_date": "2019-12-24T20:12:32.000-05:00",
+    "committer_name": "Hubert Figui\u00e8re",
+    "committer_email": "hub@figuiere.net",
+    "committed_date": "2019-12-24T21:52:37.000-05:00",
+    "stats": {
+      "additions": 125,
+      "deletions": 126,
+      "total": 251
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 299
+  },
+  {
+    "id": "ed3b0ae44111e4ceeb33db2818687f81937f465e",
+    "short_id": "ed3b0ae4",
+    "created_at": "2019-12-24T15:07:32.000-05:00",
+    "parent_ids": [
+      "3765fab90f039095a7a473722bf1fc80119adcb3"
+    ],
+    "title": "rust+gtk: Upgrade gtk version to 0.8.0",
+    "message": "rust+gtk: Upgrade gtk version to 0.8.0\n",
+    "author_name": "Hubert Figui\u00e8re",
+    "author_email": "hub@figuiere.net",
+    "authored_date": "2019-12-24T15:02:54.000-05:00",
+    "committer_name": "Hubert Figui\u00e8re",
+    "committer_email": "hub@figuiere.net",
+    "committed_date": "2019-12-24T15:07:32.000-05:00",
+    "stats": {
+      "additions": 258,
+      "deletions": 128,
+      "total": 386
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 299
+  },
+  {
+    "id": "3765fab90f039095a7a473722bf1fc80119adcb3",
+    "short_id": "3765fab9",
+    "created_at": "2019-12-24T15:07:32.000-05:00",
+    "parent_ids": [
+      "a459f8410ba5278b94f5b5ed0aae8728c7c45664"
+    ],
+    "title": "rust: fix warning",
+    "message": "rust: fix warning\n",
+    "author_name": "Hubert Figui\u00e8re",
+    "author_email": "hub@figuiere.net",
+    "authored_date": "2019-12-24T14:45:07.000-05:00",
+    "committer_name": "Hubert Figui\u00e8re",
+    "committer_email": "hub@figuiere.net",
+    "committed_date": "2019-12-24T15:07:32.000-05:00",
+    "stats": {
+      "additions": 1,
+      "deletions": 1,
+      "total": 2
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 299
+  },
+  {
+    "id": "9ae2ba3924784bbe9a207fc91ebcb9275ae76a52",
+    "short_id": "9ae2ba39",
+    "created_at": "2019-12-28T18:43:21.000+00:00",
+    "parent_ids": [
+      "528a84f99f1f555bb74f8335fba1f41a8dffe404",
+      "32c1d1ad27896f143e62902b3d1a45cfea20ca8c"
+    ],
+    "title": "Merge branch 'filters' into 'master'",
+    "message": "Merge branch 'filters' into 'master'\n\nFactor out common code in FeComposite, FeMerge and FeBlend\n\nSee merge request GNOME/librsvg!267",
+    "author_name": "Federico Mena Quintero",
+    "author_email": "federico.mena@gmail.com",
+    "authored_date": "2019-12-28T18:43:21.000+00:00",
+    "committer_name": "Federico Mena Quintero",
+    "committer_email": "federico.mena@gmail.com",
+    "committed_date": "2019-12-28T18:43:21.000+00:00",
+    "stats": {
+      "additions": 149,
+      "deletions": 175,
+      "total": 324
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139863,
+      "sha": "9ae2ba3924784bbe9a207fc91ebcb9275ae76a52",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T18:43:24.589Z",
+      "updated_at": "2019-12-28T19:16:26.430Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/librsvg/pipelines/139863"
+    },
+    "project_id": 296
+  },
+  {
+    "id": "32c1d1ad27896f143e62902b3d1a45cfea20ca8c",
+    "short_id": "32c1d1ad",
+    "created_at": "2019-12-28T10:48:52.000+01:00",
+    "parent_ids": [
+      "b210fe702a397df3ed5c0688239bd05ed6355a28"
+    ],
+    "title": "filters: use compose method also for FeBlend",
+    "message": "filters: use compose method also for FeBlend\n",
+    "author_name": "Paolo Borelli",
+    "author_email": "pborelli@gnome.org",
+    "authored_date": "2019-12-27T22:37:19.000+01:00",
+    "committer_name": "Paolo Borelli",
+    "committer_email": "pborelli@gnome.org",
+    "committed_date": "2019-12-28T10:48:52.000+01:00",
+    "stats": {
+      "additions": 5,
+      "deletions": 34,
+      "total": 39
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 296
+  },
+  {
+    "id": "b210fe702a397df3ed5c0688239bd05ed6355a28",
+    "short_id": "b210fe70",
+    "created_at": "2019-12-28T10:48:52.000+01:00",
+    "parent_ids": [
+      "d78a352bec288314c85636ea091753f016fd1940"
+    ],
+    "title": "filters: use compose method also for FeMerge",
+    "message": "filters: use compose method also for FeMerge\n",
+    "author_name": "Paolo Borelli",
+    "author_email": "pborelli@gnome.org",
+    "authored_date": "2019-12-27T22:24:31.000+01:00",
+    "committer_name": "Paolo Borelli",
+    "committer_email": "pborelli@gnome.org",
+    "committed_date": "2019-12-28T10:48:52.000+01:00",
+    "stats": {
+      "additions": 4,
+      "deletions": 32,
+      "total": 36
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 296
+  },
+  {
+    "id": "d78a352bec288314c85636ea091753f016fd1940",
+    "short_id": "d78a352b",
+    "created_at": "2019-12-28T10:48:52.000+01:00",
+    "parent_ids": [
+      "528a84f99f1f555bb74f8335fba1f41a8dffe404"
+    ],
+    "title": "Move composition code in surface_utils.",
+    "message": "Move composition code in surface_utils.\n\nMove pixel operations in the surface_utils module.\n",
+    "author_name": "Paolo Borelli",
+    "author_email": "pborelli@gnome.org",
+    "authored_date": "2019-12-27T22:18:06.000+01:00",
+    "committer_name": "Paolo Borelli",
+    "committer_email": "pborelli@gnome.org",
+    "committed_date": "2019-12-28T10:48:52.000+01:00",
+    "stats": {
+      "additions": 140,
+      "deletions": 109,
+      "total": 249
+    },
+    "status": null,
+    "last_pipeline": null,
+    "project_id": 296
   },
   {
     "id": "528a84f99f1f555bb74f8335fba1f41a8dffe404",
@@ -69313,13 +69192,13 @@
     },
     "status": "success",
     "last_pipeline": {
-      "id": 139757,
+      "id": 139789,
       "sha": "ef9f381746f5ddfdbcc7e39ca86b2ef091b71e5a",
       "ref": "master",
       "status": "success",
-      "created_at": "2019-12-27T21:32:46.135Z",
-      "updated_at": "2019-12-27T21:41:16.577Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gnome-music/pipelines/139757"
+      "created_at": "2019-12-28T04:19:24.959Z",
+      "updated_at": "2019-12-28T04:27:24.292Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/gnome-music/pipelines/139789"
     },
     "project_id": 293
   },
@@ -69548,6 +69427,38 @@
     "project_id": 293
   },
   {
+    "id": "06a036c56c4110e0bb9a7187db888ffb2695c712",
+    "short_id": "06a036c5",
+    "created_at": "2019-12-28T23:23:02.000+01:00",
+    "parent_ids": [
+      "3eafc1fdd1e8fb0dc9caf6ae707d38b2a88849ff"
+    ],
+    "title": "Update Catalan translation",
+    "message": "Update Catalan translation\n",
+    "author_name": "Jordi Mas",
+    "author_email": "jmas@softcatala.org",
+    "authored_date": "2019-12-28T23:23:02.000+01:00",
+    "committer_name": "Jordi Mas",
+    "committer_email": "jmas@softcatala.org",
+    "committed_date": "2019-12-28T23:23:02.000+01:00",
+    "stats": {
+      "additions": 5,
+      "deletions": 5,
+      "total": 10
+    },
+    "status": "failed",
+    "last_pipeline": {
+      "id": 139883,
+      "sha": "06a036c56c4110e0bb9a7187db888ffb2695c712",
+      "ref": "master",
+      "status": "failed",
+      "created_at": "2019-12-28T22:22:58.294Z",
+      "updated_at": "2019-12-28T22:27:19.214Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/recipes/pipelines/139883"
+    },
+    "project_id": 257
+  },
+  {
     "id": "3eafc1fdd1e8fb0dc9caf6ae707d38b2a88849ff",
     "short_id": "3eafc1fd",
     "created_at": "2019-12-15T18:41:26.000+00:00",
@@ -69642,6 +69553,102 @@
       "web_url": "https://gitlab.gnome.org/GNOME/recipes/pipelines/134402"
     },
     "project_id": 257
+  },
+  {
+    "id": "1b350c96914e7b8ac07c496a17d39133eb87a006",
+    "short_id": "1b350c96",
+    "created_at": "2019-12-28T15:24:45.000+00:00",
+    "parent_ids": [
+      "5e4f5329e252399280a3ad7a0a35ca0bc8fc6f81"
+    ],
+    "title": "Update Friulian translation",
+    "message": "Update Friulian translation\n",
+    "author_name": "Fabio Tomat",
+    "author_email": "f.t.public@gmail.com",
+    "authored_date": "2019-12-28T15:24:45.000+00:00",
+    "committer_name": "GNOME Translation Robot",
+    "committer_email": "gnome-sysadmin@gnome.org",
+    "committed_date": "2019-12-28T15:24:45.000+00:00",
+    "stats": {
+      "additions": 11,
+      "deletions": 11,
+      "total": 22
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139837,
+      "sha": "1b350c96914e7b8ac07c496a17d39133eb87a006",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T15:24:57.383Z",
+      "updated_at": "2019-12-28T15:31:49.010Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/simple-scan/pipelines/139837"
+    },
+    "project_id": 256
+  },
+  {
+    "id": "5e4f5329e252399280a3ad7a0a35ca0bc8fc6f81",
+    "short_id": "5e4f5329",
+    "created_at": "2019-12-28T11:02:46.000+00:00",
+    "parent_ids": [
+      "70bf8ac76bb3d54a3ad60a7e3df423d12e980a73"
+    ],
+    "title": "Fix a warning",
+    "message": "Fix a warning\n\nGtk-WARNING: widget 'GtkBox' isn't suitable for mnemonic activation\n",
+    "author_name": "Sabri \u00dcnal",
+    "author_email": "libreajans@gmail.com",
+    "authored_date": "2019-12-28T11:02:46.000+00:00",
+    "committer_name": "Bartosz",
+    "committer_email": "gang65@poczta.onet.pl",
+    "committed_date": "2019-12-28T11:02:46.000+00:00",
+    "stats": {
+      "additions": 2,
+      "deletions": 2,
+      "total": 4
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139825,
+      "sha": "5e4f5329e252399280a3ad7a0a35ca0bc8fc6f81",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T11:02:51.297Z",
+      "updated_at": "2019-12-28T11:09:10.755Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/simple-scan/pipelines/139825"
+    },
+    "project_id": 256
+  },
+  {
+    "id": "70bf8ac76bb3d54a3ad60a7e3df423d12e980a73",
+    "short_id": "70bf8ac7",
+    "created_at": "2019-12-28T10:57:23.000+00:00",
+    "parent_ids": [
+      "cfb48839f98bc5088650981a12980a4c640eedac"
+    ],
+    "title": "Improve some help pages",
+    "message": "Improve some help pages\n\nAdd a new image (preferences_quality.png) to show the quality page.\nFix a lowercase title in brightness-cortrast.page.\nAdd quality breadcrumb to dpi.page and brightness-cortrast.page.\nChange preferences.png media link to preferences_quality.png to show dpi settings in dpi.page.\nAdd preferences_quality.png media link to brightness-cortrast.page to show Brightness and Contrast settings.\nUpdate scan_toolbar.png to get rid of Simple Scan title and to show the new Preferences option.\n",
+    "author_name": "Sabri \u00dcnal",
+    "author_email": "libreajans@gmail.com",
+    "authored_date": "2019-12-28T10:57:23.000+00:00",
+    "committer_name": "Bartosz",
+    "committer_email": "gang65@poczta.onet.pl",
+    "committed_date": "2019-12-28T10:57:23.000+00:00",
+    "stats": {
+      "additions": 8,
+      "deletions": 4,
+      "total": 12
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139822,
+      "sha": "70bf8ac76bb3d54a3ad60a7e3df423d12e980a73",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T10:57:26.197Z",
+      "updated_at": "2019-12-28T11:03:50.115Z",
+      "web_url": "https://gitlab.gnome.org/GNOME/simple-scan/pipelines/139822"
+    },
+    "project_id": 256
   },
   {
     "id": "cfb48839f98bc5088650981a12980a4c640eedac",
@@ -70736,38 +70743,6 @@
       "created_at": "2019-11-29T11:43:24.262Z",
       "updated_at": "2019-11-29T11:51:55.446Z",
       "web_url": "https://gitlab.gnome.org/GNOME/simple-scan/pipelines/134431"
-    },
-    "project_id": 256
-  },
-  {
-    "id": "c0e0cf0af81e121ef8eb44dc5cbba96352e4178c",
-    "short_id": "c0e0cf0a",
-    "created_at": "2019-11-28T21:43:11.000+00:00",
-    "parent_ids": [
-      "0dfcb270f6dfa103e94f0ecc6455bb7c942fce69"
-    ],
-    "title": "Implement prompt to load autosaved data.",
-    "message": "Implement prompt to load autosaved data.\n",
-    "author_name": "Victor Mireyev",
-    "author_email": "victor.mireyev@gmail.com",
-    "authored_date": "2019-11-28T21:43:11.000+00:00",
-    "committer_name": "Robert Ancell",
-    "committer_email": "robert.ancell@gmail.com",
-    "committed_date": "2019-11-28T21:43:11.000+00:00",
-    "stats": {
-      "additions": 35,
-      "deletions": 13,
-      "total": 48
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134326,
-      "sha": "c0e0cf0af81e121ef8eb44dc5cbba96352e4178c",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T21:43:13.457Z",
-      "updated_at": "2019-11-28T21:53:14.013Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/simple-scan/pipelines/134326"
     },
     "project_id": 256
   },
@@ -72151,38 +72126,6 @@
     "project_id": 121
   },
   {
-    "id": "85877baf900179d5587aa1cd956bd1a1c0588adf",
-    "short_id": "85877baf",
-    "created_at": "2019-11-28T22:08:07.000+00:00",
-    "parent_ids": [
-      "18e3b502614d6383bcab2c604509e6d8402cbb8f"
-    ],
-    "title": "Update Greek translation",
-    "message": "Update Greek translation\n",
-    "author_name": "Efstathios Iosifidis",
-    "author_email": "eiosifidis@gnome.org",
-    "authored_date": "2019-11-28T22:08:07.000+00:00",
-    "committer_name": "GNOME Translation Robot",
-    "committer_email": "gnome-sysadmin@gnome.org",
-    "committed_date": "2019-11-28T22:08:07.000+00:00",
-    "stats": {
-      "additions": 28,
-      "deletions": 23,
-      "total": 51
-    },
-    "status": "failed",
-    "last_pipeline": {
-      "id": 134340,
-      "sha": "85877baf900179d5587aa1cd956bd1a1c0588adf",
-      "ref": "master",
-      "status": "failed",
-      "created_at": "2019-11-28T22:06:58.966Z",
-      "updated_at": "2019-11-28T22:12:48.117Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gnome-todo/pipelines/134340"
-    },
-    "project_id": 121
-  },
-  {
     "id": "251314ed3bbdb2500382d423813594ec0a5f5976",
     "short_id": "251314ed",
     "created_at": "2019-12-18T04:22:06.000+00:00",
@@ -72610,87 +72553,6 @@
       "updated_at": "2019-11-29T16:37:49.956Z",
       "web_url": "https://gitlab.gnome.org/GNOME/gjs/pipelines/134488"
     },
-    "project_id": 106
-  },
-  {
-    "id": "a1d9541c5d744afdce24ad37a5ab349491207253",
-    "short_id": "a1d9541c",
-    "created_at": "2019-11-28T16:39:40.000+00:00",
-    "parent_ids": [
-      "d7e51f47aeb1c9e1ef9b22db9ea26adbd7abb8c2",
-      "ecaec8f6795becd7dcc91296f2e6b878c3a8e724"
-    ],
-    "title": "Merge branch 'remove-autotools' into 'master'",
-    "message": "Merge branch 'remove-autotools' into 'master'\n\nbuild: Remove Autotools build system\n\nSee merge request GNOME/gjs!364",
-    "author_name": "Philip Chimento",
-    "author_email": "philip.chimento@gmail.com",
-    "authored_date": "2019-11-28T16:39:40.000+00:00",
-    "committer_name": "Philip Chimento",
-    "committer_email": "philip.chimento@gmail.com",
-    "committed_date": "2019-11-28T16:39:40.000+00:00",
-    "stats": {
-      "additions": 1,
-      "deletions": 3203,
-      "total": 3204
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134254,
-      "sha": "a1d9541c5d744afdce24ad37a5ab349491207253",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T16:39:44.166Z",
-      "updated_at": "2019-11-28T16:46:21.694Z",
-      "web_url": "https://gitlab.gnome.org/GNOME/gjs/pipelines/134254"
-    },
-    "project_id": 106
-  },
-  {
-    "id": "ecaec8f6795becd7dcc91296f2e6b878c3a8e724",
-    "short_id": "ecaec8f6",
-    "created_at": "2019-11-28T08:08:55.000-08:00",
-    "parent_ids": [
-      "072ffd6d7f184f35d953d5d0257c66a84c385458"
-    ],
-    "title": "profiler: Change message to not depend on build system",
-    "message": "profiler: Change message to not depend on build system\n",
-    "author_name": "Philip Chimento",
-    "author_email": "philip.chimento@gmail.com",
-    "authored_date": "2019-11-28T08:08:55.000-08:00",
-    "committer_name": "Philip Chimento",
-    "committer_email": "philip.chimento@gmail.com",
-    "committed_date": "2019-11-28T08:08:55.000-08:00",
-    "stats": {
-      "additions": 1,
-      "deletions": 1,
-      "total": 2
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 106
-  },
-  {
-    "id": "072ffd6d7f184f35d953d5d0257c66a84c385458",
-    "short_id": "072ffd6d",
-    "created_at": "2019-11-28T08:08:02.000-08:00",
-    "parent_ids": [
-      "d7e51f47aeb1c9e1ef9b22db9ea26adbd7abb8c2"
-    ],
-    "title": "build: Remove Autotools build system",
-    "message": "build: Remove Autotools build system\n\nWe've had one release with both Meson and Autotools, and now it's time\nto remove Autotools and the remaining CI jobs that use it.\n",
-    "author_name": "Philip Chimento",
-    "author_email": "philip.chimento@gmail.com",
-    "authored_date": "2019-11-23T16:26:05.000-08:00",
-    "committer_name": "Philip Chimento",
-    "committer_email": "philip.chimento@gmail.com",
-    "committed_date": "2019-11-28T08:08:02.000-08:00",
-    "stats": {
-      "additions": 0,
-      "deletions": 3202,
-      "total": 3202
-    },
-    "status": null,
-    "last_pipeline": null,
     "project_id": 106
   },
   {
@@ -74398,102 +74260,6 @@
     "project_id": 9464
   },
   {
-    "id": "36780997f52e1cf1df0646351f4ac8de57cdb817",
-    "short_id": "36780997",
-    "created_at": "2019-11-28T11:03:13.000+01:00",
-    "parent_ids": [
-      "459de47bff58c02a39496a1b3f76a211c53c6ae1"
-    ],
-    "title": "Cleanup",
-    "message": "Cleanup\n",
-    "author_name": "Bart\u0142omiej Piotrowski",
-    "author_email": "bpiotrowski@gnome.org",
-    "authored_date": "2019-11-28T11:01:25.000+01:00",
-    "committer_name": "Bart\u0142omiej Piotrowski",
-    "committer_email": "bpiotrowski@gnome.org",
-    "committed_date": "2019-11-28T11:03:13.000+01:00",
-    "stats": {
-      "additions": 3,
-      "deletions": 31,
-      "total": 34
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 9464
-  },
-  {
-    "id": "459de47bff58c02a39496a1b3f76a211c53c6ae1",
-    "short_id": "459de47b",
-    "created_at": "2019-11-28T11:00:56.000+01:00",
-    "parent_ids": [
-      "3e1b2024061bd4a3cd708d2cfe71e0ce08577814"
-    ],
-    "title": "Switch to httpGet for indico liveness probes",
-    "message": "Switch to httpGet for indico liveness probes\n",
-    "author_name": "Bart\u0142omiej Piotrowski",
-    "author_email": "bpiotrowski@gnome.org",
-    "authored_date": "2019-11-28T11:00:56.000+01:00",
-    "committer_name": "Bart\u0142omiej Piotrowski",
-    "committer_email": "bpiotrowski@gnome.org",
-    "committed_date": "2019-11-28T11:00:56.000+01:00",
-    "stats": {
-      "additions": 6,
-      "deletions": 8,
-      "total": 14
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 9464
-  },
-  {
-    "id": "3e1b2024061bd4a3cd708d2cfe71e0ce08577814",
-    "short_id": "3e1b2024",
-    "created_at": "2019-11-28T10:50:12.000+01:00",
-    "parent_ids": [
-      "e1aa59b6011cc372a9a7003ab3f4b1a16fdee64b"
-    ],
-    "title": "Add redis ImageStream",
-    "message": "Add redis ImageStream\n",
-    "author_name": "Bart\u0142omiej Piotrowski",
-    "author_email": "bpiotrowski@gnome.org",
-    "authored_date": "2019-11-28T10:50:12.000+01:00",
-    "committer_name": "Bart\u0142omiej Piotrowski",
-    "committer_email": "bpiotrowski@gnome.org",
-    "committed_date": "2019-11-28T10:50:12.000+01:00",
-    "stats": {
-      "additions": 15,
-      "deletions": 14,
-      "total": 29
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 9464
-  },
-  {
-    "id": "e1aa59b6011cc372a9a7003ab3f4b1a16fdee64b",
-    "short_id": "e1aa59b6",
-    "created_at": "2019-11-28T09:53:41.000+01:00",
-    "parent_ids": [
-      "a75c2e96a02df3f90a817b3ad01b14628badd55e"
-    ],
-    "title": "Use single persistent volume for custom and archive directories",
-    "message": "Use single persistent volume for custom and archive directories\n",
-    "author_name": "Bart\u0142omiej Piotrowski",
-    "author_email": "bpiotrowski@gnome.org",
-    "authored_date": "2019-11-28T09:53:21.000+01:00",
-    "committer_name": "Bart\u0142omiej Piotrowski",
-    "committer_email": "bpiotrowski@gnome.org",
-    "committed_date": "2019-11-28T09:53:41.000+01:00",
-    "stats": {
-      "additions": 14,
-      "deletions": 56,
-      "total": 70
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 9464
-  },
-  {
     "id": "f57ad663e67214c6191822aefbeb2b55b33111e3",
     "short_id": "f57ad663",
     "created_at": "2019-12-18T11:17:33.000+01:00",
@@ -74854,30 +74620,6 @@
     "project_id": 7083
   },
   {
-    "id": "4bf3a5b181e4fba0e536276078cb75b867243b4a",
-    "short_id": "4bf3a5b1",
-    "created_at": "2019-11-28T21:25:01.000+01:00",
-    "parent_ids": [
-      "51bbf4b49944b993ca685ee13dee2afaddcc85a1"
-    ],
-    "title": "Point docs.flatpak.org to readthedocs.io for SSL support",
-    "message": "Point docs.flatpak.org to readthedocs.io for SSL support\n",
-    "author_name": "Bart\u0142omiej Piotrowski",
-    "author_email": "bpiotrowski@gnome.org",
-    "authored_date": "2019-11-28T21:24:31.000+01:00",
-    "committer_name": "Bart\u0142omiej Piotrowski",
-    "committer_email": "bpiotrowski@gnome.org",
-    "committed_date": "2019-11-28T21:25:01.000+01:00",
-    "stats": {
-      "additions": 1,
-      "deletions": 1,
-      "total": 2
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 7083
-  },
-  {
     "id": "ecae7d052dd6d0ecd04c8c244dad5e90c6b518a2",
     "short_id": "ecae7d05",
     "created_at": "2019-12-10T16:25:24.000+01:00",
@@ -75046,54 +74788,6 @@
     "project_id": 6679
   },
   {
-    "id": "dc0237b0352b0254df8927ee91a88d2052b65fd7",
-    "short_id": "dc0237b0",
-    "created_at": "2019-11-28T23:52:03.000+01:00",
-    "parent_ids": [
-      "e44f2eee61c09bdf45c3a1df221a5f0f5eb70d8a"
-    ],
-    "title": "Revert \"Bump etherpad release to 1.8\"",
-    "message": "Revert \"Bump etherpad release to 1.8\"\n\nThis reverts commit e44f2eee61c09bdf45c3a1df221a5f0f5eb70d8a.\n",
-    "author_name": "Andrea Veri",
-    "author_email": "averi@redhat.com",
-    "authored_date": "2019-11-28T23:52:03.000+01:00",
-    "committer_name": "Andrea Veri",
-    "committer_email": "averi@redhat.com",
-    "committed_date": "2019-11-28T23:52:03.000+01:00",
-    "stats": {
-      "additions": 1,
-      "deletions": 1,
-      "total": 2
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 5794
-  },
-  {
-    "id": "e44f2eee61c09bdf45c3a1df221a5f0f5eb70d8a",
-    "short_id": "e44f2eee",
-    "created_at": "2019-11-28T22:43:16.000+00:00",
-    "parent_ids": [
-      "f3d44e0590f5f68b1b2a4d525e4531a247984741"
-    ],
-    "title": "Bump etherpad release to 1.8",
-    "message": "Bump etherpad release to 1.8",
-    "author_name": "Administrator",
-    "author_email": "gnome-sysadmin@gnome.org",
-    "authored_date": "2019-11-28T22:43:16.000+00:00",
-    "committer_name": "Administrator",
-    "committer_email": "gnome-sysadmin@gnome.org",
-    "committed_date": "2019-11-28T22:43:16.000+00:00",
-    "stats": {
-      "additions": 1,
-      "deletions": 1,
-      "total": 2
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 5794
-  },
-  {
     "id": "5581f9521ae80fb6e570c64d941897f611db12d8",
     "short_id": "5581f952",
     "created_at": "2019-12-06T13:39:04.000+01:00",
@@ -75150,31 +74844,6 @@
     "project_id": 4611
   },
   {
-    "id": "1da5fa7dc4f5ba89a79d66f7445dff5f25e538da",
-    "short_id": "1da5fa7d",
-    "created_at": "2019-11-28T06:43:34.000+00:00",
-    "parent_ids": [
-      "3e51677d414748ad92744b4d5fb97c98164cd310",
-      "20a7860c6f9598db1fea7b964b4c76ddff9910ae"
-    ],
-    "title": "Merge branch 'patch-1' into 'master'",
-    "message": "Merge branch 'patch-1' into 'master'\n\nUpdate page-donate.php by removing bank transfers per Foundation request.\n\nSee merge request Infrastructure/gnome-web-www!9",
-    "author_name": "Tom Tryfonidis",
-    "author_email": "tomtryf@gnome.org",
-    "authored_date": "2019-11-28T06:43:34.000+00:00",
-    "committer_name": "Tom Tryfonidis",
-    "committer_email": "tomtryf@gnome.org",
-    "committed_date": "2019-11-28T06:43:34.000+00:00",
-    "stats": {
-      "additions": 0,
-      "deletions": 6,
-      "total": 6
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 2881
-  },
-  {
     "id": "8e1eb7461c4beffe856e795c82cdff9002e0148b",
     "short_id": "8e1eb746",
     "created_at": "2019-12-13T15:22:16.000+00:00",
@@ -75196,13 +74865,13 @@
     },
     "status": "success",
     "last_pipeline": {
-      "id": 139599,
+      "id": 139786,
       "sha": "8e1eb7461c4beffe856e795c82cdff9002e0148b",
       "ref": "master",
       "status": "success",
-      "created_at": "2019-12-27T04:19:20.965Z",
-      "updated_at": "2019-12-27T04:26:25.197Z",
-      "web_url": "https://gitlab.gnome.org/Infrastructure/extensions-web/pipelines/139599"
+      "created_at": "2019-12-28T04:19:18.108Z",
+      "updated_at": "2019-12-28T04:25:03.333Z",
+      "web_url": "https://gitlab.gnome.org/Infrastructure/extensions-web/pipelines/139786"
     },
     "project_id": 2878
   },
@@ -75267,70 +74936,6 @@
       "created_at": "2019-12-02T04:19:25.898Z",
       "updated_at": "2019-12-02T04:25:53.070Z",
       "web_url": "https://gitlab.gnome.org/Infrastructure/extensions-web/pipelines/134957"
-    },
-    "project_id": 2878
-  },
-  {
-    "id": "b3b5591eb24ccc0728085fca4fa0da6792f4f06f",
-    "short_id": "b3b5591e",
-    "created_at": "2019-11-28T23:10:59.000+00:00",
-    "parent_ids": [
-      "c512944c895bea53ddf7aecb29d464c7989babcf"
-    ],
-    "title": "Update Swedish translation",
-    "message": "Update Swedish translation\n",
-    "author_name": "Anders Jonsson",
-    "author_email": "anders.jonsson@norsjovallen.se",
-    "authored_date": "2019-11-28T23:10:59.000+00:00",
-    "committer_name": "GNOME Translation Robot",
-    "committer_email": "gnome-sysadmin@gnome.org",
-    "committed_date": "2019-11-28T23:10:59.000+00:00",
-    "stats": {
-      "additions": 35,
-      "deletions": 31,
-      "total": 66
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134379,
-      "sha": "b3b5591eb24ccc0728085fca4fa0da6792f4f06f",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-29T04:19:39.168Z",
-      "updated_at": "2019-11-29T04:25:10.266Z",
-      "web_url": "https://gitlab.gnome.org/Infrastructure/extensions-web/pipelines/134379"
-    },
-    "project_id": 2878
-  },
-  {
-    "id": "c512944c895bea53ddf7aecb29d464c7989babcf",
-    "short_id": "c512944c",
-    "created_at": "2019-11-28T21:13:01.000+04:00",
-    "parent_ids": [
-      "6a56585d8e4efa365e9d507d524a1e33ab03bab3"
-    ],
-    "title": "extensions: fixed markup",
-    "message": "extensions: fixed markup\n\nCloses: https://gitlab.gnome.org/Infrastructure/extensions-web/issues/93\n",
-    "author_name": "Yuri Konotopov",
-    "author_email": "ykonotopov@gnome.org",
-    "authored_date": "2019-11-28T21:11:56.000+04:00",
-    "committer_name": "Yuri Konotopov",
-    "committer_email": "ykonotopov@gnome.org",
-    "committed_date": "2019-11-28T21:13:01.000+04:00",
-    "stats": {
-      "additions": 1,
-      "deletions": 1,
-      "total": 2
-    },
-    "status": "success",
-    "last_pipeline": {
-      "id": 134271,
-      "sha": "c512944c895bea53ddf7aecb29d464c7989babcf",
-      "ref": "master",
-      "status": "success",
-      "created_at": "2019-11-28T17:12:58.882Z",
-      "updated_at": "2019-11-28T17:22:58.295Z",
-      "web_url": "https://gitlab.gnome.org/Infrastructure/extensions-web/pipelines/134271"
     },
     "project_id": 2878
   },
@@ -79327,30 +78932,6 @@
     "project_id": 609
   },
   {
-    "id": "81c8549c1f38f1d91343b7aceb59e8bc8eac2e06",
-    "short_id": "81c8549c",
-    "created_at": "2019-11-28T16:02:25.000+01:00",
-    "parent_ids": [
-      "aee469d454266f6ea23b549719be1e97dd41cf3f"
-    ],
-    "title": "Update Polish translation",
-    "message": "Update Polish translation\n",
-    "author_name": "Piotr Dr\u0105g",
-    "author_email": "piotrdrag@gmail.com",
-    "authored_date": "2019-11-28T16:02:00.000+01:00",
-    "committer_name": "Piotr Dr\u0105g",
-    "committer_email": "piotrdrag@gmail.com",
-    "committed_date": "2019-11-28T16:02:25.000+01:00",
-    "stats": {
-      "additions": 154,
-      "deletions": 148,
-      "total": 302
-    },
-    "status": null,
-    "last_pipeline": null,
-    "project_id": 609
-  },
-  {
     "id": "8441322e661fad4a1e30f589814717ba5b9743a5",
     "short_id": "8441322e",
     "created_at": "2019-12-20T18:28:03.000+01:00",
@@ -80441,6 +80022,38 @@
     "status": null,
     "last_pipeline": null,
     "project_id": 8288
+  },
+  {
+    "id": "be45517ee6e0c447411aebfa226bb27e1c08dcff",
+    "short_id": "be45517e",
+    "created_at": "2019-12-28T18:09:25.000+00:00",
+    "parent_ids": [
+      "6e8edda4e49103f61e1d23d95b1a18bca4307815"
+    ],
+    "title": "feat(edit_view): Full title as tooltip and in titlebar",
+    "message": "feat(edit_view): Full title as tooltip and in titlebar\n\nShow full path as tooltip for each tab.\nAdd setting to allow displaying path in titlebar of the form `filename - path`\n\nfixes #382\n",
+    "author_name": "TomSteu",
+    "author_email": "steudtner.tom@gmail.com",
+    "authored_date": "2019-12-28T18:09:25.000+00:00",
+    "committer_name": "Rasmus Thomsen",
+    "committer_email": "oss@cogitri.dev",
+    "committed_date": "2019-12-28T18:09:25.000+00:00",
+    "stats": {
+      "additions": 94,
+      "deletions": 35,
+      "total": 129
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139861,
+      "sha": "be45517ee6e0c447411aebfa226bb27e1c08dcff",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T18:09:30.751Z",
+      "updated_at": "2019-12-28T18:37:52.153Z",
+      "web_url": "https://gitlab.gnome.org/World/Tau/pipelines/139861"
+    },
+    "project_id": 7789
   },
   {
     "id": "6e8edda4e49103f61e1d23d95b1a18bca4307815",
@@ -82756,6 +82369,70 @@
       "web_url": "https://gitlab.gnome.org/World/Social/pipelines/134404"
     },
     "project_id": 1276
+  },
+  {
+    "id": "cdb7cd3904bc2ae42d5a498aae8ba8fe1c33e82a",
+    "short_id": "cdb7cd39",
+    "created_at": "2019-12-28T16:56:15.000+01:00",
+    "parent_ids": [
+      "d6c7aad97c313e7cfb010e8081f9b54e581ce6cd"
+    ],
+    "title": "1.2.19",
+    "message": "1.2.19\n",
+    "author_name": "C\u00e9dric Bellegarde",
+    "author_email": "cedric.bellegarde@adishatz.org",
+    "authored_date": "2019-12-28T16:56:15.000+01:00",
+    "committer_name": "C\u00e9dric Bellegarde",
+    "committer_email": "cedric.bellegarde@adishatz.org",
+    "committed_date": "2019-12-28T16:56:15.000+01:00",
+    "stats": {
+      "additions": 2,
+      "deletions": 2,
+      "total": 4
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139847,
+      "sha": "cdb7cd3904bc2ae42d5a498aae8ba8fe1c33e82a",
+      "ref": "1.2.19",
+      "status": "success",
+      "created_at": "2019-12-28T15:56:56.414Z",
+      "updated_at": "2019-12-28T16:01:27.109Z",
+      "web_url": "https://gitlab.gnome.org/World/lollypop/pipelines/139847"
+    },
+    "project_id": 274
+  },
+  {
+    "id": "d6c7aad97c313e7cfb010e8081f9b54e581ce6cd",
+    "short_id": "d6c7aad9",
+    "created_at": "2019-12-28T16:55:09.000+01:00",
+    "parent_ids": [
+      "084f016738c1e4d7cc51bfec326cc0d2cd9751d1"
+    ],
+    "title": "Fix invalid previous commit",
+    "message": "Fix invalid previous commit\n",
+    "author_name": "C\u00e9dric Bellegarde",
+    "author_email": "cedric.bellegarde@adishatz.org",
+    "authored_date": "2019-12-28T16:55:09.000+01:00",
+    "committer_name": "C\u00e9dric Bellegarde",
+    "committer_email": "cedric.bellegarde@adishatz.org",
+    "committed_date": "2019-12-28T16:55:09.000+01:00",
+    "stats": {
+      "additions": 1,
+      "deletions": 1,
+      "total": 2
+    },
+    "status": "success",
+    "last_pipeline": {
+      "id": 139844,
+      "sha": "d6c7aad97c313e7cfb010e8081f9b54e581ce6cd",
+      "ref": "master",
+      "status": "success",
+      "created_at": "2019-12-28T15:54:59.382Z",
+      "updated_at": "2019-12-28T15:59:27.181Z",
+      "web_url": "https://gitlab.gnome.org/World/lollypop/pipelines/139844"
+    },
+    "project_id": 274
   },
   {
     "id": "084f016738c1e4d7cc51bfec326cc0d2cd9751d1",
