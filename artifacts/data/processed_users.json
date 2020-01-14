@@ -6,10 +6,10 @@
     "web_url": "https://gitlab.gnome.org/aday",
     "user_name": "aday",
     "points": {
-      "days_1": 0,
-      "days_7": 102,
-      "days_15": 102,
-      "days_30": 427
+      "days_1": 3,
+      "days_7": 105,
+      "days_15": 105,
+      "days_30": 430
     },
     "awards": {
       "gold": 18,
@@ -18,8 +18,8 @@
       "top10": 89
     },
     "activity": {
-      "issues": 3,
-      "commits": 15,
+      "issues": 5,
+      "commits": 16,
       "merge_requests": 0
     }
   },
@@ -30,20 +30,20 @@
     "web_url": "https://gitlab.gnome.org/snwh",
     "user_name": "snwh",
     "points": {
-      "days_1": 0,
-      "days_7": 321,
-      "days_15": 322,
-      "days_30": 332
+      "days_1": 3,
+      "days_7": 324,
+      "days_15": 325,
+      "days_30": 335
     },
     "awards": {
       "gold": 0,
       "silver": 0,
       "bronze": 1,
-      "top10": 8
+      "top10": 10
     },
     "activity": {
       "issues": 4,
-      "commits": 35,
+      "commits": 37,
       "merge_requests": 1
     }
   },
@@ -54,10 +54,10 @@
     "web_url": "https://gitlab.gnome.org/bertob",
     "user_name": "bertob",
     "points": {
-      "days_1": 0,
-      "days_7": 29,
-      "days_15": 31,
-      "days_30": 369
+      "days_1": 11,
+      "days_7": 52,
+      "days_15": 54,
+      "days_30": 392
     },
     "awards": {
       "gold": 39,
@@ -67,8 +67,8 @@
     },
     "activity": {
       "issues": 16,
-      "commits": 4,
-      "merge_requests": 7
+      "commits": 7,
+      "merge_requests": 9
     }
   },
   {
@@ -78,10 +78,10 @@
     "web_url": "https://gitlab.gnome.org/exalm",
     "user_name": "exalm",
     "points": {
-      "days_1": 10,
-      "days_7": 86,
-      "days_15": 86,
-      "days_30": 101
+      "days_1": 8,
+      "days_7": 87,
+      "days_15": 87,
+      "days_30": 102
     },
     "awards": {
       "gold": 0,
@@ -90,7 +90,7 @@
       "top10": 2
     },
     "activity": {
-      "issues": 6,
+      "issues": 7,
       "commits": 34,
       "merge_requests": 9
     }
@@ -150,8 +150,8 @@
     "web_url": "https://gitlab.gnome.org/ajonsson",
     "user_name": "ajonsson",
     "points": {
-      "days_1": 2,
-      "days_7": 19,
+      "days_1": 0,
+      "days_7": 2,
       "days_15": 98,
       "days_30": 298
     },
@@ -222,10 +222,10 @@
     "web_url": "https://gitlab.gnome.org/bilelmoussaoui",
     "user_name": "bilelmoussaoui",
     "points": {
-      "days_1": 0,
-      "days_7": 15,
-      "days_15": 96,
-      "days_30": 263
+      "days_1": 10,
+      "days_7": 20,
+      "days_15": 95,
+      "days_30": 273
     },
     "awards": {
       "gold": 1,
@@ -236,7 +236,7 @@
     "activity": {
       "issues": 9,
       "commits": 41,
-      "merge_requests": 13
+      "merge_requests": 15
     }
   },
   {
@@ -272,7 +272,7 @@
     "points": {
       "days_1": 0,
       "days_7": 35,
-      "days_15": 41,
+      "days_15": 39,
       "days_30": 83
     },
     "awards": {
@@ -285,6 +285,54 @@
       "issues": 12,
       "commits": 14,
       "merge_requests": 6
+    }
+  },
+  {
+    "id": 132,
+    "name": "Xavier Claessens",
+    "avatar_url": "https://secure.gravatar.com/avatar/982175814dd7c3a46b6461310b213113?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/xclaesse",
+    "user_name": "xclaesse",
+    "points": {
+      "days_1": 14,
+      "days_7": 34,
+      "days_15": 41,
+      "days_30": 41
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 4,
+      "commits": 1,
+      "merge_requests": 7
+    }
+  },
+  {
+    "id": 20,
+    "name": "Alexandre Franke",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/20/avatar.png",
+    "web_url": "https://gitlab.gnome.org/afranke",
+    "user_name": "afranke",
+    "points": {
+      "days_1": 2,
+      "days_7": 4,
+      "days_15": 4,
+      "days_30": 9
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 2,
+      "commits": 1,
+      "merge_requests": 0
     }
   },
   {
@@ -306,7 +354,7 @@
       "top10": 0
     },
     "activity": {
-      "issues": 2,
+      "issues": 1,
       "commits": 0,
       "merge_requests": 0
     }
@@ -333,30 +381,6 @@
       "issues": 1,
       "commits": 0,
       "merge_requests": 0
-    }
-  },
-  {
-    "id": 132,
-    "name": "Xavier Claessens",
-    "avatar_url": "https://secure.gravatar.com/avatar/982175814dd7c3a46b6461310b213113?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/xclaesse",
-    "user_name": "xclaesse",
-    "points": {
-      "days_1": 0,
-      "days_7": 20,
-      "days_15": 27,
-      "days_30": 27
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 2,
-      "commits": 1,
-      "merge_requests": 5
     }
   },
   {
@@ -405,30 +429,6 @@
       "issues": 3,
       "commits": 0,
       "merge_requests": 3
-    }
-  },
-  {
-    "id": 1649,
-    "name": "Samuel Thibault",
-    "avatar_url": "https://secure.gravatar.com/avatar/25fc28cce58432338f7f7053f2edf6c6?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/sthibaul",
-    "user_name": "sthibaul",
-    "points": {
-      "days_1": 0,
-      "days_7": 2,
-      "days_15": 2,
-      "days_30": 9
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 2,
-      "commits": 1,
-      "merge_requests": 1
     }
   },
   {
@@ -558,10 +558,10 @@
     "web_url": "https://gitlab.gnome.org/crvi",
     "user_name": "crvi",
     "points": {
-      "days_1": 3,
-      "days_7": 39,
-      "days_15": 45,
-      "days_30": 45
+      "days_1": 4,
+      "days_7": 40,
+      "days_15": 47,
+      "days_30": 47
     },
     "awards": {
       "gold": 0,
@@ -570,7 +570,7 @@
       "top10": 1
     },
     "activity": {
-      "issues": 15,
+      "issues": 17,
       "commits": 1,
       "merge_requests": 6
     }
@@ -582,10 +582,10 @@
     "web_url": "https://gitlab.gnome.org/mcatanzaro",
     "user_name": "mcatanzaro",
     "points": {
-      "days_1": 32,
-      "days_7": 99,
-      "days_15": 163,
-      "days_30": 324
+      "days_1": 3,
+      "days_7": 79,
+      "days_15": 161,
+      "days_30": 312
     },
     "awards": {
       "gold": 1,
@@ -594,9 +594,9 @@
       "top10": 20
     },
     "activity": {
-      "issues": 37,
-      "commits": 87,
-      "merge_requests": 26
+      "issues": 36,
+      "commits": 85,
+      "merge_requests": 25
     }
   },
   {
@@ -630,7 +630,7 @@
     "web_url": "https://gitlab.gnome.org/crvi",
     "user_name": "crvi",
     "points": {
-      "days_1": 2,
+      "days_1": 0,
       "days_7": 2,
       "days_15": 2,
       "days_30": 2
@@ -680,7 +680,7 @@
     "points": {
       "days_1": 0,
       "days_7": 0,
-      "days_15": 2,
+      "days_15": 0,
       "days_30": 2
     },
     "awards": {
@@ -726,7 +726,7 @@
     "web_url": "https://gitlab.gnome.org/nabili",
     "user_name": "nabili",
     "points": {
-      "days_1": 2,
+      "days_1": 0,
       "days_7": 2,
       "days_15": 4,
       "days_30": 6
@@ -798,10 +798,10 @@
     "web_url": "https://gitlab.gnome.org/jbylund",
     "user_name": "jbylund",
     "points": {
-      "days_1": 10,
-      "days_7": 12,
-      "days_15": 12,
-      "days_30": 12
+      "days_1": 15,
+      "days_7": 17,
+      "days_15": 17,
+      "days_30": 17
     },
     "awards": {
       "gold": 0,
@@ -811,7 +811,7 @@
     },
     "activity": {
       "issues": 1,
-      "commits": 0,
+      "commits": 1,
       "merge_requests": 2
     }
   },
@@ -990,10 +990,10 @@
     "web_url": "https://gitlab.gnome.org/ivan.planinar",
     "user_name": "ivan.planinar",
     "points": {
-      "days_1": 1,
-      "days_7": 6,
-      "days_15": 8,
-      "days_30": 12
+      "days_1": 0,
+      "days_7": 5,
+      "days_15": 7,
+      "days_30": 11
     },
     "awards": {
       "gold": 0,
@@ -1002,7 +1002,7 @@
       "top10": 0
     },
     "activity": {
-      "issues": 10,
+      "issues": 9,
       "commits": 0,
       "merge_requests": 0
     }
@@ -1039,9 +1039,9 @@
     "user_name": "jensgeorg",
     "points": {
       "days_1": 3,
-      "days_7": 3,
-      "days_15": 9,
-      "days_30": 18
+      "days_7": 4,
+      "days_15": 10,
+      "days_30": 19
     },
     "awards": {
       "gold": 0,
@@ -1051,7 +1051,7 @@
     },
     "activity": {
       "issues": 7,
-      "commits": 22,
+      "commits": 26,
       "merge_requests": 0
     }
   },
@@ -1075,6 +1075,30 @@
     },
     "activity": {
       "issues": 2,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 2774,
+    "name": "Jatan Mehta",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2774/avatar.png",
+    "web_url": "https://gitlab.gnome.org/uncertainquark",
+    "user_name": "uncertainquark",
+    "points": {
+      "days_1": 1,
+      "days_7": 1,
+      "days_15": 1,
+      "days_30": 1
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
       "commits": 0,
       "merge_requests": 0
     }
@@ -1134,10 +1158,10 @@
     "web_url": "https://gitlab.gnome.org/alanorth",
     "user_name": "alanorth",
     "points": {
-      "days_1": 0,
-      "days_7": 2,
-      "days_15": 2,
-      "days_30": 2
+      "days_1": 1,
+      "days_7": 3,
+      "days_15": 3,
+      "days_30": 3
     },
     "awards": {
       "gold": 0,
@@ -1146,7 +1170,7 @@
       "top10": 0
     },
     "activity": {
-      "issues": 2,
+      "issues": 3,
       "commits": 0,
       "merge_requests": 0
     }
@@ -1184,8 +1208,8 @@
     "points": {
       "days_1": 1,
       "days_7": 13,
-      "days_15": 18,
-      "days_30": 32
+      "days_15": 16,
+      "days_30": 31
     },
     "awards": {
       "gold": 0,
@@ -1194,7 +1218,7 @@
       "top10": 0
     },
     "activity": {
-      "issues": 19,
+      "issues": 18,
       "commits": 2,
       "merge_requests": 1
     }
@@ -1416,37 +1440,13 @@
     }
   },
   {
-    "id": 28431,
-    "name": "Tubery",
-    "avatar_url": "https://secure.gravatar.com/avatar/f4dcc737d0c0a6be24bb127491640cdb?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/tuberry",
-    "user_name": "tuberry",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 2
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 1,
-      "commits": 0,
-      "merge_requests": 0
-    }
-  },
-  {
     "id": 174,
     "name": "Hussam Al-Tayeb",
     "avatar_url": "https://secure.gravatar.com/avatar/9529abd5960e7bb98672cc6c37f644e4?s=80&d=identicon",
     "web_url": "https://gitlab.gnome.org/hussam",
     "user_name": "hussam",
     "points": {
-      "days_1": 2,
+      "days_1": 0,
       "days_7": 2,
       "days_15": 2,
       "days_30": 2
@@ -1543,7 +1543,7 @@
     "user_name": "banu184",
     "points": {
       "days_1": 0,
-      "days_7": 2,
+      "days_7": 0,
       "days_15": 2,
       "days_30": 2
     },
@@ -1590,10 +1590,10 @@
     "web_url": "https://gitlab.gnome.org/aklapper",
     "user_name": "aklapper",
     "points": {
-      "days_1": 24,
-      "days_7": 45,
-      "days_15": 74,
-      "days_30": 113
+      "days_1": 5,
+      "days_7": 46,
+      "days_15": 75,
+      "days_30": 114
     },
     "awards": {
       "gold": 0,
@@ -1603,7 +1603,7 @@
     },
     "activity": {
       "issues": 56,
-      "commits": 107,
+      "commits": 105,
       "merge_requests": 1
     }
   },
@@ -1664,7 +1664,7 @@
     "points": {
       "days_1": 0,
       "days_7": 0,
-      "days_15": 6,
+      "days_15": 1,
       "days_30": 7
     },
     "awards": {
@@ -1735,7 +1735,7 @@
     "user_name": "mikep",
     "points": {
       "days_1": 0,
-      "days_7": 2,
+      "days_7": 0,
       "days_15": 2,
       "days_30": 2
     },
@@ -2094,7 +2094,7 @@
     "web_url": "https://gitlab.gnome.org/Fabish",
     "user_name": "Fabish",
     "points": {
-      "days_1": 1,
+      "days_1": 0,
       "days_7": 1,
       "days_15": 1,
       "days_30": 1
@@ -2160,6 +2160,30 @@
     }
   },
   {
+    "id": 11438,
+    "name": "Sabri \u00dcnal",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/11438/avatar.png",
+    "web_url": "https://gitlab.gnome.org/libreajans",
+    "user_name": "libreajans",
+    "points": {
+      "days_1": 47,
+      "days_7": 162,
+      "days_15": 268,
+      "days_30": 308
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "top10": 33
+    },
+    "activity": {
+      "issues": 41,
+      "commits": 17,
+      "merge_requests": 36
+    }
+  },
+  {
     "id": 29080,
     "name": "Tethragon",
     "avatar_url": "https://secure.gravatar.com/avatar/991b2ea5e6827e1d1efdc0f152972cd1?s=80&d=identicon",
@@ -2168,6 +2192,78 @@
     "points": {
       "days_1": 0,
       "days_7": 0,
+      "days_15": 1,
+      "days_30": 1
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 11034,
+    "name": "Thorsten Stettin",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/11034/avatar.png",
+    "web_url": "https://gitlab.gnome.org/thorsten.stettin",
+    "user_name": "thorsten.stettin",
+    "points": {
+      "days_1": 1,
+      "days_7": 1,
+      "days_15": 1,
+      "days_30": 1
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 3888,
+    "name": "Beep6581",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3888/avatar.png",
+    "web_url": "https://gitlab.gnome.org/Beep6581",
+    "user_name": "Beep6581",
+    "points": {
+      "days_1": 1,
+      "days_7": 1,
+      "days_15": 1,
+      "days_30": 1
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 29145,
+    "name": "Joseph Fortier",
+    "avatar_url": "https://secure.gravatar.com/avatar/0a0b4f8c7039f57db9ccf5cf0554165f?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/josephfortier",
+    "user_name": "josephfortier",
+    "points": {
+      "days_1": 1,
+      "days_7": 1,
       "days_15": 1,
       "days_30": 1
     },
@@ -2262,10 +2358,10 @@
     "web_url": "https://gitlab.gnome.org/djmccorrie",
     "user_name": "djmccorrie",
     "points": {
-      "days_1": 1,
-      "days_7": 1,
-      "days_15": 1,
-      "days_30": 1
+      "days_1": 2,
+      "days_7": 2,
+      "days_15": 2,
+      "days_30": 2
     },
     "awards": {
       "gold": 0,
@@ -2334,7 +2430,7 @@
     "web_url": "https://gitlab.gnome.org/wdormann",
     "user_name": "wdormann",
     "points": {
-      "days_1": 2,
+      "days_1": 0,
       "days_7": 2,
       "days_15": 2,
       "days_30": 2
@@ -2358,7 +2454,7 @@
     "web_url": "https://gitlab.gnome.org/Dracaphallus",
     "user_name": "Dracaphallus",
     "points": {
-      "days_1": 1,
+      "days_1": 0,
       "days_7": 1,
       "days_15": 1,
       "days_30": 1
@@ -2382,10 +2478,10 @@
     "web_url": "https://gitlab.gnome.org/eladsha",
     "user_name": "eladsha",
     "points": {
-      "days_1": 2,
+      "days_1": 0,
       "days_7": 3,
       "days_15": 3,
-      "days_30": 11
+      "days_30": 6
     },
     "awards": {
       "gold": 0,
@@ -2395,7 +2491,7 @@
     },
     "activity": {
       "issues": 5,
-      "commits": 2,
+      "commits": 1,
       "merge_requests": 0
     }
   },
@@ -2406,7 +2502,7 @@
     "web_url": "https://gitlab.gnome.org/ajwolfauthor",
     "user_name": "ajwolfauthor",
     "points": {
-      "days_1": 1,
+      "days_1": 0,
       "days_7": 1,
       "days_15": 1,
       "days_30": 1
@@ -2479,9 +2575,9 @@
     "user_name": "tristelune1",
     "points": {
       "days_1": 0,
-      "days_7": 1,
-      "days_15": 1,
-      "days_30": 1
+      "days_7": 2,
+      "days_15": 2,
+      "days_30": 2
     },
     "awards": {
       "gold": 0,
@@ -2671,7 +2767,7 @@
     "user_name": "Massimo",
     "points": {
       "days_1": 0,
-      "days_7": 3,
+      "days_7": 2,
       "days_15": 3,
       "days_30": 3
     },
@@ -2719,7 +2815,7 @@
     "user_name": "ivan.planinar",
     "points": {
       "days_1": 0,
-      "days_7": 2,
+      "days_7": 0,
       "days_15": 2,
       "days_30": 2
     },
@@ -2743,7 +2839,7 @@
     "user_name": "windl",
     "points": {
       "days_1": 0,
-      "days_7": 2,
+      "days_7": 0,
       "days_15": 3,
       "days_30": 4
     },
@@ -2767,7 +2863,7 @@
     "user_name": "kmokelsey",
     "points": {
       "days_1": 0,
-      "days_7": 2,
+      "days_7": 0,
       "days_15": 2,
       "days_30": 2
     },
@@ -2791,7 +2887,7 @@
     "user_name": "Massimo",
     "points": {
       "days_1": 0,
-      "days_7": 2,
+      "days_7": 0,
       "days_15": 2,
       "days_30": 2
     },
@@ -2815,7 +2911,7 @@
     "user_name": "test1232340",
     "points": {
       "days_1": 0,
-      "days_7": 1,
+      "days_7": 0,
       "days_15": 1,
       "days_30": 1
     },
@@ -2839,7 +2935,7 @@
     "user_name": "Massimo",
     "points": {
       "days_1": 0,
-      "days_7": 2,
+      "days_7": 0,
       "days_15": 2,
       "days_30": 2
     },
@@ -2863,7 +2959,7 @@
     "user_name": "martinmosegaard",
     "points": {
       "days_1": 0,
-      "days_7": 1,
+      "days_7": 0,
       "days_15": 1,
       "days_30": 1
     },
@@ -2887,7 +2983,7 @@
     "user_name": "Massimo",
     "points": {
       "days_1": 0,
-      "days_7": 2,
+      "days_7": 0,
       "days_15": 2,
       "days_30": 2
     },
@@ -2985,7 +3081,7 @@
       "days_1": 0,
       "days_7": 0,
       "days_15": 27,
-      "days_30": 44
+      "days_30": 42
     },
     "awards": {
       "gold": 0,
@@ -2994,8 +3090,8 @@
       "top10": 0
     },
     "activity": {
-      "issues": 7,
-      "commits": 28,
+      "issues": 6,
+      "commits": 26,
       "merge_requests": 3
     }
   },
@@ -3360,6 +3456,30 @@
     }
   },
   {
+    "id": 29097,
+    "name": "_Call_Me_ Red_",
+    "avatar_url": "https://secure.gravatar.com/avatar/b2a6a2be0a35bade4424fb99d95e78a2?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/bondilocal101",
+    "user_name": "bondilocal101",
+    "points": {
+      "days_1": 0,
+      "days_7": 0,
+      "days_15": 1,
+      "days_30": 1
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
     "id": 7477,
     "name": "Stephen Moss",
     "avatar_url": "https://secure.gravatar.com/avatar/6831ea5b5c47bb1c957838b8a31410f1?s=80&d=identicon",
@@ -3656,7 +3776,7 @@
     "points": {
       "days_1": 0,
       "days_7": 0,
-      "days_15": 1,
+      "days_15": 0,
       "days_30": 1
     },
     "awards": {
@@ -3680,7 +3800,7 @@
     "points": {
       "days_1": 0,
       "days_7": 0,
-      "days_15": 2,
+      "days_15": 0,
       "days_30": 2
     },
     "awards": {
@@ -4392,102 +4512,6 @@
     }
   },
   {
-    "id": 26908,
-    "name": "Karl Petersson",
-    "avatar_url": "https://secure.gravatar.com/avatar/9a260a409b6830eca1d38a7f4cad00e4?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/blackandwhite34521",
-    "user_name": "blackandwhite34521",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 1
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 1,
-      "commits": 0,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": 28508,
-    "name": "Paolo Beretta",
-    "avatar_url": "https://secure.gravatar.com/avatar/3ccc3f14d22f65f32c2b09872270132c?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/pberetta65",
-    "user_name": "pberetta65",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 1
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 1,
-      "commits": 0,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": 28503,
-    "name": "Sergey Torokhov",
-    "avatar_url": "https://secure.gravatar.com/avatar/9f0f057dae35d97b2f9c2ef162346e4f?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/band-a-prend",
-    "user_name": "band-a-prend",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 2
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 2,
-      "commits": 0,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": 28494,
-    "name": "Fivos Picklerick",
-    "avatar_url": "https://secure.gravatar.com/avatar/6888b23019d24864f6517ef545485403?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/fivozzz12",
-    "user_name": "fivozzz12",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 1
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 1,
-      "commits": 0,
-      "merge_requests": 0
-    }
-  },
-  {
     "id": 28982,
     "name": "Craigjaneway",
     "avatar_url": "https://secure.gravatar.com/avatar/df6bc9fc0cafec013c044733cefc95b4?s=80&d=identicon",
@@ -4496,7 +4520,7 @@
     "points": {
       "days_1": 0,
       "days_7": 0,
-      "days_15": 2,
+      "days_15": 0,
       "days_30": 2
     },
     "awards": {
@@ -4584,30 +4608,6 @@
     }
   },
   {
-    "id": 11438,
-    "name": "Sabri \u00dcnal",
-    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/11438/avatar.png",
-    "web_url": "https://gitlab.gnome.org/libreajans",
-    "user_name": "libreajans",
-    "points": {
-      "days_1": 35,
-      "days_7": 167,
-      "days_15": 238,
-      "days_30": 289
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 1,
-      "top10": 32
-    },
-    "activity": {
-      "issues": 37,
-      "commits": 16,
-      "merge_requests": 33
-    }
-  },
-  {
     "id": 28823,
     "name": "Caleb Xu",
     "avatar_url": "https://secure.gravatar.com/avatar/c9b03b1c399cf5fac6e23d91307f591d?s=80&d=identicon",
@@ -4652,7 +4652,7 @@
     "activity": {
       "issues": 1,
       "commits": 0,
-      "merge_requests": 1
+      "merge_requests": 2
     }
   },
   {
@@ -4782,7 +4782,7 @@
     "web_url": "https://gitlab.gnome.org/dineshdb",
     "user_name": "dineshdb",
     "points": {
-      "days_1": 1,
+      "days_1": 0,
       "days_7": 1,
       "days_15": 1,
       "days_30": 1
@@ -4795,30 +4795,6 @@
     },
     "activity": {
       "issues": 1,
-      "commits": 0,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": 28476,
-    "name": "Flo",
-    "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/_--_",
-    "user_name": "_--_",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 7
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 4,
       "commits": 0,
       "merge_requests": 0
     }
@@ -4896,13 +4872,37 @@
     }
   },
   {
+    "id": 126,
+    "name": "Andre Klapper",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/126/avatar.png",
+    "web_url": "https://gitlab.gnome.org/aklapper",
+    "user_name": "aklapper",
+    "points": {
+      "days_1": 0,
+      "days_7": 2,
+      "days_15": 2,
+      "days_30": 2
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "top10": 8
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
     "id": 9446,
     "name": "Wayne Blaszczyk",
     "avatar_url": "https://secure.gravatar.com/avatar/b68f970e156408d4b42466d2cd0e32c4?s=80&d=identicon",
     "web_url": "https://gitlab.gnome.org/wblaszcz",
     "user_name": "wblaszcz",
     "points": {
-      "days_1": 1,
+      "days_1": 0,
       "days_7": 1,
       "days_15": 1,
       "days_30": 1
@@ -4968,6 +4968,78 @@
     }
   },
   {
+    "id": 7698,
+    "name": "Tomasz K\u0142oczko",
+    "avatar_url": "https://secure.gravatar.com/avatar/c419cda97d411655272b2a462e32c3c0?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/kloczek",
+    "user_name": "kloczek",
+    "points": {
+      "days_1": 2,
+      "days_7": 3,
+      "days_15": 4,
+      "days_30": 5
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 5,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 329,
+    "name": "Rasmus Thomsen",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/329/avatar.png",
+    "web_url": "https://gitlab.gnome.org/Cogitri",
+    "user_name": "Cogitri",
+    "points": {
+      "days_1": 1,
+      "days_7": 8,
+      "days_15": 9,
+      "days_30": 50
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 2
+    },
+    "activity": {
+      "issues": 6,
+      "commits": 7,
+      "merge_requests": 2
+    }
+  },
+  {
+    "id": 29577,
+    "name": "Invexx",
+    "avatar_url": "https://secure.gravatar.com/avatar/19a955036ce094cb768e46d0611785a3?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/invexx",
+    "user_name": "invexx",
+    "points": {
+      "days_1": 1,
+      "days_7": 1,
+      "days_15": 1,
+      "days_30": 1
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
     "id": 29257,
     "name": "Ondra Kalousek",
     "avatar_url": "https://secure.gravatar.com/avatar/99f6abbdf517a7a677d5383d59bf27cd?s=80&d=identicon",
@@ -4975,7 +5047,7 @@
     "user_name": "okalousek",
     "points": {
       "days_1": 0,
-      "days_7": 1,
+      "days_7": 0,
       "days_15": 1,
       "days_30": 1
     },
@@ -5143,44 +5215,20 @@
     "user_name": "sthursfield",
     "points": {
       "days_1": 11,
-      "days_7": 240,
+      "days_7": 238,
       "days_15": 777,
-      "days_30": 813
+      "days_30": 810
     },
     "awards": {
       "gold": 1,
       "silver": 2,
       "bronze": 4,
-      "top10": 54
+      "top10": 57
     },
     "activity": {
       "issues": 6,
-      "commits": 45,
+      "commits": 28,
       "merge_requests": 7
-    }
-  },
-  {
-    "id": 329,
-    "name": "Rasmus Thomsen",
-    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/329/avatar.png",
-    "web_url": "https://gitlab.gnome.org/Cogitri",
-    "user_name": "Cogitri",
-    "points": {
-      "days_1": 0,
-      "days_7": 7,
-      "days_15": 10,
-      "days_30": 50
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 2
-    },
-    "activity": {
-      "issues": 6,
-      "commits": 7,
-      "merge_requests": 2
     }
   },
   {
@@ -5382,10 +5430,10 @@
     "web_url": "https://gitlab.gnome.org/samm-git",
     "user_name": "samm-git",
     "points": {
-      "days_1": 22,
-      "days_7": 89,
-      "days_15": 132,
-      "days_30": 132
+      "days_1": 21,
+      "days_7": 64,
+      "days_15": 137,
+      "days_30": 137
     },
     "awards": {
       "gold": 0,
@@ -5395,7 +5443,7 @@
     },
     "activity": {
       "issues": 4,
-      "commits": 11,
+      "commits": 12,
       "merge_requests": 14
     }
   },
@@ -5472,27 +5520,51 @@
     }
   },
   {
+    "id": 9837,
+    "name": "Daniel Kahn Gillmor",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/9837/avatar.png",
+    "web_url": "https://gitlab.gnome.org/dkg",
+    "user_name": "dkg",
+    "points": {
+      "days_1": 1,
+      "days_7": 1,
+      "days_15": 1,
+      "days_30": 1
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
     "id": 23,
     "name": "Niels De Graef",
     "avatar_url": "https://secure.gravatar.com/avatar/7072c7ea2d395c09718ae2309fbac0eb?s=80&d=identicon",
     "web_url": "https://gitlab.gnome.org/nielsdg",
     "user_name": "nielsdg",
     "points": {
-      "days_1": 57,
-      "days_7": 169,
-      "days_15": 279,
-      "days_30": 319
+      "days_1": 67,
+      "days_7": 153,
+      "days_15": 304,
+      "days_30": 354
     },
     "awards": {
       "gold": 1,
       "silver": 0,
       "bronze": 1,
-      "top10": 16
+      "top10": 18
     },
     "activity": {
       "issues": 2,
-      "commits": 63,
-      "merge_requests": 32
+      "commits": 73,
+      "merge_requests": 33
     }
   },
   {
@@ -5646,10 +5718,10 @@
     "web_url": "https://gitlab.gnome.org/kjellahl",
     "user_name": "kjellahl",
     "points": {
-      "days_1": 3,
-      "days_7": 79,
-      "days_15": 81,
-      "days_30": 84
+      "days_1": 5,
+      "days_7": 81,
+      "days_15": 83,
+      "days_30": 85
     },
     "awards": {
       "gold": 0,
@@ -5660,6 +5732,30 @@
     "activity": {
       "issues": 1,
       "commits": 18,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 17589,
+    "name": "Damian Ivanov",
+    "avatar_url": "https://secure.gravatar.com/avatar/8d6ca3ce30bbd15d4a3f0ccbfbe8ba51?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/damianatorrpm",
+    "user_name": "damianatorrpm",
+    "points": {
+      "days_1": 0,
+      "days_7": 3,
+      "days_15": 4,
+      "days_30": 6
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 5,
+      "commits": 0,
       "merge_requests": 0
     }
   },
@@ -5952,30 +6048,6 @@
     }
   },
   {
-    "id": 28514,
-    "name": "Isaac Carter",
-    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28514/avatar.png",
-    "web_url": "https://gitlab.gnome.org/icarter09",
-    "user_name": "icarter09",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 2
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 1,
-      "commits": 0,
-      "merge_requests": 0
-    }
-  },
-  {
     "id": 28523,
     "name": "Tal Feldman",
     "avatar_url": "https://secure.gravatar.com/avatar/aabc760b578b455bea125bdd7d9357d4?s=80&d=identicon",
@@ -6008,7 +6080,7 @@
     "points": {
       "days_1": 0,
       "days_7": 1,
-      "days_15": 2,
+      "days_15": 1,
       "days_30": 2
     },
     "awards": {
@@ -6024,16 +6096,16 @@
     }
   },
   {
-    "id": 17589,
-    "name": "Damian Ivanov",
-    "avatar_url": "https://secure.gravatar.com/avatar/8d6ca3ce30bbd15d4a3f0ccbfbe8ba51?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/damianatorrpm",
-    "user_name": "damianatorrpm",
+    "id": 29326,
+    "name": "Jonrysh",
+    "avatar_url": "https://secure.gravatar.com/avatar/b75b85a553e2e6598e98c50ca7211854?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/Jonrysh",
+    "user_name": "Jonrysh",
     "points": {
-      "days_1": 0,
-      "days_7": 2,
-      "days_15": 3,
-      "days_30": 5
+      "days_1": 1,
+      "days_7": 1,
+      "days_15": 1,
+      "days_30": 1
     },
     "awards": {
       "gold": 0,
@@ -6042,7 +6114,31 @@
       "top10": 0
     },
     "activity": {
-      "issues": 5,
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 26207,
+    "name": "Markus Ottela",
+    "avatar_url": "https://secure.gravatar.com/avatar/c062120c0fe711db35d7beb85ca993f5?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/maqp",
+    "user_name": "maqp",
+    "points": {
+      "days_1": 1,
+      "days_7": 1,
+      "days_15": 1,
+      "days_30": 1
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
       "commits": 0,
       "merge_requests": 0
     }
@@ -6054,7 +6150,7 @@
     "web_url": "https://gitlab.gnome.org/fbruetting",
     "user_name": "fbruetting",
     "points": {
-      "days_1": 1,
+      "days_1": 0,
       "days_7": 1,
       "days_15": 4,
       "days_30": 4
@@ -6079,9 +6175,9 @@
     "user_name": "johnny451236",
     "points": {
       "days_1": 0,
-      "days_7": 1,
-      "days_15": 1,
-      "days_30": 1
+      "days_7": 2,
+      "days_15": 2,
+      "days_30": 2
     },
     "awards": {
       "gold": 0,
@@ -6199,7 +6295,7 @@
     "user_name": "Olfried2",
     "points": {
       "days_1": 0,
-      "days_7": 2,
+      "days_7": 0,
       "days_15": 2,
       "days_30": 2
     },
@@ -6222,10 +6318,10 @@
     "web_url": "https://gitlab.gnome.org/jtojnar",
     "user_name": "jtojnar",
     "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 2
+      "days_1": 30,
+      "days_7": 30,
+      "days_15": 30,
+      "days_30": 32
     },
     "awards": {
       "gold": 0,
@@ -6235,8 +6331,8 @@
     },
     "activity": {
       "issues": 1,
-      "commits": 0,
-      "merge_requests": 0
+      "commits": 3,
+      "merge_requests": 1
     }
   },
   {
@@ -6342,10 +6438,10 @@
     "web_url": "https://gitlab.gnome.org/vanvugt",
     "user_name": "vanvugt",
     "points": {
-      "days_1": 0,
-      "days_7": 21,
-      "days_15": 21,
-      "days_30": 38
+      "days_1": 10,
+      "days_7": 36,
+      "days_15": 36,
+      "days_30": 53
     },
     "awards": {
       "gold": 0,
@@ -6355,8 +6451,8 @@
     },
     "activity": {
       "issues": 2,
-      "commits": 4,
-      "merge_requests": 6
+      "commits": 5,
+      "merge_requests": 8
     }
   },
   {
@@ -6414,10 +6510,10 @@
     "web_url": "https://gitlab.gnome.org/xaviblas",
     "user_name": "xaviblas",
     "points": {
-      "days_1": 0,
-      "days_7": 104,
-      "days_15": 113,
-      "days_30": 157
+      "days_1": 4,
+      "days_7": 111,
+      "days_15": 120,
+      "days_30": 164
     },
     "awards": {
       "gold": 0,
@@ -6427,7 +6523,7 @@
     },
     "activity": {
       "issues": 12,
-      "commits": 74,
+      "commits": 78,
       "merge_requests": 0
     }
   },
@@ -6654,10 +6750,10 @@
     "web_url": "https://gitlab.gnome.org/felipeborges",
     "user_name": "felipeborges",
     "points": {
-      "days_1": 0,
-      "days_7": 20,
-      "days_15": 20,
-      "days_30": 143
+      "days_1": 5,
+      "days_7": 24,
+      "days_15": 24,
+      "days_30": 147
     },
     "awards": {
       "gold": 0,
@@ -6668,7 +6764,7 @@
     "activity": {
       "issues": 4,
       "commits": 16,
-      "merge_requests": 14
+      "merge_requests": 15
     }
   },
   {
@@ -6703,6 +6799,30 @@
     "user_name": "zskamljic",
     "points": {
       "days_1": 0,
+      "days_7": 1,
+      "days_15": 1,
+      "days_30": 1
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 2717,
+    "name": "Josef Ridky",
+    "avatar_url": "https://secure.gravatar.com/avatar/033961e3fa1c36efa00abcfb95a3c871?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/jridky",
+    "user_name": "jridky",
+    "points": {
+      "days_1": 1,
       "days_7": 1,
       "days_15": 1,
       "days_30": 1
@@ -6798,7 +6918,7 @@
     "web_url": "https://gitlab.gnome.org/googexel",
     "user_name": "googexel",
     "points": {
-      "days_1": 1,
+      "days_1": 0,
       "days_7": 1,
       "days_15": 1,
       "days_30": 1
@@ -6872,6 +6992,54 @@
     "points": {
       "days_1": 0,
       "days_7": 0,
+      "days_15": 1,
+      "days_30": 1
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 25307,
+    "name": "Simon Werbeck",
+    "avatar_url": "https://secure.gravatar.com/avatar/c01ed088d3f297c2ffe1582d05a7ecfb?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/drainedbattery",
+    "user_name": "drainedbattery",
+    "points": {
+      "days_1": 11,
+      "days_7": 11,
+      "days_15": 11,
+      "days_30": 11
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 2
+    }
+  },
+  {
+    "id": 67,
+    "name": "Ben",
+    "avatar_url": "https://secure.gravatar.com/avatar/d7b2c05ef7f657ffd81f45cd484d685e?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/ben",
+    "user_name": "ben",
+    "points": {
+      "days_1": 1,
+      "days_7": 1,
       "days_15": 1,
       "days_30": 1
     },
@@ -7038,7 +7206,7 @@
     "web_url": "https://gitlab.gnome.org/noonien-d",
     "user_name": "noonien-d",
     "points": {
-      "days_1": 5,
+      "days_1": 0,
       "days_7": 5,
       "days_15": 5,
       "days_30": 6
@@ -7086,7 +7254,7 @@
     "web_url": "https://gitlab.gnome.org/dangelog",
     "user_name": "dangelog",
     "points": {
-      "days_1": 1,
+      "days_1": 0,
       "days_7": 1,
       "days_15": 1,
       "days_30": 1
@@ -7135,7 +7303,7 @@
     "user_name": "u_Ltd",
     "points": {
       "days_1": 0,
-      "days_7": 5,
+      "days_7": 0,
       "days_15": 5,
       "days_30": 5
     },
@@ -7176,13 +7344,61 @@
     }
   },
   {
+    "id": 1402,
+    "name": "Reece Hart",
+    "avatar_url": "https://secure.gravatar.com/avatar/4e58538f4f628cb174aeb645c784994e?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/reece",
+    "user_name": "reece",
+    "points": {
+      "days_1": 1,
+      "days_7": 1,
+      "days_15": 1,
+      "days_30": 1
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 29587,
+    "name": "Laex333",
+    "avatar_url": "https://secure.gravatar.com/avatar/5c06f1f52d632a4fb46c486d4f2b1567?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/laex333",
+    "user_name": "laex333",
+    "points": {
+      "days_1": 1,
+      "days_7": 1,
+      "days_15": 1,
+      "days_30": 1
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
     "id": 2952,
     "name": "Danial Behzadi",
     "avatar_url": "https://secure.gravatar.com/avatar/11db901e4c84a8017c6ed9aaaa2b70b8?s=80&d=identicon",
     "web_url": "https://gitlab.gnome.org/danialbehzadi",
     "user_name": "danialbehzadi",
     "points": {
-      "days_1": 1,
+      "days_1": 0,
       "days_7": 1,
       "days_15": 1,
       "days_30": 1
@@ -7351,7 +7567,7 @@
     "user_name": "norman.roscher84",
     "points": {
       "days_1": 0,
-      "days_7": 1,
+      "days_7": 0,
       "days_15": 1,
       "days_30": 2
     },
@@ -7584,6 +7800,30 @@
     }
   },
   {
+    "id": 16375,
+    "name": "Brian Stafford",
+    "avatar_url": "https://secure.gravatar.com/avatar/6c26a76112d3a74594a83e4072ce0f7a?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/briancs",
+    "user_name": "briancs",
+    "points": {
+      "days_1": 1,
+      "days_7": 1,
+      "days_15": 1,
+      "days_30": 1
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
     "id": 27345,
     "name": "Luiz Ribeiro",
     "avatar_url": "https://secure.gravatar.com/avatar/13971457c80c65261c15a9a3e73afc26?s=80&d=identicon",
@@ -7686,34 +7926,10 @@
     "web_url": "https://gitlab.gnome.org/BrainBlasted",
     "user_name": "BrainBlasted",
     "points": {
-      "days_1": 2,
+      "days_1": 0,
       "days_7": 2,
       "days_15": 2,
       "days_30": 2
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 1,
-      "commits": 0,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": 28306,
-    "name": "Suleyman Poyraz",
-    "avatar_url": "https://secure.gravatar.com/avatar/85650ddf32b919bb56f1f0ee33ddf073?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/Zaryob",
-    "user_name": "Zaryob",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 1
     },
     "awards": {
       "gold": 0,
@@ -7758,7 +7974,7 @@
     "web_url": "https://gitlab.gnome.org/TR-SLimey",
     "user_name": "TR-SLimey",
     "points": {
-      "days_1": 1,
+      "days_1": 0,
       "days_7": 1,
       "days_15": 1,
       "days_30": 1
@@ -8071,7 +8287,7 @@
     "user_name": "aleb",
     "points": {
       "days_1": 0,
-      "days_7": 11,
+      "days_7": 7,
       "days_15": 33,
       "days_30": 33
     },
@@ -8136,16 +8352,16 @@
     }
   },
   {
-    "id": 658,
-    "name": "Timm B\u00e4der",
-    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/658/avatar.png",
-    "web_url": "https://gitlab.gnome.org/baedert",
-    "user_name": "baedert",
+    "id": 2100,
+    "name": "Sebastian Keller",
+    "avatar_url": "https://secure.gravatar.com/avatar/e242ee14d8c260c8efa020bf3e4c4d62?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/skeller",
+    "user_name": "skeller",
     "points": {
-      "days_1": 2,
-      "days_7": 34,
-      "days_15": 34,
-      "days_30": 37
+      "days_1": 6,
+      "days_7": 18,
+      "days_15": 35,
+      "days_30": 45
     },
     "awards": {
       "gold": 0,
@@ -8155,7 +8371,55 @@
     },
     "activity": {
       "issues": 5,
-      "commits": 91,
+      "commits": 4,
+      "merge_requests": 6
+    }
+  },
+  {
+    "id": 4024,
+    "name": "Ricardo Silva Veloso",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4024/avatar.png",
+    "web_url": "https://gitlab.gnome.org/ricvelozo",
+    "user_name": "ricvelozo",
+    "points": {
+      "days_1": 14,
+      "days_7": 14,
+      "days_15": 17,
+      "days_30": 41
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 4,
+      "commits": 7,
+      "merge_requests": 2
+    }
+  },
+  {
+    "id": 658,
+    "name": "Timm B\u00e4der",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/658/avatar.png",
+    "web_url": "https://gitlab.gnome.org/baedert",
+    "user_name": "baedert",
+    "points": {
+      "days_1": 1,
+      "days_7": 35,
+      "days_15": 35,
+      "days_30": 38
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 5,
+      "commits": 92,
       "merge_requests": 0
     }
   },
@@ -8238,20 +8502,20 @@
     "web_url": "https://gitlab.gnome.org/matthiasc",
     "user_name": "matthiasc",
     "points": {
-      "days_1": 120,
-      "days_7": 317,
-      "days_15": 942,
-      "days_30": 1048
+      "days_1": 2,
+      "days_7": 319,
+      "days_15": 930,
+      "days_30": 1050
     },
     "awards": {
       "gold": 0,
       "silver": 2,
       "bronze": 4,
-      "top10": 65
+      "top10": 68
     },
     "activity": {
       "issues": 9,
-      "commits": 327,
+      "commits": 333,
       "merge_requests": 19
     }
   },
@@ -8360,7 +8624,7 @@
     "points": {
       "days_1": 0,
       "days_7": 0,
-      "days_15": 3,
+      "days_15": 0,
       "days_30": 3
     },
     "awards": {
@@ -8588,7 +8852,7 @@
     "activity": {
       "issues": 1,
       "commits": 1,
-      "merge_requests": 5
+      "merge_requests": 4
     }
   },
   {
@@ -8622,10 +8886,10 @@
     "web_url": "https://gitlab.gnome.org/federico",
     "user_name": "federico",
     "points": {
-      "days_1": 0,
-      "days_7": 40,
-      "days_15": 45,
-      "days_30": 231
+      "days_1": 5,
+      "days_7": 37,
+      "days_15": 47,
+      "days_30": 236
     },
     "awards": {
       "gold": 0,
@@ -8636,7 +8900,7 @@
     "activity": {
       "issues": 5,
       "commits": 135,
-      "merge_requests": 2
+      "merge_requests": 3
     }
   },
   {
@@ -8649,7 +8913,7 @@
       "days_1": 0,
       "days_7": 0,
       "days_15": 0,
-      "days_30": 2
+      "days_30": 7
     },
     "awards": {
       "gold": 0,
@@ -8659,8 +8923,8 @@
     },
     "activity": {
       "issues": 1,
-      "commits": 0,
-      "merge_requests": 0
+      "commits": 1,
+      "merge_requests": 1
     }
   },
   {
@@ -8769,6 +9033,78 @@
       "days_1": 0,
       "days_7": 0,
       "days_15": 0,
+      "days_30": 1
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 2886,
+    "name": "David Heidelberg",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2886/avatar.png",
+    "web_url": "https://gitlab.gnome.org/okias",
+    "user_name": "okias",
+    "points": {
+      "days_1": 1,
+      "days_7": 1,
+      "days_15": 1,
+      "days_30": 7
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 5,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 28614,
+    "name": "Dennis Ten Hoove",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28614/avatar.png",
+    "web_url": "https://gitlab.gnome.org/dennis1248",
+    "user_name": "dennis1248",
+    "points": {
+      "days_1": 1,
+      "days_7": 1,
+      "days_15": 1,
+      "days_30": 2
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 2,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 26972,
+    "name": "Tuomas Kuosmanen",
+    "avatar_url": "https://secure.gravatar.com/avatar/ed13bd4c72fec6ba1d4d9ef8001fd4d2?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/tigert",
+    "user_name": "tigert",
+    "points": {
+      "days_1": 1,
+      "days_7": 1,
+      "days_15": 1,
       "days_30": 1
     },
     "awards": {
@@ -9024,30 +9360,6 @@
     }
   },
   {
-    "id": 7698,
-    "name": "Tomasz K\u0142oczko",
-    "avatar_url": "https://secure.gravatar.com/avatar/c419cda97d411655272b2a462e32c3c0?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/kloczek",
-    "user_name": "kloczek",
-    "points": {
-      "days_1": 0,
-      "days_7": 2,
-      "days_15": 2,
-      "days_30": 3
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 3,
-      "commits": 0,
-      "merge_requests": 0
-    }
-  },
-  {
     "id": 391,
     "name": "Pacho Ramos",
     "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/391/avatar.png",
@@ -9078,7 +9390,7 @@
     "web_url": "https://gitlab.gnome.org/vestineo",
     "user_name": "vestineo",
     "points": {
-      "days_1": 2,
+      "days_1": 0,
       "days_7": 2,
       "days_15": 2,
       "days_30": 2
@@ -9165,6 +9477,78 @@
       "issues": 3,
       "commits": 3,
       "merge_requests": 1
+    }
+  },
+  {
+    "id": 29596,
+    "name": "J Van Hintum",
+    "avatar_url": "https://secure.gravatar.com/avatar/15946537c255d7d702903a1a60a4f2db?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/j.e.a.vanhintum",
+    "user_name": "j.e.a.vanhintum",
+    "points": {
+      "days_1": 1,
+      "days_7": 1,
+      "days_15": 1,
+      "days_30": 1
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 17589,
+    "name": "Damian Ivanov",
+    "avatar_url": "https://secure.gravatar.com/avatar/8d6ca3ce30bbd15d4a3f0ccbfbe8ba51?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/damianatorrpm",
+    "user_name": "damianatorrpm",
+    "points": {
+      "days_1": 0,
+      "days_7": 2,
+      "days_15": 2,
+      "days_30": 2
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 17589,
+    "name": "Damian Ivanov",
+    "avatar_url": "https://secure.gravatar.com/avatar/8d6ca3ce30bbd15d4a3f0ccbfbe8ba51?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/damianatorrpm",
+    "user_name": "damianatorrpm",
+    "points": {
+      "days_1": 0,
+      "days_7": 2,
+      "days_15": 2,
+      "days_30": 2
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
     }
   },
   {
@@ -9270,10 +9654,10 @@
     "web_url": "https://gitlab.gnome.org/pwithnall",
     "user_name": "pwithnall",
     "points": {
-      "days_1": 0,
-      "days_7": 18,
-      "days_15": 20,
-      "days_30": 85
+      "days_1": 10,
+      "days_7": 28,
+      "days_15": 28,
+      "days_30": 95
     },
     "awards": {
       "gold": 0,
@@ -9284,7 +9668,7 @@
     "activity": {
       "issues": 5,
       "commits": 25,
-      "merge_requests": 10
+      "merge_requests": 11
     }
   },
   {
@@ -9440,7 +9824,7 @@
     "points": {
       "days_1": 0,
       "days_7": 0,
-      "days_15": 2,
+      "days_15": 0,
       "days_30": 2
     },
     "awards": {
@@ -9558,10 +9942,10 @@
     "web_url": "https://gitlab.gnome.org/jimmac",
     "user_name": "jimmac",
     "points": {
-      "days_1": 0,
-      "days_7": 21,
-      "days_15": 26,
-      "days_30": 26
+      "days_1": 33,
+      "days_7": 59,
+      "days_15": 64,
+      "days_30": 64
     },
     "awards": {
       "gold": 0,
@@ -9571,8 +9955,8 @@
     },
     "activity": {
       "issues": 1,
-      "commits": 7,
-      "merge_requests": 4
+      "commits": 9,
+      "merge_requests": 5
     }
   },
   {
@@ -9630,10 +10014,10 @@
     "web_url": "https://gitlab.gnome.org/valentindavid",
     "user_name": "valentindavid",
     "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 1,
-      "days_30": 1
+      "days_1": 10,
+      "days_7": 10,
+      "days_15": 11,
+      "days_30": 11
     },
     "awards": {
       "gold": 0,
@@ -9644,7 +10028,7 @@
     "activity": {
       "issues": 1,
       "commits": 0,
-      "merge_requests": 0
+      "merge_requests": 2
     }
   },
   {
@@ -9717,30 +10101,6 @@
       "issues": 1,
       "commits": 0,
       "merge_requests": 0
-    }
-  },
-  {
-    "id": 2100,
-    "name": "Sebastian Keller",
-    "avatar_url": "https://secure.gravatar.com/avatar/e242ee14d8c260c8efa020bf3e4c4d62?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/skeller",
-    "user_name": "skeller",
-    "points": {
-      "days_1": 12,
-      "days_7": 24,
-      "days_15": 29,
-      "days_30": 39
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 4,
-      "commits": 4,
-      "merge_requests": 5
     }
   },
   {
@@ -9824,7 +10184,7 @@
     "points": {
       "days_1": 0,
       "days_7": 0,
-      "days_15": 1,
+      "days_15": 0,
       "days_30": 1
     },
     "awards": {
@@ -9888,30 +10248,6 @@
     }
   },
   {
-    "id": 2886,
-    "name": "David Heidelberg",
-    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2886/avatar.png",
-    "web_url": "https://gitlab.gnome.org/okias",
-    "user_name": "okias",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 6
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 4,
-      "commits": 0,
-      "merge_requests": 0
-    }
-  },
-  {
     "id": 1648,
     "name": "Dor Askayo",
     "avatar_url": "https://secure.gravatar.com/avatar/88efe9d71cfce0c13e30b6bf47241087?s=80&d=identicon",
@@ -9942,10 +10278,10 @@
     "web_url": "https://gitlab.gnome.org/glaubersm",
     "user_name": "glaubersm",
     "points": {
-      "days_1": 1,
-      "days_7": 1,
-      "days_15": 1,
-      "days_30": 3
+      "days_1": 0,
+      "days_7": 0,
+      "days_15": 0,
+      "days_30": 2
     },
     "awards": {
       "gold": 0,
@@ -9954,7 +10290,7 @@
       "top10": 0
     },
     "activity": {
-      "issues": 3,
+      "issues": 2,
       "commits": 0,
       "merge_requests": 0
     }
@@ -10158,10 +10494,10 @@
     "web_url": "https://gitlab.gnome.org/haecker-felix",
     "user_name": "haecker-felix",
     "points": {
-      "days_1": 11,
-      "days_7": 11,
-      "days_15": 11,
-      "days_30": 27
+      "days_1": 18,
+      "days_7": 18,
+      "days_15": 18,
+      "days_30": 34
     },
     "awards": {
       "gold": 0,
@@ -10171,7 +10507,7 @@
     },
     "activity": {
       "issues": 1,
-      "commits": 10,
+      "commits": 11,
       "merge_requests": 1
     }
   },
@@ -10224,15 +10560,15 @@
     }
   },
   {
-    "id": 23605,
-    "name": "Rian Quinn",
-    "avatar_url": "https://secure.gravatar.com/avatar/26f3b1c725131bf8447376e9af84e421?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/rianquinn",
-    "user_name": "rianquinn",
+    "id": 1244,
+    "name": "Madsrh",
+    "avatar_url": "https://secure.gravatar.com/avatar/f7e8379e013b6c5fdc4d74e3a65cb8a4?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/madsrh",
+    "user_name": "madsrh",
     "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
+      "days_1": 1,
+      "days_7": 1,
+      "days_15": 1,
       "days_30": 1
     },
     "awards": {
@@ -10248,46 +10584,22 @@
     }
   },
   {
-    "id": 6239,
-    "name": "Christian Rauch",
-    "avatar_url": "https://secure.gravatar.com/avatar/a54c27438e4b2d461db222760c23af17?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/christian-rauch",
-    "user_name": "christian-rauch",
+    "id": 4475,
+    "name": "Beniamino Galvani",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4475/avatar.png",
+    "web_url": "https://gitlab.gnome.org/bgalvani",
+    "user_name": "bgalvani",
     "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 2
+      "days_1": 1,
+      "days_7": 1,
+      "days_15": 1,
+      "days_30": 1
     },
     "awards": {
       "gold": 0,
       "silver": 0,
       "bronze": 0,
       "top10": 0
-    },
-    "activity": {
-      "issues": 1,
-      "commits": 0,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": 21448,
-    "name": "Yariv Barkan",
-    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
-    "web_url": "https://gitlab.gnome.org/yarivb",
-    "user_name": "yarivb",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 2
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 1
     },
     "activity": {
       "issues": 1,
@@ -10424,7 +10736,7 @@
     "points": {
       "days_1": 0,
       "days_7": 1,
-      "days_15": 2,
+      "days_15": 1,
       "days_30": 2
     },
     "awards": {
@@ -10927,7 +11239,7 @@
     "user_name": "elbren",
     "points": {
       "days_1": 0,
-      "days_7": 2,
+      "days_7": 0,
       "days_15": 2,
       "days_30": 2
     },
@@ -10950,16 +11262,16 @@
     "web_url": "https://gitlab.gnome.org/jbrummer",
     "user_name": "jbrummer",
     "points": {
-      "days_1": 30,
+      "days_1": 15,
       "days_7": 33,
-      "days_15": 1341,
+      "days_15": 1330,
       "days_30": 1406
     },
     "awards": {
       "gold": 6,
       "silver": 2,
-      "bronze": 12,
-      "top10": 30
+      "bronze": 13,
+      "top10": 32
     },
     "activity": {
       "issues": 1,
@@ -11023,7 +11335,7 @@
     "user_name": "gnreddy",
     "points": {
       "days_1": 0,
-      "days_7": 1,
+      "days_7": 0,
       "days_15": 1,
       "days_30": 1
     },
@@ -11047,7 +11359,7 @@
     "user_name": "gcampagna",
     "points": {
       "days_1": 0,
-      "days_7": 1,
+      "days_7": 0,
       "days_15": 1,
       "days_30": 1
     },
@@ -11071,9 +11383,9 @@
     "user_name": "ricvelozo",
     "points": {
       "days_1": 0,
-      "days_7": 3,
-      "days_15": 18,
-      "days_30": 29
+      "days_7": 0,
+      "days_15": 0,
+      "days_30": 2
     },
     "awards": {
       "gold": 0,
@@ -11082,9 +11394,9 @@
       "top10": 0
     },
     "activity": {
-      "issues": 3,
-      "commits": 4,
-      "merge_requests": 2
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
     }
   },
   {
@@ -11200,102 +11512,6 @@
       "silver": 0,
       "bronze": 0,
       "top10": 0
-    },
-    "activity": {
-      "issues": 1,
-      "commits": 0,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": 13774,
-    "name": "Frhun",
-    "avatar_url": "https://secure.gravatar.com/avatar/4d47d6d55bd230ffec6249fae5b2e1ec?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/frhun",
-    "user_name": "frhun",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 2
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 2,
-      "commits": 0,
-      "merge_requests": 2
-    }
-  },
-  {
-    "id": 13774,
-    "name": "Frhun",
-    "avatar_url": "https://secure.gravatar.com/avatar/4d47d6d55bd230ffec6249fae5b2e1ec?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/frhun",
-    "user_name": "frhun",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 2
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 1,
-      "commits": 0,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": 263,
-    "name": "Daniel Espinosa Ortiz",
-    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/263/avatar.png",
-    "web_url": "https://gitlab.gnome.org/esodan",
-    "user_name": "esodan",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 3,
-      "days_30": 19
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 1
-    },
-    "activity": {
-      "issues": 1,
-      "commits": 22,
-      "merge_requests": 1
-    }
-  },
-  {
-    "id": 263,
-    "name": "Daniel Espinosa Ortiz",
-    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/263/avatar.png",
-    "web_url": "https://gitlab.gnome.org/esodan",
-    "user_name": "esodan",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 2
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 1
     },
     "activity": {
       "issues": 1,
@@ -11502,7 +11718,7 @@
     "web_url": "https://gitlab.gnome.org/galkinvv",
     "user_name": "galkinvv",
     "points": {
-      "days_1": 2,
+      "days_1": 0,
       "days_7": 12,
       "days_15": 32,
       "days_30": 32
@@ -11599,7 +11815,7 @@
     "user_name": "KulaGGin",
     "points": {
       "days_1": 0,
-      "days_7": 2,
+      "days_7": 0,
       "days_15": 2,
       "days_30": 2
     },
@@ -11659,7 +11875,7 @@
     },
     "activity": {
       "issues": 1,
-      "commits": 33,
+      "commits": 32,
       "merge_requests": 0
     }
   },
@@ -11670,10 +11886,10 @@
     "web_url": "https://gitlab.gnome.org/pborelli",
     "user_name": "pborelli",
     "points": {
-      "days_1": 3,
+      "days_1": 1,
       "days_7": 29,
-      "days_15": 73,
-      "days_30": 182
+      "days_15": 62,
+      "days_30": 183
     },
     "awards": {
       "gold": 0,
@@ -11683,7 +11899,7 @@
     },
     "activity": {
       "issues": 1,
-      "commits": 51,
+      "commits": 53,
       "merge_requests": 8
     }
   },
@@ -11769,7 +11985,7 @@
       "days_1": 0,
       "days_7": 2,
       "days_15": 2,
-      "days_30": 9
+      "days_30": 7
     },
     "awards": {
       "gold": 0,
@@ -11778,7 +11994,7 @@
       "top10": 0
     },
     "activity": {
-      "issues": 8,
+      "issues": 6,
       "commits": 0,
       "merge_requests": 0
     }
@@ -11815,7 +12031,7 @@
     "user_name": "ishaanshah",
     "points": {
       "days_1": 0,
-      "days_7": 5,
+      "days_7": 0,
       "days_15": 11,
       "days_30": 11
     },
@@ -11887,9 +12103,9 @@
     "user_name": "afranke",
     "points": {
       "days_1": 0,
-      "days_7": 2,
-      "days_15": 2,
-      "days_30": 9
+      "days_7": 0,
+      "days_15": 0,
+      "days_30": 2
     },
     "awards": {
       "gold": 0,
@@ -11898,8 +12114,8 @@
       "top10": 0
     },
     "activity": {
-      "issues": 2,
-      "commits": 1,
+      "issues": 1,
+      "commits": 0,
       "merge_requests": 0
     }
   },
@@ -12015,7 +12231,7 @@
       "gold": 0,
       "silver": 0,
       "bronze": 1,
-      "top10": 32
+      "top10": 33
     },
     "activity": {
       "issues": 1,
@@ -12039,7 +12255,7 @@
       "gold": 0,
       "silver": 0,
       "bronze": 1,
-      "top10": 32
+      "top10": 33
     },
     "activity": {
       "issues": 1,
@@ -12056,7 +12272,7 @@
     "points": {
       "days_1": 0,
       "days_7": 0,
-      "days_15": 1,
+      "days_15": 0,
       "days_30": 2
     },
     "awards": {
@@ -12173,30 +12389,6 @@
     "avatar_url": "https://secure.gravatar.com/avatar/0115fab119d5a784f8cb135f91013d30?s=80&d=identicon",
     "web_url": "https://gitlab.gnome.org/suiahae",
     "user_name": "suiahae",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 2
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 1,
-      "commits": 0,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": 28501,
-    "name": "Aerozolic",
-    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28501/avatar.png",
-    "web_url": "https://gitlab.gnome.org/Aerozolic",
-    "user_name": "Aerozolic",
     "points": {
       "days_1": 0,
       "days_7": 0,
@@ -12510,7 +12702,7 @@
     "web_url": "https://gitlab.gnome.org/mcepl",
     "user_name": "mcepl",
     "points": {
-      "days_1": 1,
+      "days_1": 0,
       "days_7": 1,
       "days_15": 1,
       "days_30": 1
@@ -12672,6 +12864,30 @@
     }
   },
   {
+    "id": 329,
+    "name": "Rasmus Thomsen",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/329/avatar.png",
+    "web_url": "https://gitlab.gnome.org/Cogitri",
+    "user_name": "Cogitri",
+    "points": {
+      "days_1": 0,
+      "days_7": 0,
+      "days_15": 2,
+      "days_30": 2
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 2
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
     "id": 28906,
     "name": "Casey Jones",
     "avatar_url": "https://secure.gravatar.com/avatar/988b17e99566e77c8afd95dcc5b5c7e8?s=80&d=identicon",
@@ -12703,9 +12919,9 @@
     "user_name": "dabrain34",
     "points": {
       "days_1": 0,
-      "days_7": 6,
-      "days_15": 6,
-      "days_30": 6
+      "days_7": 12,
+      "days_15": 12,
+      "days_30": 12
     },
     "awards": {
       "gold": 0,
@@ -12750,7 +12966,7 @@
     "web_url": "https://gitlab.gnome.org/coughingmouse",
     "user_name": "coughingmouse",
     "points": {
-      "days_1": 1,
+      "days_1": 0,
       "days_7": 1,
       "days_15": 1,
       "days_30": 1
@@ -13056,30 +13272,6 @@
     }
   },
   {
-    "id": 28614,
-    "name": "Dennis Ten Hoove",
-    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28614/avatar.png",
-    "web_url": "https://gitlab.gnome.org/dennis1248",
-    "user_name": "dennis1248",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 1
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 1,
-      "commits": 0,
-      "merge_requests": 0
-    }
-  },
-  {
     "id": 1268,
     "name": "Ivan Molodetskikh",
     "avatar_url": "https://secure.gravatar.com/avatar/a5e2070959f26cadf295499eca3a3ba7?s=80&d=identicon",
@@ -13143,7 +13335,7 @@
       "gold": 0,
       "silver": 36,
       "bronze": 0,
-      "top10": 39
+      "top10": 40
     },
     "activity": {
       "issues": 1,
@@ -13172,6 +13364,54 @@
     "activity": {
       "issues": 1,
       "commits": 8,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 20,
+    "name": "Alexandre Franke",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/20/avatar.png",
+    "web_url": "https://gitlab.gnome.org/afranke",
+    "user_name": "afranke",
+    "points": {
+      "days_1": 2,
+      "days_7": 2,
+      "days_15": 2,
+      "days_30": 2
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 29435,
+    "name": "Antonio Cardace",
+    "avatar_url": "https://secure.gravatar.com/avatar/65f3c422425f9a284438dac12f152dbb?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/acardace",
+    "user_name": "acardace",
+    "points": {
+      "days_1": 0,
+      "days_7": 2,
+      "days_15": 2,
+      "days_30": 2
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
       "merge_requests": 0
     }
   },
@@ -13229,30 +13469,6 @@
     "avatar_url": "https://secure.gravatar.com/avatar/57249a0bb268dc974d74b488b7a98faa?s=80&d=identicon",
     "web_url": "https://gitlab.gnome.org/verdre",
     "user_name": "verdre",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 2
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 1,
-      "commits": 0,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": 1649,
-    "name": "Samuel Thibault",
-    "avatar_url": "https://secure.gravatar.com/avatar/25fc28cce58432338f7f7053f2edf6c6?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/sthibaul",
-    "user_name": "sthibaul",
     "points": {
       "days_1": 0,
       "days_7": 0,
@@ -13520,7 +13736,7 @@
     "points": {
       "days_1": 0,
       "days_7": 0,
-      "days_15": 2,
+      "days_15": 0,
       "days_30": 22
     },
     "awards": {
@@ -13592,8 +13808,8 @@
     "points": {
       "days_1": 0,
       "days_7": 1,
-      "days_15": 7,
-      "days_30": 35
+      "days_15": 5,
+      "days_30": 34
     },
     "awards": {
       "gold": 0,
@@ -13602,8 +13818,8 @@
       "top10": 0
     },
     "activity": {
-      "issues": 8,
-      "commits": 51,
+      "issues": 7,
+      "commits": 53,
       "merge_requests": 0
     }
   },
@@ -13728,6 +13944,54 @@
     }
   },
   {
+    "id": 13774,
+    "name": "Frhun",
+    "avatar_url": "https://secure.gravatar.com/avatar/4d47d6d55bd230ffec6249fae5b2e1ec?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/frhun",
+    "user_name": "frhun",
+    "points": {
+      "days_1": 0,
+      "days_7": 0,
+      "days_15": 0,
+      "days_30": 1
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 1
+    }
+  },
+  {
+    "id": 126,
+    "name": "Andre Klapper",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/126/avatar.png",
+    "web_url": "https://gitlab.gnome.org/aklapper",
+    "user_name": "aklapper",
+    "points": {
+      "days_1": 2,
+      "days_7": 2,
+      "days_15": 2,
+      "days_30": 2
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "top10": 8
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
     "id": 29307,
     "name": "Frans-Willem Post",
     "avatar_url": "https://secure.gravatar.com/avatar/1a64e839495b0db12a766488d5513d79?s=80&d=identicon",
@@ -13738,6 +14002,30 @@
       "days_7": 1,
       "days_15": 1,
       "days_30": 1
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 432,
+    "name": "Strangiato",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/432/avatar.png",
+    "web_url": "https://gitlab.gnome.org/glaubersm",
+    "user_name": "glaubersm",
+    "points": {
+      "days_1": 0,
+      "days_7": 2,
+      "days_15": 2,
+      "days_30": 2
     },
     "awards": {
       "gold": 0,
@@ -13808,8 +14096,8 @@
     "points": {
       "days_1": 0,
       "days_7": 0,
-      "days_15": 1,
-      "days_30": 45
+      "days_15": 0,
+      "days_30": 35
     },
     "awards": {
       "gold": 0,
@@ -13820,7 +14108,7 @@
     "activity": {
       "issues": 1,
       "commits": 4,
-      "merge_requests": 4
+      "merge_requests": 3
     }
   },
   {
@@ -13853,30 +14141,6 @@
     "avatar_url": "https://secure.gravatar.com/avatar/fdb3a07eb5960c55aad595a2cd88d584?s=80&d=identicon",
     "web_url": "https://gitlab.gnome.org/indolering",
     "user_name": "indolering",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 1
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 1,
-      "commits": 0,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": 87,
-    "name": "Michael Aaron Murphy",
-    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/87/avatar.png",
-    "web_url": "https://gitlab.gnome.org/mmstick",
-    "user_name": "mmstick",
     "points": {
       "days_1": 0,
       "days_7": 0,
@@ -14214,10 +14478,10 @@
     "web_url": "https://gitlab.gnome.org/tom-seewald",
     "user_name": "tom-seewald",
     "points": {
-      "days_1": 1,
-      "days_7": 1,
-      "days_15": 1,
-      "days_30": 1
+      "days_1": 2,
+      "days_7": 2,
+      "days_15": 2,
+      "days_30": 2
     },
     "awards": {
       "gold": 0,
@@ -14262,10 +14526,34 @@
     "web_url": "https://gitlab.gnome.org/TetheredWolf",
     "user_name": "TetheredWolf",
     "points": {
-      "days_1": 1,
-      "days_7": 1,
-      "days_15": 1,
-      "days_30": 1
+      "days_1": 2,
+      "days_7": 2,
+      "days_15": 2,
+      "days_30": 2
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 1,
+      "commits": 0,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 28580,
+    "name": "Ivan Jekic",
+    "avatar_url": "https://secure.gravatar.com/avatar/becb00afed749b726c94114f9069c4a5?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/ivan.planinar",
+    "user_name": "ivan.planinar",
+    "points": {
+      "days_1": 0,
+      "days_7": 2,
+      "days_15": 2,
+      "days_30": 2
     },
     "awards": {
       "gold": 0,
@@ -14544,54 +14832,6 @@
     }
   },
   {
-    "id": 28519,
-    "name": "Vibhum Bhardwaj",
-    "avatar_url": "https://secure.gravatar.com/avatar/24110e628fd7a5bcb9c6048428639f95?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/vibhumbhardwaj",
-    "user_name": "vibhumbhardwaj",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 2
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 1,
-      "commits": 0,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": 28507,
-    "name": "Pizzalovingnerd",
-    "avatar_url": "https://secure.gravatar.com/avatar/1d5eee645e2baabd4c2ec6273c2233ab?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/PizzaLovingNerd",
-    "user_name": "PizzaLovingNerd",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 2
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 1,
-      "commits": 0,
-      "merge_requests": 0
-    }
-  },
-  {
     "id": 29397,
     "name": "Timofey",
     "avatar_url": "https://secure.gravatar.com/avatar/68a9217df91955bafdd3c04fd8e5ce42?s=80&d=identicon",
@@ -14648,14 +14888,14 @@
     "points": {
       "days_1": 0,
       "days_7": 2638,
-      "days_15": 2660,
+      "days_15": 2648,
       "days_30": 2704
     },
     "awards": {
-      "gold": 8,
-      "silver": 1,
+      "gold": 10,
+      "silver": 2,
       "bronze": 2,
-      "top10": 12
+      "top10": 15
     },
     "activity": {
       "issues": 0,
@@ -14766,7 +15006,7 @@
     "web_url": "https://gitlab.gnome.org/alatiera",
     "user_name": "alatiera",
     "points": {
-      "days_1": 20,
+      "days_1": 0,
       "days_7": 61,
       "days_15": 73,
       "days_30": 83
@@ -14832,6 +15072,30 @@
     }
   },
   {
+    "id": 441,
+    "name": "Zhaoqiang",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/441/avatar.png",
+    "web_url": "https://gitlab.gnome.org/zhaoqiang",
+    "user_name": "zhaoqiang",
+    "points": {
+      "days_1": 5,
+      "days_7": 5,
+      "days_15": 5,
+      "days_30": 5
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 0,
+      "commits": 0,
+      "merge_requests": 1
+    }
+  },
+  {
     "id": 340,
     "name": "Benjamin Berg",
     "avatar_url": "https://secure.gravatar.com/avatar/a7b08daa91a9e73222ac8641f499f556?s=80&d=identicon",
@@ -14841,7 +15105,7 @@
       "days_1": 0,
       "days_7": 15,
       "days_15": 15,
-      "days_30": 30
+      "days_30": 25
     },
     "awards": {
       "gold": 0,
@@ -14852,7 +15116,7 @@
     "activity": {
       "issues": 0,
       "commits": 1,
-      "merge_requests": 5
+      "merge_requests": 4
     }
   },
   {
@@ -14901,30 +15165,6 @@
       "issues": 0,
       "commits": 1,
       "merge_requests": 2
-    }
-  },
-  {
-    "id": 12636,
-    "name": "Bart.S",
-    "avatar_url": "https://secure.gravatar.com/avatar/d91283c9311f3984ccbd4eda023ae9d1?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/Bart.S",
-    "user_name": "Bart.S",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 5
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 0,
-      "commits": 0,
-      "merge_requests": 1
     }
   },
   {
@@ -14982,10 +15222,10 @@
     "web_url": "https://gitlab.gnome.org/muktupavels",
     "user_name": "muktupavels",
     "points": {
-      "days_1": 5,
-      "days_7": 10,
-      "days_15": 61,
-      "days_30": 210
+      "days_1": 10,
+      "days_7": 15,
+      "days_15": 41,
+      "days_30": 211
     },
     "awards": {
       "gold": 0,
@@ -14995,8 +15235,8 @@
     },
     "activity": {
       "issues": 0,
-      "commits": 97,
-      "merge_requests": 5
+      "commits": 96,
+      "merge_requests": 6
     }
   },
   {
@@ -15039,7 +15279,7 @@
       "gold": 0,
       "silver": 0,
       "bronze": 0,
-      "top10": 1
+      "top10": 2
     },
     "activity": {
       "issues": 0,
@@ -15102,10 +15342,10 @@
     "web_url": "https://gitlab.gnome.org/rafaelff",
     "user_name": "rafaelff",
     "points": {
-      "days_1": 12,
-      "days_7": 87,
-      "days_15": 89,
-      "days_30": 240
+      "days_1": 11,
+      "days_7": 14,
+      "days_15": 91,
+      "days_30": 210
     },
     "awards": {
       "gold": 0,
@@ -15115,7 +15355,7 @@
     },
     "activity": {
       "issues": 0,
-      "commits": 43,
+      "commits": 37,
       "merge_requests": 2
     }
   },
@@ -15153,7 +15393,7 @@
       "days_1": 0,
       "days_7": 0,
       "days_15": 1,
-      "days_30": 16
+      "days_30": 15
     },
     "awards": {
       "gold": 0,
@@ -15163,7 +15403,7 @@
     },
     "activity": {
       "issues": 0,
-      "commits": 29,
+      "commits": 25,
       "merge_requests": 1
     }
   },
@@ -15198,10 +15438,10 @@
     "web_url": "https://gitlab.gnome.org/carlosg",
     "user_name": "carlosg",
     "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 228,
-      "days_30": 574
+      "days_1": 5,
+      "days_7": 5,
+      "days_15": 233,
+      "days_30": 250
     },
     "awards": {
       "gold": 0,
@@ -15211,8 +15451,8 @@
     },
     "activity": {
       "issues": 0,
-      "commits": 109,
-      "merge_requests": 6
+      "commits": 27,
+      "merge_requests": 5
     }
   },
   {
@@ -15241,7 +15481,7 @@
   },
   {
     "id": 26330,
-    "name": "Dmitry Eremin-Solenikov",
+    "name": "Dmitry Baryshkov",
     "avatar_url": "https://secure.gravatar.com/avatar/7bf212f9cc34671d2a7e4a8e54deac39?s=80&d=identicon",
     "web_url": "https://gitlab.gnome.org/lumag",
     "user_name": "lumag",
@@ -15284,6 +15524,30 @@
     "activity": {
       "issues": 0,
       "commits": 0,
+      "merge_requests": 1
+    }
+  },
+  {
+    "id": 214,
+    "name": "Will Thompson",
+    "avatar_url": "https://secure.gravatar.com/avatar/413a4161a98009b12be1189b7428e4d8?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/wjt",
+    "user_name": "wjt",
+    "points": {
+      "days_1": 5,
+      "days_7": 5,
+      "days_15": 5,
+      "days_30": 5
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 0,
+      "commits": 5,
       "merge_requests": 1
     }
   },
@@ -15432,6 +15696,30 @@
     }
   },
   {
+    "id": 375,
+    "name": "Adrien Plazas",
+    "avatar_url": "https://secure.gravatar.com/avatar/ba1fcfeb391d8266caead91627ebb418?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/aplazas",
+    "user_name": "aplazas",
+    "points": {
+      "days_1": 5,
+      "days_7": 41,
+      "days_15": 41,
+      "days_30": 51
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 0,
+      "commits": 8,
+      "merge_requests": 5
+    }
+  },
+  {
     "id": 1135,
     "name": "Michael Webster",
     "avatar_url": "https://secure.gravatar.com/avatar/17ed01731d722885a105dc88c7cbcb59?s=80&d=identicon",
@@ -15489,31 +15777,7 @@
       "days_1": 0,
       "days_7": 0,
       "days_15": 0,
-      "days_30": 6
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 0,
-      "commits": 1,
-      "merge_requests": 1
-    }
-  },
-  {
-    "id": 270,
-    "name": "Jason Crain",
-    "avatar_url": "https://secure.gravatar.com/avatar/bafbf0d5e2b325704f289e34f10f1036?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/jcrain",
-    "user_name": "jcrain",
-    "points": {
-      "days_1": 0,
-      "days_7": 10,
-      "days_15": 10,
-      "days_30": 10
+      "days_30": 5
     },
     "awards": {
       "gold": 0,
@@ -15524,7 +15788,31 @@
     "activity": {
       "issues": 0,
       "commits": 0,
-      "merge_requests": 2
+      "merge_requests": 1
+    }
+  },
+  {
+    "id": 270,
+    "name": "Jason Crain",
+    "avatar_url": "https://secure.gravatar.com/avatar/bafbf0d5e2b325704f289e34f10f1036?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/jcrain",
+    "user_name": "jcrain",
+    "points": {
+      "days_1": 6,
+      "days_7": 21,
+      "days_15": 21,
+      "days_30": 21
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 0,
+      "commits": 1,
+      "merge_requests": 3
     }
   },
   {
@@ -15571,7 +15859,7 @@
     },
     "activity": {
       "issues": 0,
-      "commits": 13,
+      "commits": 14,
       "merge_requests": 5
     }
   },
@@ -15606,7 +15894,7 @@
     "web_url": "https://gitlab.gnome.org/albanobattistella",
     "user_name": "albanobattistella",
     "points": {
-      "days_1": 5,
+      "days_1": 0,
       "days_7": 10,
       "days_15": 10,
       "days_30": 10
@@ -15621,6 +15909,30 @@
       "issues": 0,
       "commits": 0,
       "merge_requests": 2
+    }
+  },
+  {
+    "id": 596,
+    "name": "Kalev Lember",
+    "avatar_url": "https://secure.gravatar.com/avatar/6f03a460705b96d846da794de8ff3cc1?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/klember",
+    "user_name": "klember",
+    "points": {
+      "days_1": 10,
+      "days_7": 10,
+      "days_15": 10,
+      "days_30": 10
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 0,
+      "commits": 0,
+      "merge_requests": 1
     }
   },
   {
@@ -15735,7 +16047,7 @@
       "gold": 1,
       "silver": 5,
       "bronze": 3,
-      "top10": 27
+      "top10": 29
     },
     "activity": {
       "issues": 0,
@@ -15750,7 +16062,7 @@
     "web_url": "https://gitlab.gnome.org/dvijaywargiya",
     "user_name": "dvijaywargiya",
     "points": {
-      "days_1": 5,
+      "days_1": 0,
       "days_7": 5,
       "days_15": 5,
       "days_30": 5
@@ -15840,40 +16152,16 @@
     }
   },
   {
-    "id": 76,
-    "name": "Robert Ancell",
-    "avatar_url": "https://secure.gravatar.com/avatar/6f62a219fafdea21ee460c4204218450?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/robert.ancell",
-    "user_name": "robert.ancell",
-    "points": {
-      "days_1": 20,
-      "days_7": 59,
-      "days_15": 59,
-      "days_30": 157
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 9
-    },
-    "activity": {
-      "issues": 0,
-      "commits": 25,
-      "merge_requests": 19
-    }
-  },
-  {
     "id": 75,
     "name": "Christian Hergert",
     "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/75/avatar.png",
     "web_url": "https://gitlab.gnome.org/chergert",
     "user_name": "chergert",
     "points": {
-      "days_1": 0,
-      "days_7": 11,
-      "days_15": 54,
-      "days_30": 64
+      "days_1": 15,
+      "days_7": 26,
+      "days_15": 69,
+      "days_30": 74
     },
     "awards": {
       "gold": 0,
@@ -15883,21 +16171,21 @@
     },
     "activity": {
       "issues": 0,
-      "commits": 63,
-      "merge_requests": 1
+      "commits": 43,
+      "merge_requests": 3
     }
   },
   {
-    "id": 415,
-    "name": "Ondrej Holy",
-    "avatar_url": "https://secure.gravatar.com/avatar/d8f0660f73201d145fe4c0a12823c3c1?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/oholy",
-    "user_name": "oholy",
+    "id": 1197,
+    "name": "Nana-4",
+    "avatar_url": "https://secure.gravatar.com/avatar/ac37ec5bde30a0caa9b31f18d50b81c1?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/nana-4",
+    "user_name": "nana-4",
     "points": {
-      "days_1": 0,
-      "days_7": 5,
-      "days_15": 5,
-      "days_30": 35
+      "days_1": 15,
+      "days_7": 15,
+      "days_15": 15,
+      "days_30": 15
     },
     "awards": {
       "gold": 0,
@@ -15907,8 +16195,56 @@
     },
     "activity": {
       "issues": 0,
-      "commits": 2,
-      "merge_requests": 5
+      "commits": 0,
+      "merge_requests": 3
+    }
+  },
+  {
+    "id": 76,
+    "name": "Robert Ancell",
+    "avatar_url": "https://secure.gravatar.com/avatar/6f62a219fafdea21ee460c4204218450?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/robert.ancell",
+    "user_name": "robert.ancell",
+    "points": {
+      "days_1": 50,
+      "days_7": 85,
+      "days_15": 95,
+      "days_30": 193
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 10
+    },
+    "activity": {
+      "issues": 0,
+      "commits": 32,
+      "merge_requests": 20
+    }
+  },
+  {
+    "id": 415,
+    "name": "Ondrej Holy",
+    "avatar_url": "https://secure.gravatar.com/avatar/d8f0660f73201d145fe4c0a12823c3c1?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/oholy",
+    "user_name": "oholy",
+    "points": {
+      "days_1": 10,
+      "days_7": 15,
+      "days_15": 15,
+      "days_30": 45
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 0,
+      "commits": 3,
+      "merge_requests": 6
     }
   },
   {
@@ -16176,6 +16512,30 @@
     }
   },
   {
+    "id": 284,
+    "name": "Richard Hughes",
+    "avatar_url": "https://secure.gravatar.com/avatar/f2bd69757fa0308a657a2f58724720b4?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/hughsie",
+    "user_name": "hughsie",
+    "points": {
+      "days_1": 11,
+      "days_7": 11,
+      "days_15": 11,
+      "days_30": 11
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 1
+    },
+    "activity": {
+      "issues": 0,
+      "commits": 2,
+      "merge_requests": 1
+    }
+  },
+  {
     "id": 181,
     "name": "Matthias Klumpp",
     "avatar_url": "https://secure.gravatar.com/avatar/b50a87bee2489fc92c5cd2fc898d394a?s=80&d=identicon",
@@ -16368,30 +16728,6 @@
     }
   },
   {
-    "id": 1197,
-    "name": "Nana-4",
-    "avatar_url": "https://secure.gravatar.com/avatar/ac37ec5bde30a0caa9b31f18d50b81c1?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/nana-4",
-    "user_name": "nana-4",
-    "points": {
-      "days_1": 5,
-      "days_7": 5,
-      "days_15": 5,
-      "days_30": 5
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 0,
-      "commits": 0,
-      "merge_requests": 1
-    }
-  },
-  {
     "id": 31,
     "name": "Florian M\u00fcllner",
     "avatar_url": "https://secure.gravatar.com/avatar/d2d8e1904049f4496dde81d0501c3d3f?s=80&d=identicon",
@@ -16399,7 +16735,7 @@
     "user_name": "fmuellner",
     "points": {
       "days_1": 0,
-      "days_7": 100,
+      "days_7": 70,
       "days_15": 120,
       "days_30": 262
     },
@@ -16488,27 +16824,27 @@
     }
   },
   {
-    "id": 375,
-    "name": "Adrien Plazas",
-    "avatar_url": "https://secure.gravatar.com/avatar/ba1fcfeb391d8266caead91627ebb418?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/aplazas",
-    "user_name": "aplazas",
+    "id": 263,
+    "name": "Daniel Espinosa Ortiz",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/263/avatar.png",
+    "web_url": "https://gitlab.gnome.org/esodan",
+    "user_name": "esodan",
     "points": {
-      "days_1": 30,
-      "days_7": 36,
-      "days_15": 36,
-      "days_30": 46
+      "days_1": 0,
+      "days_7": 0,
+      "days_15": 3,
+      "days_30": 13
     },
     "awards": {
       "gold": 0,
       "silver": 0,
       "bronze": 0,
-      "top10": 0
+      "top10": 1
     },
     "activity": {
       "issues": 0,
-      "commits": 8,
-      "merge_requests": 4
+      "commits": 2,
+      "merge_requests": 1
     }
   },
   {
@@ -16592,7 +16928,7 @@
     "points": {
       "days_1": 0,
       "days_7": 0,
-      "days_15": 10,
+      "days_15": 0,
       "days_30": 10
     },
     "awards": {
@@ -16638,7 +16974,7 @@
     "web_url": "https://gitlab.gnome.org/kaiw",
     "user_name": "kaiw",
     "points": {
-      "days_1": 10,
+      "days_1": 0,
       "days_7": 10,
       "days_15": 26,
       "days_30": 27
@@ -16663,7 +16999,7 @@
     "user_name": "jfelder",
     "points": {
       "days_1": 0,
-      "days_7": 121,
+      "days_7": 96,
       "days_15": 161,
       "days_30": 181
     },
@@ -16831,9 +17167,9 @@
     "user_name": "ptomato",
     "points": {
       "days_1": 0,
-      "days_7": 15,
-      "days_15": 42,
-      "days_30": 42
+      "days_7": 10,
+      "days_15": 47,
+      "days_30": 47
     },
     "awards": {
       "gold": 0,
@@ -16843,7 +17179,7 @@
     },
     "activity": {
       "issues": 0,
-      "commits": 14,
+      "commits": 16,
       "merge_requests": 4
     }
   },
@@ -17047,15 +17383,15 @@
     "user_name": "piotrdrag",
     "points": {
       "days_1": 94,
-      "days_7": 137,
-      "days_15": 174,
+      "days_7": 94,
+      "days_15": 137,
       "days_30": 208
     },
     "awards": {
       "gold": 0,
       "silver": 0,
-      "bronze": 1,
-      "top10": 6
+      "bronze": 2,
+      "top10": 7
     },
     "activity": {
       "issues": 0,
@@ -17070,20 +17406,20 @@
     "web_url": "https://gitlab.gnome.org/dmustieles",
     "user_name": "dmustieles",
     "points": {
-      "days_1": 0,
-      "days_7": 212,
-      "days_15": 1193,
-      "days_30": 1193
+      "days_1": 49,
+      "days_7": 261,
+      "days_15": 1241,
+      "days_30": 1241
     },
     "awards": {
       "gold": 3,
       "silver": 2,
       "bronze": 10,
-      "top10": 96
+      "top10": 100
     },
     "activity": {
       "issues": 0,
-      "commits": 102,
+      "commits": 116,
       "merge_requests": 0
     }
   },
@@ -17096,7 +17432,7 @@
     "points": {
       "days_1": 0,
       "days_7": 26,
-      "days_15": 65,
+      "days_15": 54,
       "days_30": 163
     },
     "awards": {
@@ -17142,7 +17478,7 @@
     "web_url": "https://gitlab.gnome.org/bwyazel",
     "user_name": "bwyazel",
     "points": {
-      "days_1": 87,
+      "days_1": 0,
       "days_7": 87,
       "days_15": 87,
       "days_30": 87
@@ -17173,9 +17509,9 @@
     },
     "awards": {
       "gold": 0,
-      "silver": 5,
-      "bronze": 2,
-      "top10": 7
+      "silver": 7,
+      "bronze": 3,
+      "top10": 10
     },
     "activity": {
       "issues": 0,
@@ -17220,10 +17556,10 @@
       "days_30": 729
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -17244,10 +17580,10 @@
       "days_30": 2902
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -17299,7 +17635,7 @@
     },
     "activity": {
       "issues": 0,
-      "commits": 78,
+      "commits": 77,
       "merge_requests": 0
     }
   },
@@ -17334,10 +17670,10 @@
     "web_url": "https://gitlab.gnome.org/andika",
     "user_name": "andika",
     "points": {
-      "days_1": 0,
-      "days_7": 36,
-      "days_15": 132,
-      "days_30": 136
+      "days_1": 4,
+      "days_7": 40,
+      "days_15": 136,
+      "days_30": 140
     },
     "awards": {
       "gold": 0,
@@ -17347,7 +17683,7 @@
     },
     "activity": {
       "issues": 0,
-      "commits": 13,
+      "commits": 14,
       "merge_requests": 0
     }
   },
@@ -17376,6 +17712,30 @@
     }
   },
   {
+    "id": 393,
+    "name": "Kukuh Syafaat",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/393/avatar.png",
+    "web_url": "https://gitlab.gnome.org/cho2",
+    "user_name": "cho2",
+    "points": {
+      "days_1": 31,
+      "days_7": 31,
+      "days_15": 55,
+      "days_30": 55
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 1
+    },
+    "activity": {
+      "issues": 0,
+      "commits": 16,
+      "merge_requests": 0
+    }
+  },
+  {
     "id": 26489,
     "name": "Charles Monzat",
     "avatar_url": "https://secure.gravatar.com/avatar/5cda6b9ac1069ed4b9e783a270c84bf5?s=80&d=identicon",
@@ -17400,26 +17760,50 @@
     }
   },
   {
+    "id": 1801,
+    "name": "Sucipto",
+    "avatar_url": "https://secure.gravatar.com/avatar/d6c5c04fb1f18ce0dc545928450fac4b?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/showcheap",
+    "user_name": "showcheap",
+    "points": {
+      "days_1": 26,
+      "days_7": 26,
+      "days_15": 26,
+      "days_30": 26
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 0,
+      "commits": 2,
+      "merge_requests": 0
+    }
+  },
+  {
     "id": 29284,
     "name": "Sicklylife",
     "avatar_url": "https://secure.gravatar.com/avatar/58298207696ab611562b7272aa0508df?s=80&d=identicon",
     "web_url": "https://gitlab.gnome.org/sicklylife-jp",
     "user_name": "sicklylife-jp",
     "points": {
-      "days_1": 219,
-      "days_7": 242,
-      "days_15": 242,
-      "days_30": 242
+      "days_1": 39,
+      "days_7": 249,
+      "days_15": 249,
+      "days_30": 249
     },
     "awards": {
       "gold": 0,
       "silver": 1,
       "bronze": 0,
-      "top10": 2
+      "top10": 4
     },
     "activity": {
       "issues": 0,
-      "commits": 22,
+      "commits": 25,
       "merge_requests": 0
     }
   },
@@ -17436,10 +17820,10 @@
       "days_30": 16
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -17496,6 +17880,30 @@
     }
   },
   {
+    "id": 444,
+    "name": "Jonathan Matthew",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/444/avatar.png",
+    "web_url": "https://gitlab.gnome.org/jmatthew",
+    "user_name": "jmatthew",
+    "points": {
+      "days_1": 0,
+      "days_7": 0,
+      "days_15": 1,
+      "days_30": 1
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 0,
+      "commits": 5,
+      "merge_requests": 0
+    }
+  },
+  {
     "id": "",
     "name": "Ryuta Fujii",
     "avatar_url": "",
@@ -17508,38 +17916,14 @@
       "days_30": 239
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
       "commits": 30,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": 444,
-    "name": "Jonathan Matthew",
-    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/444/avatar.png",
-    "web_url": "https://gitlab.gnome.org/jmatthew",
-    "user_name": "jmatthew",
-    "points": {
-      "days_1": 0,
-      "days_7": 1,
-      "days_15": 1,
-      "days_30": 1
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 0,
-      "commits": 4,
       "merge_requests": 0
     }
   },
@@ -17551,7 +17935,7 @@
     "user_name": "mcernocky",
     "points": {
       "days_1": 0,
-      "days_7": 25,
+      "days_7": 0,
       "days_15": 25,
       "days_30": 25
     },
@@ -17646,10 +18030,10 @@
     "web_url": "https://gitlab.gnome.org/aurisc4",
     "user_name": "aurisc4",
     "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 144,
-      "days_30": 150
+      "days_1": 3,
+      "days_7": 3,
+      "days_15": 29,
+      "days_30": 152
     },
     "awards": {
       "gold": 0,
@@ -17659,7 +18043,7 @@
     },
     "activity": {
       "issues": 0,
-      "commits": 49,
+      "commits": 51,
       "merge_requests": 0
     }
   },
@@ -17694,7 +18078,7 @@
     "web_url": "https://gitlab.gnome.org/tnquan",
     "user_name": "tnquan",
     "points": {
-      "days_1": 7,
+      "days_1": 0,
       "days_7": 7,
       "days_15": 10,
       "days_30": 10
@@ -17712,37 +18096,13 @@
     }
   },
   {
-    "id": 393,
-    "name": "Kukuh Syafaat",
-    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/393/avatar.png",
-    "web_url": "https://gitlab.gnome.org/cho2",
-    "user_name": "cho2",
-    "points": {
-      "days_1": 15,
-      "days_7": 15,
-      "days_15": 39,
-      "days_30": 39
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 1
-    },
-    "activity": {
-      "issues": 0,
-      "commits": 9,
-      "merge_requests": 0
-    }
-  },
-  {
     "id": 47,
     "name": "Claude Paroz",
     "avatar_url": "https://secure.gravatar.com/avatar/cf4198670f0073174b475634964b576b?s=80&d=identicon",
     "web_url": "https://gitlab.gnome.org/claudep",
     "user_name": "claudep",
     "points": {
-      "days_1": 6,
+      "days_1": 0,
       "days_7": 6,
       "days_15": 9,
       "days_30": 10
@@ -17772,10 +18132,34 @@
       "days_30": 67
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
+    },
+    "activity": {
+      "issues": 0,
+      "commits": 9,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": "",
+    "name": "Du\u0161an Kazik",
+    "avatar_url": "",
+    "web_url": "",
+    "user_name": "",
+    "points": {
+      "days_1": 116,
+      "days_7": 201,
+      "days_15": 201,
+      "days_30": 201
+    },
+    "awards": {
+      "gold": 51,
+      "silver": 13,
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -17790,7 +18174,7 @@
     "web_url": "https://gitlab.gnome.org/ell",
     "user_name": "ell",
     "points": {
-      "days_1": 2,
+      "days_1": 0,
       "days_7": 78,
       "days_15": 78,
       "days_30": 78
@@ -17820,10 +18204,10 @@
       "days_30": 1
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -17887,7 +18271,7 @@
     "user_name": "mitch",
     "points": {
       "days_1": 0,
-      "days_7": 1,
+      "days_7": 0,
       "days_15": 1,
       "days_30": 1
     },
@@ -17916,10 +18300,10 @@
       "days_30": 117
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -17960,7 +18344,7 @@
     "points": {
       "days_1": 0,
       "days_7": 0,
-      "days_15": 1,
+      "days_15": 0,
       "days_30": 52
     },
     "awards": {
@@ -17988,10 +18372,10 @@
       "days_30": 0
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -18012,10 +18396,34 @@
       "days_30": 49
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
+    },
+    "activity": {
+      "issues": 0,
+      "commits": 3,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": 330,
+    "name": "Marco Trevisan",
+    "avatar_url": "https://secure.gravatar.com/avatar/b452213dba394e3fa816db630320e27a?s=80&d=identicon",
+    "web_url": "https://gitlab.gnome.org/3v1n0",
+    "user_name": "3v1n0",
+    "points": {
+      "days_1": 21,
+      "days_7": 21,
+      "days_15": 21,
+      "days_30": 21
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
     },
     "activity": {
       "issues": 0,
@@ -18067,7 +18475,7 @@
     },
     "activity": {
       "issues": 0,
-      "commits": 2,
+      "commits": 1,
       "merge_requests": 0
     }
   },
@@ -18084,34 +18492,10 @@
       "days_30": 0
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
-    },
-    "activity": {
-      "issues": 0,
-      "commits": 1,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": "",
-    "name": "Zander Brown",
-    "avatar_url": "",
-    "web_url": "",
-    "user_name": "",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 5
-    },
-    "awards": {
-      "gold": 49,
-      "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -18204,38 +18588,14 @@
       "days_30": 0
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
       "commits": 1,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": "",
-    "name": "Du\u0161an Kazik",
-    "avatar_url": "",
-    "web_url": "",
-    "user_name": "",
-    "points": {
-      "days_1": 0,
-      "days_7": 85,
-      "days_15": 85,
-      "days_30": 85
-    },
-    "awards": {
-      "gold": 49,
-      "silver": 13,
-      "bronze": 8,
-      "top10": 108
-    },
-    "activity": {
-      "issues": 0,
-      "commits": 5,
       "merge_requests": 0
     }
   },
@@ -18264,22 +18624,46 @@
     }
   },
   {
+    "id": 852,
+    "name": "Daiki Ueno",
+    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/852/avatar.png",
+    "web_url": "https://gitlab.gnome.org/dueno",
+    "user_name": "dueno",
+    "points": {
+      "days_1": 7,
+      "days_7": 7,
+      "days_15": 21,
+      "days_30": 21
+    },
+    "awards": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "top10": 0
+    },
+    "activity": {
+      "issues": 0,
+      "commits": 8,
+      "merge_requests": 0
+    }
+  },
+  {
     "id": "",
     "name": "Carmen Bianca BAKKER",
     "avatar_url": "",
     "web_url": "",
     "user_name": "",
     "points": {
-      "days_1": 162,
+      "days_1": 0,
       "days_7": 162,
       "days_15": 162,
       "days_30": 162
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -18300,10 +18684,10 @@
       "days_30": 99
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -18348,10 +18732,10 @@
       "days_30": 0
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -18380,174 +18764,6 @@
     "activity": {
       "issues": 0,
       "commits": 2,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": "",
-    "name": "Marco Trevisan (Trevi\u00f1o)",
-    "avatar_url": "",
-    "web_url": "",
-    "user_name": "",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 0
-    },
-    "awards": {
-      "gold": 49,
-      "silver": 13,
-      "bronze": 8,
-      "top10": 108
-    },
-    "activity": {
-      "issues": 0,
-      "commits": 1,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": 1575,
-    "name": "Andrea Azzarone",
-    "avatar_url": "https://secure.gravatar.com/avatar/6392591a744ff62d113722f3a690a1a1?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/azzaronea",
-    "user_name": "azzaronea",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 4
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 0,
-      "commits": 7,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": "",
-    "name": "maxice8",
-    "avatar_url": "",
-    "web_url": "",
-    "user_name": "",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 0
-    },
-    "awards": {
-      "gold": 49,
-      "silver": 13,
-      "bronze": 8,
-      "top10": 108
-    },
-    "activity": {
-      "issues": 0,
-      "commits": 1,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": 1647,
-    "name": "Chris Lamb",
-    "avatar_url": "https://secure.gravatar.com/avatar/a3b4dae5c1fbd8aa90c78ad1f3814329?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/lamby",
-    "user_name": "lamby",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 0
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 0,
-      "commits": 1,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": 42,
-    "name": "Ting-Wei Lan",
-    "avatar_url": "https://secure.gravatar.com/avatar/a0c9f3cfcd77f28bb5f649ae5117314b?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/lantw",
-    "user_name": "lantw",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 0
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 0,
-      "commits": 1,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": 3484,
-    "name": "Quentin Glidic",
-    "avatar_url": "https://secure.gravatar.com/avatar/58a3a1308c0291c42651ada67034f2db?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/sardemff7",
-    "user_name": "sardemff7",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 0
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 0,
-      "commits": 1,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": 28474,
-    "name": "Louis Bettens",
-    "avatar_url": "https://secure.gravatar.com/avatar/5d2833f4a1ab8c5181f4c966c4d5ba30?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/lourkeur",
-    "user_name": "lourkeur",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 0
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 0,
-      "commits": 1,
       "merge_requests": 0
     }
   },
@@ -18624,30 +18840,6 @@
     }
   },
   {
-    "id": 852,
-    "name": "Daiki Ueno",
-    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/852/avatar.png",
-    "web_url": "https://gitlab.gnome.org/dueno",
-    "user_name": "dueno",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 14,
-      "days_30": 14
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 0,
-      "commits": 1,
-      "merge_requests": 0
-    }
-  },
-  {
     "id": 2212,
     "name": "Wolfgang St\u00f6ggl",
     "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2212/avatar.png",
@@ -18684,38 +18876,14 @@
       "days_30": 9
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
       "commits": 1,
-      "merge_requests": 0
-    }
-  },
-  {
-    "id": 214,
-    "name": "Will Thompson",
-    "avatar_url": "https://secure.gravatar.com/avatar/413a4161a98009b12be1189b7428e4d8?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/wjt",
-    "user_name": "wjt",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 0
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 0,
-      "commits": 5,
       "merge_requests": 0
     }
   },
@@ -18763,7 +18931,7 @@
     },
     "activity": {
       "issues": 0,
-      "commits": 21,
+      "commits": 25,
       "merge_requests": 0
     }
   },
@@ -18811,7 +18979,7 @@
     },
     "activity": {
       "issues": 0,
-      "commits": 17,
+      "commits": 18,
       "merge_requests": 0
     }
   },
@@ -18828,10 +18996,10 @@
       "days_30": 0
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -18872,7 +19040,7 @@
     "points": {
       "days_1": 0,
       "days_7": 10,
-      "days_15": 27,
+      "days_15": 26,
       "days_30": 121
     },
     "awards": {
@@ -18918,20 +19086,20 @@
     "web_url": "",
     "user_name": "",
     "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 0
+      "days_1": 2,
+      "days_7": 2,
+      "days_15": 2,
+      "days_30": 2
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
-      "commits": 2,
+      "commits": 10,
       "merge_requests": 0
     }
   },
@@ -18966,16 +19134,16 @@
     "web_url": "",
     "user_name": "",
     "points": {
-      "days_1": 1,
+      "days_1": 0,
       "days_7": 1,
       "days_15": 1,
       "days_30": 2
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -19116,10 +19284,10 @@
       "days_30": 0
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -19188,10 +19356,10 @@
       "days_30": 2
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -19224,30 +19392,6 @@
     }
   },
   {
-    "id": 768,
-    "name": "Isaac Ferreira Filho",
-    "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/768/avatar.png",
-    "web_url": "https://gitlab.gnome.org/yzakius",
-    "user_name": "yzakius",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 10
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 0
-    },
-    "activity": {
-      "issues": 0,
-      "commits": 1,
-      "merge_requests": 0
-    }
-  },
-  {
     "id": "",
     "name": "Iulian Gabriel Radu",
     "avatar_url": "",
@@ -19260,10 +19404,10 @@
       "days_30": 0
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -19284,10 +19428,10 @@
       "days_30": 0
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -19380,10 +19524,10 @@
       "days_30": 55
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -19452,10 +19596,10 @@
       "days_30": 0
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -19503,7 +19647,7 @@
       "gold": 3,
       "silver": 2,
       "bronze": 10,
-      "top10": 96
+      "top10": 100
     },
     "activity": {
       "issues": 0,
@@ -19532,6 +19676,30 @@
     "activity": {
       "issues": 0,
       "commits": 3,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": "",
+    "name": "Sofyan Sugianto",
+    "avatar_url": "",
+    "web_url": "",
+    "user_name": "",
+    "points": {
+      "days_1": 40,
+      "days_7": 40,
+      "days_15": 40,
+      "days_30": 40
+    },
+    "awards": {
+      "gold": 51,
+      "silver": 13,
+      "bronze": 9,
+      "top10": 112
+    },
+    "activity": {
+      "issues": 0,
+      "commits": 1,
       "merge_requests": 0
     }
   },
@@ -19656,30 +19824,6 @@
     }
   },
   {
-    "id": 284,
-    "name": "Richard Hughes",
-    "avatar_url": "https://secure.gravatar.com/avatar/f2bd69757fa0308a657a2f58724720b4?s=80&d=identicon",
-    "web_url": "https://gitlab.gnome.org/hughsie",
-    "user_name": "hughsie",
-    "points": {
-      "days_1": 0,
-      "days_7": 0,
-      "days_15": 0,
-      "days_30": 0
-    },
-    "awards": {
-      "gold": 0,
-      "silver": 0,
-      "bronze": 0,
-      "top10": 1
-    },
-    "activity": {
-      "issues": 0,
-      "commits": 1,
-      "merge_requests": 0
-    }
-  },
-  {
     "id": 2656,
     "name": "Andrej Shadura",
     "avatar_url": "https://secure.gravatar.com/avatar/10a086ac17433ff68193c5d218ac3900?s=80&d=identicon",
@@ -19788,10 +19932,10 @@
       "days_30": 0
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -19860,10 +20004,10 @@
       "days_30": 0
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -19908,14 +20052,38 @@
       "days_30": 2
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
       "commits": 3,
+      "merge_requests": 0
+    }
+  },
+  {
+    "id": "",
+    "name": "St\u00e9phane Cerveau",
+    "avatar_url": "",
+    "web_url": "",
+    "user_name": "",
+    "points": {
+      "days_1": 0,
+      "days_7": 0,
+      "days_15": 0,
+      "days_30": 0
+    },
+    "awards": {
+      "gold": 51,
+      "silver": 13,
+      "bronze": 9,
+      "top10": 112
+    },
+    "activity": {
+      "issues": 0,
+      "commits": 1,
       "merge_requests": 0
     }
   },
@@ -19987,7 +20155,7 @@
     },
     "activity": {
       "issues": 0,
-      "commits": 20,
+      "commits": 21,
       "merge_requests": 0
     }
   },
@@ -20028,10 +20196,10 @@
       "days_30": 0
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -20052,10 +20220,10 @@
       "days_30": 3
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -20094,10 +20262,10 @@
     "web_url": "https://gitlab.gnome.org/gnumdk",
     "user_name": "gnumdk",
     "points": {
-      "days_1": 0,
-      "days_7": 10,
-      "days_15": 38,
-      "days_30": 44
+      "days_1": 1,
+      "days_7": 8,
+      "days_15": 39,
+      "days_30": 45
     },
     "awards": {
       "gold": 0,
@@ -20107,7 +20275,7 @@
     },
     "activity": {
       "issues": 0,
-      "commits": 92,
+      "commits": 95,
       "merge_requests": 0
     }
   },
@@ -20124,10 +20292,10 @@
       "days_30": 0
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
@@ -20196,10 +20364,10 @@
       "days_30": 0
     },
     "awards": {
-      "gold": 49,
+      "gold": 51,
       "silver": 13,
-      "bronze": 8,
-      "top10": 108
+      "bronze": 9,
+      "top10": 112
     },
     "activity": {
       "issues": 0,
