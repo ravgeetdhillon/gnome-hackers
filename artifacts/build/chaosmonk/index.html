@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, shrink-to-fit=no" />
+    <meta name="theme-color" content="#00002f" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#00002f" />
+    <meta name="generator" content="Flask v1.1.1" />
+    <meta name="author" content="Ravgeet Dhillon" />
+    
+    <title>
+        GNOME Hackers - Leaderboard for hackers contributing to the GNOME
+    </title>
+    
+    <meta itemprop="description" name="description" content="A Leaderboard web app for hackers contributing to the projects hosted by GNOME." />
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="GNOME Hackers - Leaderboard for hackers contributing to the GNOME" />
+    
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="/static/img/GnomeLogoVertical.ico" />
+    <meta property="og:site_name" content="{&#39;name&#39;: &#39;Ravgeet Dhillon&#39;, &#39;website&#39;: &#39;https://ravgeetdhillon.github.io/&#39;, &#39;facebook&#39;: &#39;https://facebook.com/ravgeet.dhillon/&#39;, &#39;twitter&#39;: &#39;https://twitter.com/ravgeetdhillon/&#39;, &#39;twitter_username&#39;: &#39;ravgeetdhillon&#39;}" />
+    <meta property="article:publisher" content="https://facebook.com/ravgeet.dhillon/" />
+    <meta property="article:author" content="https://facebook.com/ravgeet.dhillon/" />
+    
+    <meta property="og:description" content="A Leaderboard web app for hackers contributing to the projects hosted by GNOME." />
+
+    <meta property="twitter:title" content="GNOME Hackers - Leaderboard for hackers contributing to the GNOME" />
+    
+    <meta property="twitter:description" content="A Leaderboard web app for hackers contributing to the projects hosted by GNOME." />
+    
+    <meta name="twitter:site" content="@ravgeetdhillon" />
+    <meta name="twitter:creator" content="@ravgeetdhillon">
+    <meta name="twitter:card" content="summary">
+
+    <link rel="apple-touch-icon-precomposed" href="/static/img/GnomeLogoVertical.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/img/GnomeLogoVertical.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/static/img/GnomeLogoVertical.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/static/img/GnomeLogoVertical.ico" />
+    <link rel="icon" href="/static/img/GnomeLogoVertical.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="/static/img/GnomeLogoVertical.ico" type="image/x-icon" />
+    
+    <link rel="canonical" href="" />
+
+    <link href="/static/%40fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" media="screen" type="text/css" />
+    <link href="/static/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css" />
+    <link href="/static/css/index.css" rel="stylesheet" media="screen" type="text/css" />
+    <script src="/static/jquery/dist/jquery.min.js"></script>
+    <script src="/static/popper.js/dist/umd/popper.min.js"></script>
+    <script src="/static/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    
+    <section class="bg-transparent my-4">
+    <header class="container w-lg-75 w-xl-50 d-flex flex-column align-items-center py-3">
+        <div class="d-flex align-items-center pb-4">
+            <p>
+                <a href="/" class="text-primary text-decoration-none">
+                    <img src="/static/img/GnomeLogoVertical.svg" style="max-width: 80px;">
+                    <h1 class="text-primary">Hackers</h1>
+                </a>
+            </p>
+        </div>
+        <div class="d-flex justify-content-center text-center mb-3">
+            <span class="text-muted w-lg-75">A Leaderboard web app for hackers contributing to the projects hosted by GNOME.</span>
+        </div>
+        <div class="d-flex justify-content-center text-center">
+            <input type="text" name="searchInput" class="form-control form-control-sm" placeholder="Your Gitlab username" />
+            <button class="btn btn-light btn-sm ml-1" id="searchBtn" onclick="getUser()"><i class="fas fa-search"></i></button>
+        </div>
+    </header>
+</section>
+
+<script>
+    function getUser() {
+        var user = document.getElementsByName('searchInput')[0].value;
+        window.location.assign(`/${user}/`);
+    }
+
+    var search_input = document.getElementsByName('searchInput')[0];
+    search_input.addEventListener("keyup", function(event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            document.getElementById("searchBtn").click();
+        }
+    });
+</script>
+    
+    
+    <div class="container w-lg-75 w-xl-50 shadow-sm shadow mb-5 overflow-hidden" style="background: #fff;">
+        <div class="row">
+            <div class="col-sm-4 p-4 bg-light d-flex flex-column justify-content-start align-items-center">
+                <img src="/static/img/users/29849.png" class="img-fluid rounded-circle mb-3">
+                <div>
+                    <h6 class="mb-0">Mason Hock</h6>
+                    <span class="small"><a href="https://gitlab.gnome.org/chaosmonk" class="text-muted">@chaosmonk</a></span>
+                </div>
+            </div>
+            <div class="col-sm-8 p-4">
+                <p class="font-weight-bold small mb-1">POINTS</p>
+                <div class="row">
+                    <div class="col">
+                        <p class="text-muted small mb-0">today</p>
+                        <span>1</span>
+                    </div>
+                    <div class="col">
+                        <p class="text-muted small mb-0">week</p>
+                        <span>1</span>
+                    </div>
+                    <div class="col">
+                        <p class="text-muted small mb-0">fortnight</p>
+                        <span>1</span>
+                    </div>
+                    <div class="col">
+                        <p class="text-muted small mb-0">month</p>
+                        <span>1</span>
+                    </div>
+                </div>
+                <br>
+                <p class="font-weight-bold small mb-1">AWARDS</p>
+                <div class="row">
+                    <div class="col">
+                        <p class="text-muted small mb-0">gold</p>
+                        <span><i class="fas fa-medal mr-1" style="font-size: 0.8rem; color: #ffd700"></i>0</span>
+                    </div>
+                    <div class="col">
+                        <p class="text-muted small mb-0">silver</p>
+                        <span><i class="fas fa-medal mr-1" style="font-size: 0.8rem; color: #c0c0c0"></i>0</span>
+                    </div>
+                    <div class="col">
+                        <p class="text-muted small mb-0">bronze</p>
+                        <span><i class="fas fa-medal mr-1" style="font-size: 0.8rem; color: #cd7f32"></i>0</span>
+                    </div>
+                    <div class="col">
+                        <p class="text-muted small mb-0">top10</p>
+                        <span>0</span>
+                    </div>
+                </div>
+                <br>
+                <p class="font-weight-bold small mb-1">ACTIVITY</p>
+                <div class="row">
+                    <div class="col">
+                        <p data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='small'>Includes commits during last 30 days.</span>" style="text-decoration: underline; text-decoration-style: dotted;" class="text-muted small mb-0">commits</p>
+                        <span>0</span>
+                    </div>
+                    <div class="col">
+                        <p data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='small'>Includes opened and closed issues during last 30 days.</span>" style="text-decoration: underline; text-decoration-style: dotted;" class="text-muted small mb-0">issues</p>
+                        <span>1</span>
+                    </div>
+                    <div class="col">
+                        <p data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='small'>Includes opened and closed merge requests during last 30 days.</span>" style="text-decoration: underline; text-decoration-style: dotted;" class="text-muted small mb-0">mrs</p>
+                        <span>0</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section id="footer">
+    <div class="container w-lg-75 w-xl-50 border-top py-4 small">
+        <div class="row">
+            <div class="col d-flex justify-content-between">
+                <span class="text-muted">Made by <a href="https://ravgeetdhillon.github.io/">Ravgeet Dhillon</a></span>
+                <div>
+                    <span><a href="https://ravgeetdhillon.github.io/blog/developing-leaderboard-for-gnome">About</a></span>
+                    <span class="ml-2"><a href="https://github.com/ravgeetdhillon/gnome-hackers">Code</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
+
+</html>
