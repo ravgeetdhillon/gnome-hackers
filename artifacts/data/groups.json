@@ -222,7 +222,7 @@
     "project_creation_level": "maintainer",
     "auto_devops_enabled": null,
     "subgroup_creation_level": "owner",
-    "emails_disabled": null,
+    "emails_disabled": false,
     "lfs_enabled": true,
     "avatar_url": "https://gitlab.gnome.org/uploads/-/system/group/avatar/8/gnomelogo.png",
     "request_access_enabled": false,
